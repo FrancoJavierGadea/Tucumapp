@@ -1,0 +1,456 @@
+{
+  "data": {
+    "interurbano": {
+      "100": {
+        "avellaneda": {
+          "paradas": "/data/interurbano/100/avellaneda/paradas.geojson",
+          "recorrido": "/data/interurbano/100/avellaneda/recorrido.geojson"
+        },
+        "castillo": {
+          "paradas": "/data/interurbano/100/castillo/paradas.geojson",
+          "recorrido": "/data/interurbano/100/castillo/recorrido.geojson"
+        },
+        "escuela-de-agricultura": {
+          "paradas": "/data/interurbano/100/escuela-de-agricultura/paradas.geojson",
+          "recorrido": "/data/interurbano/100/escuela-de-agricultura/recorrido.geojson"
+        },
+        "san-pablo": {
+          "paradas": "/data/interurbano/100/san-pablo/paradas.geojson",
+          "recorrido": "/data/interurbano/100/san-pablo/recorrido.geojson"
+        }
+      },
+      "101": {
+        "el-grafico": {
+          "paradas": "/data/interurbano/101/el-grafico/paradas.geojson",
+          "recorrido": "/data/interurbano/101/el-grafico/recorrido.geojson"
+        },
+        "lomas-de-tafi": {
+          "paradas": "/data/interurbano/101/lomas-de-tafi/paradas.geojson",
+          "recorrido": "/data/interurbano/101/lomas-de-tafi/recorrido.geojson"
+        },
+        "lomas-de-tafi-2": {
+          "paradas": "/data/interurbano/101/lomas-de-tafi-2/paradas.geojson",
+          "recorrido": "/data/interurbano/101/lomas-de-tafi-2/recorrido.geojson"
+        },
+        "los-nogales": {
+          "paradas": "/data/interurbano/101/los-nogales/paradas.geojson",
+          "recorrido": "/data/interurbano/101/los-nogales/recorrido.geojson"
+        },
+        "los-pocitos": {
+          "paradas": "/data/interurbano/101/los-pocitos/paradas.geojson",
+          "recorrido": "/data/interurbano/101/los-pocitos/recorrido.geojson"
+        },
+        "soeme": {
+          "paradas": "/data/interurbano/101/soeme/paradas.geojson",
+          "recorrido": "/data/interurbano/101/soeme/recorrido.geojson"
+        }
+      },
+      "102": {
+        "horco-molle": {
+          "paradas": "/data/interurbano/102/horco-molle/paradas.geojson",
+          "recorrido": "/data/interurbano/102/horco-molle/recorrido.geojson"
+        },
+        "la-rinconada": {
+          "paradas": "/data/interurbano/102/la-rinconada/paradas.geojson",
+          "recorrido": "/data/interurbano/102/la-rinconada/recorrido.geojson"
+        },
+        "los-pinos": {
+          "paradas": "/data/interurbano/102/los-pinos/paradas.geojson",
+          "recorrido": "/data/interurbano/102/los-pinos/recorrido.geojson"
+        }
+      },
+      "103": {
+        "manantial-expedicion": {
+          "paradas": "/data/interurbano/103/manantial-expedicion/paradas.geojson",
+          "recorrido": "/data/interurbano/103/manantial-expedicion/recorrido.geojson"
+        }
+      },
+      "105": {
+        "unsta": {
+          "paradas": "/data/interurbano/105/unsta/paradas.geojson",
+          "recorrido": "/data/interurbano/105/unsta/recorrido.geojson"
+        }
+      },
+      "106": {
+        "p.-me": {
+          "paradas": "/data/interurbano/106/p.-me/paradas.geojson",
+          "recorrido": "/data/interurbano/106/p.-me/recorrido.geojson"
+        },
+        "vial-2": {
+          "paradas": "/data/interurbano/106/vial-2/paradas.geojson",
+          "recorrido": "/data/interurbano/106/vial-2/recorrido.geojson"
+        }
+      },
+      "107": {
+        "el-grafico": {
+          "paradas": "/data/interurbano/107/el-grafico/paradas.geojson",
+          "recorrido": "/data/interurbano/107/el-grafico/recorrido.geojson"
+        },
+        "el-sol": {
+          "paradas": "/data/interurbano/107/el-sol/paradas.geojson",
+          "recorrido": "/data/interurbano/107/el-sol/recorrido.geojson"
+        }
+      },
+      "109": {
+        "lomas-de-tafi": {
+          "paradas": "/data/interurbano/109/lomas-de-tafi/paradas.geojson",
+          "recorrido": "/data/interurbano/109/lomas-de-tafi/recorrido.geojson"
+        }
+      },
+      "110": {
+        "manantial": {
+          "paradas": "/data/interurbano/110/manantial/paradas.geojson",
+          "recorrido": "/data/interurbano/110/manantial/recorrido.geojson"
+        }
+      },
+      "118": {
+        "200-viviendas": {
+          "paradas": "/data/interurbano/118/200-viviendas/paradas.geojson",
+          "recorrido": "/data/interurbano/118/200-viviendas/recorrido.geojson"
+        },
+        "apunt": {
+          "paradas": "/data/interurbano/118/apunt/paradas.geojson",
+          "recorrido": "/data/interurbano/118/apunt/recorrido.geojson"
+        },
+        "la-rinconada": {
+          "paradas": "/data/interurbano/118/la-rinconada/paradas.geojson",
+          "recorrido": "/data/interurbano/118/la-rinconada/recorrido.geojson"
+        },
+        "pie-del-cerro": {
+          "paradas": "/data/interurbano/118/pie-del-cerro/paradas.geojson",
+          "recorrido": "/data/interurbano/118/pie-del-cerro/recorrido.geojson"
+        },
+        "zona-sur": {
+          "paradas": "/data/interurbano/118/zona-sur/paradas.geojson",
+          "recorrido": "/data/interurbano/118/zona-sur/recorrido.geojson"
+        }
+      },
+      "121": {
+        "aereopuerto": {
+          "paradas": "/data/interurbano/121/aereopuerto/paradas.geojson",
+          "recorrido": "/data/interurbano/121/aereopuerto/recorrido.geojson"
+        },
+        "alderete": {
+          "paradas": "/data/interurbano/121/alderete/paradas.geojson",
+          "recorrido": "/data/interurbano/121/alderete/recorrido.geojson"
+        },
+        "alderetes": {
+          "paradas": "/data/interurbano/121/alderetes/paradas.geojson",
+          "recorrido": "/data/interurbano/121/alderetes/recorrido.geojson"
+        },
+        "hospital-del-este": {
+          "paradas": "/data/interurbano/121/hospital-del-este/paradas.geojson",
+          "recorrido": "/data/interurbano/121/hospital-del-este/recorrido.geojson"
+        }
+      },
+      "122": {
+        "alderete": {
+          "paradas": "/data/interurbano/122/alderete/paradas.geojson",
+          "recorrido": "/data/interurbano/122/alderete/recorrido.geojson"
+        },
+        "alderetes": {
+          "paradas": "/data/interurbano/122/alderetes/paradas.geojson",
+          "recorrido": "/data/interurbano/122/alderetes/recorrido.geojson"
+        },
+        "piedritas": {
+          "paradas": "/data/interurbano/122/piedritas/paradas.geojson",
+          "recorrido": "/data/interurbano/122/piedritas/recorrido.geojson"
+        },
+        "rincon-del-este": {
+          "paradas": "/data/interurbano/122/rincon-del-este/paradas.geojson",
+          "recorrido": "/data/interurbano/122/rincon-del-este/recorrido.geojson"
+        },
+        "san-jorge": {
+          "paradas": "/data/interurbano/122/san-jorge/paradas.geojson",
+          "recorrido": "/data/interurbano/122/san-jorge/recorrido.geojson"
+        }
+      },
+      "123": {
+        "lasteni": {
+          "paradas": "/data/interurbano/123/lasteni/paradas.geojson",
+          "recorrido": "/data/interurbano/123/lasteni/recorrido.geojson"
+        },
+        "pascar": {
+          "paradas": "/data/interurbano/123/pascar/paradas.geojson",
+          "recorrido": "/data/interurbano/123/pascar/recorrido.geojson"
+        },
+        "v-lasteni": {
+          "paradas": "/data/interurbano/123/v-lasteni/paradas.geojson",
+          "recorrido": "/data/interurbano/123/v-lasteni/recorrido.geojson"
+        }
+      },
+      "124": {
+        "alderetes": {
+          "paradas": "/data/interurbano/124/alderetes/paradas.geojson",
+          "recorrido": "/data/interurbano/124/alderetes/recorrido.geojson"
+        },
+        "b.-victori": {
+          "paradas": "/data/interurbano/124/b.-victori/paradas.geojson",
+          "recorrido": "/data/interurbano/124/b.-victori/recorrido.geojson"
+        },
+        "las-piedritas-directo": {
+          "paradas": "/data/interurbano/124/las-piedritas-directo/paradas.geojson",
+          "recorrido": "/data/interurbano/124/las-piedritas-directo/recorrido.geojson"
+        }
+      },
+      "125": {
+        "aereopuerto": {
+          "paradas": "/data/interurbano/125/aereopuerto/paradas.geojson",
+          "recorrido": "/data/interurbano/125/aereopuerto/recorrido.geojson"
+        },
+        "san-cristo": {
+          "paradas": "/data/interurbano/125/san-cristo/paradas.geojson",
+          "recorrido": "/data/interurbano/125/san-cristo/recorrido.geojson"
+        }
+      },
+      "129": {
+        "flecha-bus": {
+          "paradas": "/data/interurbano/129/flecha-bus/paradas.geojson",
+          "recorrido": "/data/interurbano/129/flecha-bus/recorrido.geojson"
+        },
+        "hospital-oeste": {
+          "paradas": "/data/interurbano/129/hospital-oeste/paradas.geojson",
+          "recorrido": "/data/interurbano/129/hospital-oeste/recorrido.geojson"
+        }
+      },
+      "130": {
+        "ruta-9": {
+          "paradas": "/data/interurbano/130/ruta-9/paradas.geojson",
+          "recorrido": "/data/interurbano/130/ruta-9/recorrido.geojson"
+        },
+        "san-jose": {
+          "paradas": "/data/interurbano/130/san-jose/paradas.geojson",
+          "recorrido": "/data/interurbano/130/san-jose/recorrido.geojson"
+        }
+      },
+      "131": {
+        "lomas-de-tafi": {
+          "paradas": "/data/interurbano/131/lomas-de-tafi/paradas.geojson",
+          "recorrido": "/data/interurbano/131/lomas-de-tafi/recorrido.geojson"
+        },
+        "tv-diagonal": {
+          "paradas": "/data/interurbano/131/tv-diagonal/paradas.geojson",
+          "recorrido": "/data/interurbano/131/tv-diagonal/recorrido.geojson"
+        },
+        "tv-karamaneff": {
+          "paradas": "/data/interurbano/131/tv-karamaneff/paradas.geojson",
+          "recorrido": "/data/interurbano/131/tv-karamaneff/recorrido.geojson"
+        }
+      },
+      "140": {
+        "tcm": {
+          "paradas": "/data/interurbano/140/tcm/paradas.geojson",
+          "recorrido": "/data/interurbano/140/tcm/recorrido.geojson"
+        }
+      },
+      "141": {
+        "los-aguirres": {
+          "paradas": "/data/interurbano/141/los-aguirres/paradas.geojson",
+          "recorrido": "/data/interurbano/141/los-aguirres/recorrido.geojson"
+        },
+        "policia-iv": {
+          "paradas": "/data/interurbano/141/policia-iv/paradas.geojson",
+          "recorrido": "/data/interurbano/141/policia-iv/recorrido.geojson"
+        }
+      },
+      "142": {
+        "lomas-de-tafi": {
+          "paradas": "/data/interurbano/142/lomas-de-tafi/paradas.geojson",
+          "recorrido": "/data/interurbano/142/lomas-de-tafi/recorrido.geojson"
+        }
+      },
+      "214": {
+        "los-fresnos": {
+          "paradas": "/data/interurbano/214/los-fresnos/paradas.geojson",
+          "recorrido": "/data/interurbano/214/los-fresnos/recorrido.geojson"
+        }
+      },
+      "414": {
+        "san-andreas": {
+          "paradas": "/data/interurbano/414/san-andreas/paradas.geojson",
+          "recorrido": "/data/interurbano/414/san-andreas/recorrido.geojson"
+        }
+      },
+      "el-provincial": {
+        "rinconada": {
+          "paradas": "/data/interurbano/el-provincial/rinconada/paradas.geojson",
+          "recorrido": "/data/interurbano/el-provincial/rinconada/recorrido.geojson"
+        },
+        "san-pablo": {
+          "paradas": "/data/interurbano/el-provincial/san-pablo/paradas.geojson",
+          "recorrido": "/data/interurbano/el-provincial/san-pablo/recorrido.geojson"
+        }
+      }
+    },
+    "urbano": {
+      "1": {
+        "mitre": {
+          "paradas": "/data/urbano/1/mitre/paradas.geojson",
+          "recorrido": "/data/urbano/1/mitre/recorrido.geojson"
+        },
+        "sal": {
+          "paradas": "/data/urbano/1/sal/paradas.geojson",
+          "recorrido": "/data/urbano/1/sal/recorrido.geojson"
+        }
+      },
+      "3": {
+        "las-piedras": {
+          "paradas": "/data/urbano/3/las-piedras/paradas.geojson",
+          "recorrido": "/data/urbano/3/las-piedras/recorrido.geojson"
+        },
+        "lavalle": {
+          "paradas": "/data/urbano/3/lavalle/paradas.geojson",
+          "recorrido": "/data/urbano/3/lavalle/recorrido.geojson"
+        }
+      },
+      "4": {
+        "colombres": {
+          "paradas": "/data/urbano/4/colombres/paradas.geojson",
+          "recorrido": "/data/urbano/4/colombres/recorrido.geojson"
+        },
+        "mercofrut": {
+          "paradas": "/data/urbano/4/mercofrut/paradas.geojson",
+          "recorrido": "/data/urbano/4/mercofrut/recorrido.geojson"
+        }
+      },
+      "5": {
+        "agrimensor": {
+          "paradas": "/data/urbano/5/agrimensor/paradas.geojson",
+          "recorrido": "/data/urbano/5/agrimensor/recorrido.geojson"
+        },
+        "b-oeste-x-santiago": {
+          "paradas": "/data/urbano/5/b-oeste-x-santiago/paradas.geojson",
+          "recorrido": "/data/urbano/5/b-oeste-x-santiago/recorrido.geojson"
+        },
+        "el-molino": {
+          "paradas": "/data/urbano/5/el-molino/paradas.geojson",
+          "recorrido": "/data/urbano/5/el-molino/recorrido.geojson"
+        },
+        "oeste": {
+          "paradas": "/data/urbano/5/oeste/paradas.geojson",
+          "recorrido": "/data/urbano/5/oeste/recorrido.geojson"
+        }
+      },
+      "6": {
+        "crisostomo-alvarez": {
+          "paradas": "/data/urbano/6/crisostomo-alvarez/paradas.geojson",
+          "recorrido": "/data/urbano/6/crisostomo-alvarez/recorrido.geojson"
+        },
+        "democracia": {
+          "paradas": "/data/urbano/6/democracia/paradas.geojson",
+          "recorrido": "/data/urbano/6/democracia/recorrido.geojson"
+        }
+      },
+      "7": {
+        "aget": {
+          "paradas": "/data/urbano/7/aget/paradas.geojson",
+          "recorrido": "/data/urbano/7/aget/recorrido.geojson"
+        },
+        "occonor": {
+          "paradas": "/data/urbano/7/occonor/paradas.geojson",
+          "recorrido": "/data/urbano/7/occonor/recorrido.geojson"
+        }
+      },
+      "8": {
+        "el-bosque": {
+          "paradas": "/data/urbano/8/el-bosque/paradas.geojson",
+          "recorrido": "/data/urbano/8/el-bosque/recorrido.geojson"
+        },
+        "muñecas": {
+          "paradas": "/data/urbano/8/muñecas/paradas.geojson",
+          "recorrido": "/data/urbano/8/muñecas/recorrido.geojson"
+        }
+      },
+      "9": {
+        "bulnes": {
+          "paradas": "/data/urbano/9/bulnes/paradas.geojson",
+          "recorrido": "/data/urbano/9/bulnes/recorrido.geojson"
+        },
+        "viamonte": {
+          "paradas": "/data/urbano/9/viamonte/paradas.geojson",
+          "recorrido": "/data/urbano/9/viamonte/recorrido.geojson"
+        }
+      },
+      "10": {
+        "san-cayetano": {
+          "paradas": "/data/urbano/10/san-cayetano/paradas.geojson",
+          "recorrido": "/data/urbano/10/san-cayetano/recorrido.geojson"
+        },
+        "villa-amalia": {
+          "paradas": "/data/urbano/10/villa-amalia/paradas.geojson",
+          "recorrido": "/data/urbano/10/villa-amalia/recorrido.geojson"
+        }
+      },
+      "11": {
+        "manant": {
+          "paradas": "/data/urbano/11/manant/paradas.geojson",
+          "recorrido": "/data/urbano/11/manant/recorrido.geojson"
+        },
+        "manantial-sur": {
+          "paradas": "/data/urbano/11/manantial-sur/paradas.geojson",
+          "recorrido": "/data/urbano/11/manantial-sur/recorrido.geojson"
+        },
+        "mar": {
+          "paradas": "/data/urbano/11/mar/paradas.geojson",
+          "recorrido": "/data/urbano/11/mar/recorrido.geojson"
+        },
+        "villa-a": {
+          "paradas": "/data/urbano/11/villa-a/paradas.geojson",
+          "recorrido": "/data/urbano/11/villa-a/recorrido.geojson"
+        }
+      },
+      "12": {
+        "municipal": {
+          "paradas": "/data/urbano/12/municipal/paradas.geojson",
+          "recorrido": "/data/urbano/12/municipal/recorrido.geojson"
+        },
+        "smat": {
+          "paradas": "/data/urbano/12/smat/paradas.geojson",
+          "recorrido": "/data/urbano/12/smat/recorrido.geojson"
+        }
+      },
+      "17": {
+        "alem": {
+          "paradas": "/data/urbano/17/alem/paradas.geojson",
+          "recorrido": "/data/urbano/17/alem/recorrido.geojson"
+        },
+        "brigido-teran": {
+          "paradas": "/data/urbano/17/brigido-teran/paradas.geojson",
+          "recorrido": "/data/urbano/17/brigido-teran/recorrido.geojson"
+        },
+        "ejercito-argentino": {
+          "paradas": "/data/urbano/17/ejercito-argentino/paradas.geojson",
+          "recorrido": "/data/urbano/17/ejercito-argentino/recorrido.geojson"
+        },
+        "los-chacaritos": {
+          "paradas": "/data/urbano/17/los-chacaritos/paradas.geojson",
+          "recorrido": "/data/urbano/17/los-chacaritos/recorrido.geojson"
+        },
+        "roca": {
+          "paradas": "/data/urbano/17/roca/paradas.geojson",
+          "recorrido": "/data/urbano/17/roca/recorrido.geojson"
+        }
+      },
+      "18": {
+        "antihorario": {
+          "paradas": "/data/urbano/18/antihorario/paradas.geojson",
+          "recorrido": "/data/urbano/18/antihorario/recorrido.geojson"
+        },
+        "horario": {
+          "paradas": "/data/urbano/18/horario/paradas.geojson",
+          "recorrido": "/data/urbano/18/horario/recorrido.geojson"
+        }
+      },
+      "19": {
+        "anti-horario": {
+          "paradas": "/data/urbano/19/anti-horario/paradas.geojson",
+          "recorrido": "/data/urbano/19/anti-horario/recorrido.geojson"
+        },
+        "horario": {
+          "paradas": "/data/urbano/19/horario/paradas.geojson",
+          "recorrido": "/data/urbano/19/horario/recorrido.geojson"
+        }
+      }
+    }
+  }
+}

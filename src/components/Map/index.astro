@@ -1,0 +1,30 @@
+---
+import "leaflet/dist/leaflet.css";
+
+const TILES_URL = import.meta.env.PUBLIC_TILES_URL;
+
+console.log(TILES_URL);
+---
+
+<custom-map tiles-url={TILES_URL} min-zoom="12" max-zoom="18" zoom="12">
+
+
+
+</custom-map>
+
+<script>
+
+    import { CustomMap } from "./custom-map.js";
+
+    customElements.define("custom-map", CustomMap);
+
+</script>
+
+<style>
+    custom-map {
+        display: block;
+        width: 100dvw;
+        height: 100dvh;
+    }
+
+</style>
