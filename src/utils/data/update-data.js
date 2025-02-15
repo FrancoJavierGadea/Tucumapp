@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import * as turf from "@turf/turf";
 
 
 /**
@@ -45,27 +46,39 @@ export function eachFile(folderPath, callback = () => {}){
  */
 export function updateMetadata(folderPath = import.meta.dirname){
 
-
+    //Calcular las distancias de cada recorrido
     eachFile(folderPath, ({file, folder, dataType}) => {
 
         if(dataType === 'recorrido'){
 
-            if(fs.existsSync(path.join(folder, 'metadata.json'))){
-                
-              
-                const direction = path.basename(folder).replaceAll('-', ' ');
+            const json = JSON.parse(
+                fs.readFileSync(file, {encoding: 'utf-8'})
+            );
 
-                const line = path.basename(path.join(folder, '..'))
+            const coordinates = json.features.at(0).geometry.coordinates;
 
-                const rawJSON = JSON.stringify({
-                    name: `Linea ${line}`,
-                    direction: `${direction.at(0).toUpperCase()}${direction.slice(1)}`,
-                    length_km: 0.0,
-                    category: path.basename(path.join(folder, '../..'))
-                }, null, 2);
-       
-                fs.writeFileSync(path.join(folder, 'metadata.json'), rawJSON, {encoding: 'utf-8'});
-            }
+            //CALCULANDO LA DISTANCIA
+            const line = turf.lineString(coordinates);
+
+            const length = turf.length(line, {units: 'kilometers'}).toFixed(2);
+
+
+            //UPDATE METADATA
+            const metadataPath = path.join(folder, 'metadata.json');
+
+            const metadata = JSON.parse(
+                fs.readFileSync(metadataPath, {encoding: 'utf-8'})
+            )
+
+            metadata.length_km = +length;
+
+            console.log(metadata);
+
+            fs.writeFileSync(
+                metadataPath,
+                JSON.stringify(metadata, null, 2),
+                {encoding: 'utf-8'}
+            );
         }
     });
 }
