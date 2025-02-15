@@ -913,7 +913,10 @@
         ]
       },
       "properties": {
-        "name": "Linea 4 - Mercofrut"
+        "name": "Linea 4",
+        "direction": "Mercofrut",
+        "category": "urbano",
+        "length_km": 34.12
       }
     }
   ]

@@ -1065,7 +1065,10 @@
         ]
       },
       "properties": {
-        "name": "Linea 3 - Las Piedras"
+        "name": "Linea 3",
+        "direction": "Las Piedras",
+        "category": "urbano",
+        "length_km": 37.5
       }
     }
   ]

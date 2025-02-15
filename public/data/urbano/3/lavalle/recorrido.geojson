@@ -861,7 +861,10 @@
         ]
       },
       "properties": {
-        "name": "Linea 3 - Lavalle"
+        "name": "Linea 3",
+        "direction": "Lavalle",
+        "category": "urbano",
+        "length_km": 36.93
       }
     }
   ]

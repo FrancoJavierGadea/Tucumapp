@@ -565,7 +565,10 @@
         ]
       },
       "properties": {
-        "name": "Linea 1 - Sal"
+        "name": "Linea 1",
+        "direction": "Salta",
+        "category": "urbano",
+        "length_km": 26.03
       }
     }
   ]

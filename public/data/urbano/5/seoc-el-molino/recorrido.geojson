@@ -633,7 +633,10 @@
         ]
       },
       "properties": {
-        "name": "Linea 5 - El Molino"
+        "name": "Linea 5",
+        "direction": "SEOC - El Molino",
+        "length_km": 15.88,
+        "category": "urbano"
       }
     }
   ]

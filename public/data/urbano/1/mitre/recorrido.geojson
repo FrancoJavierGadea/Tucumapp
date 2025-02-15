@@ -633,7 +633,10 @@
         ]
       },
       "properties": {
-        "name": "Linea 1 - Mitre"
+        "name": "Linea 1",
+        "direction": "Mitre",
+        "length_km": 26.6,
+        "category": "urbano"
       }
     }
   ]

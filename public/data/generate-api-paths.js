@@ -2,37 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 
-function getEndpoints(folderPath = import.meta.dirname) {
 
-    const files = fs.readdirSync(folderPath);
-
-    const result = [];
-
-    for (const file of files) {
-        
-        const filePath = path.join(folderPath, file);
-
-        if(fs.statSync(filePath).isDirectory()) {
-
-            result.push(...getEndpoints(filePath));
-        }
-        else {
-            
-            const fileExtension = path.extname(filePath);
-
-            if(fileExtension === ".geojson") {
-
-                const endpoint = filePath
-                    .replace(path.join(import.meta.dirname, '..'), '')
-                    .replace(/\\/g, "/");
-
-                result.push(endpoint);
-            }
-        }
-    }
-
-    return result;
-}
 
 const endpoints = getEndpoints();
 

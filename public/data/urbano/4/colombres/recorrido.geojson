@@ -709,7 +709,10 @@
         ]
       },
       "properties": {
-        "name": "Linea 4 - Colombres"
+        "name": "Linea 4",
+        "direction": "Colombres",
+        "category": "urbano",
+        "length_km": 27.17
       }
     }
   ]
