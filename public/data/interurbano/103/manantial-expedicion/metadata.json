@@ -2,5 +2,14 @@
   "name": "Linea 103",
   "direction": "Manantial expedicion",
   "length_km": 45.01,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "Cerro Pozo U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "website": ""
+    }
+  }
 }

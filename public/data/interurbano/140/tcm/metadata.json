@@ -2,5 +2,14 @@
   "name": "Linea 140",
   "direction": "Tcm",
   "length_km": 42.4,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "T.A. Colombres S.R.L.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "website": ""
+    }
+  }
 }

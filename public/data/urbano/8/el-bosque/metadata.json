@@ -2,5 +2,14 @@
   "name": "Linea 8",
   "direction": "El bosque",
   "length_km": 29.09,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "Libertad U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Emilio Castelar 3072, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

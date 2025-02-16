@@ -2,5 +2,14 @@
   "name": "Linea 8",
   "direction": "Muñecas",
   "length_km": 30.16,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "Libertad U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Emilio Castelar 3072, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

@@ -2,5 +2,14 @@
   "name": "Linea 9",
   "direction": "Bulnes",
   "length_km": 33.17,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "Gral. Belgrano S.R.L.",
+    "contact": {
+      "phone": "381 232-1227",
+      "email": "",
+      "address": "Av. Independencia 2513, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

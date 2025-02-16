@@ -2,5 +2,14 @@
   "name": "Linea 19",
   "direction": "Anti horario",
   "length_km": 25.07,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "B y V Transportes S.R.L.",
+    "contact": {
+      "phone": "381 661-6612",
+      "email": "info@byvtransportes.com.ar",
+      "address": "Av. Independencia 2365, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": "https://byvtransportes.com.ar/"
+    }
+  }
 }

@@ -2,5 +2,14 @@
   "name": "Linea 125",
   "direction": "San cristo",
   "length_km": 27.2,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "Tandilense S.R.L",
+    "contact": {
+      "phone": "381 472-0206",
+      "email": "",
+      "address": "Terminal Ómnibus Tucumán: Av. Brígido Terán 250 - Local 520, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

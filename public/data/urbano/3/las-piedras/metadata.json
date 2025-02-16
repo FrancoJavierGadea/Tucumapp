@@ -2,5 +2,14 @@
   "name": "Linea 3",
   "direction": "Las piedras",
   "length_km": 37.23,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "Cerro Pozo U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "website": ""
+    }
+  }
 }

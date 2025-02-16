@@ -2,5 +2,14 @@
   "name": "Linea 1",
   "direction": "Mitre",
   "length_km": 26.51,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "El Galgo S.R.L.",
+    "contact": {
+      "phone": "381 427-6867",
+      "email": "",
+      "address": "Av. República del Líbano 2488, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": "https://www.facebook.com/elgalgosrl"
+    }
+  }
 }

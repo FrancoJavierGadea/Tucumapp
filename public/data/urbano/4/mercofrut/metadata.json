@@ -2,5 +2,14 @@
   "name": "Linea 4",
   "direction": "Mercofrut",
   "length_km": 33.88,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "El Corcel S.A.",
+    "contact": {
+      "phone": "381 435-2223",
+      "email": "",
+      "address": "Av. Aconquija 294, Yerba Buena, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

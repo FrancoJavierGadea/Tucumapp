@@ -2,5 +2,14 @@
   "name": "Linea 11",
   "direction": "Manant",
   "length_km": 33.58,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "Los Pumas U.T.E.",
+    "contact": {
+      "phone": "381 429-9266",
+      "email": "",
+      "address": "Pcia de Jujuy 3500, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

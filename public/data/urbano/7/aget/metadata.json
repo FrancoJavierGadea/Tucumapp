@@ -2,5 +2,14 @@
   "name": "Linea 7",
   "direction": "Aget",
   "length_km": 40.94,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "El Ceibo S.R.L.",
+    "contact": {
+      "phone": "381 434-6969",
+      "email": "",
+      "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": "https://www.facebook.com/Linea7107ElCeiboSrl"
+    }
+  }
 }

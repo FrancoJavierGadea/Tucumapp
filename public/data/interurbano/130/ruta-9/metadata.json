@@ -2,5 +2,14 @@
   "name": "Linea 130",
   "direction": "Ruta 9",
   "length_km": 41.91,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "El Limón S.R.L.",
+    "contact": {
+      "phone": "381 640-8267",
+      "email": "",
+      "address": "Entre Ríos 146, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": "https://www.facebook.com/linea130tucuman"
+    }
+  }
 }

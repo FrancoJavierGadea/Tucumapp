@@ -2,5 +2,14 @@
   "name": "Linea 102",
   "direction": "Los pinos",
   "length_km": 50.78,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "El Corcel S.A.",
+    "contact": {
+      "phone": "381 435-2223",
+      "email": "",
+      "address": "Av. Aconquija 294, Yerba Buena, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

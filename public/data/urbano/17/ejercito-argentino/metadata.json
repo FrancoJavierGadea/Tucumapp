@@ -2,5 +2,14 @@
   "name": "Linea 17",
   "direction": "Ejercito argentino",
   "length_km": 18.2,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "El Condor S.R.L.",
+    "contact": {
+      "phone": "381 436-4674",
+      "email": "",
+      "address": "Av. Independencia 2601, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

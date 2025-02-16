@@ -2,5 +2,14 @@
   "name": "Linea 131",
   "direction": "Tv karamaneff",
   "length_km": 36.79,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "Libertad U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Emilio Castelar 3072, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

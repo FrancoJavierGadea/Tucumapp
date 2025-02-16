@@ -2,5 +2,14 @@
   "name": "Linea 1",
   "direction": "Salta",
   "length_km": 25.84,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "El Galgo S.R.L.",
+    "contact": {
+      "phone": "381 427-6867",
+      "email": "",
+      "address": "Av. República del Líbano 2488, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": "https://www.facebook.com/elgalgosrl"
+    }
+  }
 }

@@ -2,5 +2,14 @@
   "name": "Linea 110",
   "direction": "Manantial",
   "length_km": 34.41,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "Santa Fe U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Av. Brígido Terán 250, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

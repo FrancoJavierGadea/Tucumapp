@@ -2,5 +2,14 @@
   "name": "Linea el-provincial",
   "direction": "Rinconada",
   "length_km": 58.15,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "El Provincial S.R.L.",
+    "contact": {
+      "phone": "381 397-1969",
+      "email": "",
+      "address": "Batalla de Chacabuco 902, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

@@ -1,10 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
-import * as turf from "@turf/turf";
+
 
 
 /**
- * Recorre por cada archivo de la carpeta y aplica el callback
+ * Recorre por cada archivo json o geojson de la carpeta data
+ * 
  * @param {String} folderPath 
  * @param {({file:String, folder:String, dataType:String}) => {}} callback 
  */
@@ -39,46 +40,18 @@ export function eachFile(folderPath, callback = () => {}){
     fn();
 }
 
+export function readJSON(path){
 
-/**
- * 
- * @param {String} folderPath Data folder path
- */
-export function updateMetadata(folderPath = import.meta.dirname){
+    return JSON.parse(
+        fs.readFileSync(path, {encoding: 'utf-8'})
+    );
+}
 
-    //Calcular las distancias de cada recorrido
-    eachFile(folderPath, ({file, folder, dataType}) => {
+export function writeJSON(path, json){
 
-        if(dataType === 'recorrido'){
-
-            const json = JSON.parse(
-                fs.readFileSync(file, {encoding: 'utf-8'})
-            );
-
-            const coordinates = json.features.at(0).geometry.coordinates;
-
-            //CALCULANDO LA DISTANCIA
-            const line = turf.lineString(coordinates);
-
-            const length = turf.length(line, {units: 'kilometers'}).toFixed(2);
-
-
-            //UPDATE METADATA
-            const metadataPath = path.join(folder, 'metadata.json');
-
-            const metadata = JSON.parse(
-                fs.readFileSync(metadataPath, {encoding: 'utf-8'})
-            )
-
-            metadata.length_km = +length;
-
-            console.log(metadata);
-
-            fs.writeFileSync(
-                metadataPath,
-                JSON.stringify(metadata, null, 2),
-                {encoding: 'utf-8'}
-            );
-        }
-    });
+    fs.writeFileSync(
+        path,
+        JSON.stringify(json, null, 2),
+        {encoding: 'utf-8'}
+    );
 }

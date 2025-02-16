@@ -2,5 +2,14 @@
   "name": "Linea 105",
   "direction": "Unsta",
   "length_km": 54.82,
-  "category": "interurbano"
+  "category": "interurbano",
+  "provider": {
+    "name": "Transportes Asociados U.T.E.",
+    "contact": {
+      "phone": "381 434-6969",
+      "email": "",
+      "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

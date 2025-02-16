@@ -2,5 +2,14 @@
   "name": "Linea 10",
   "direction": "San cayetano",
   "length_km": 38.44,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "Santa Fe U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "Av. Brígido Terán 250, San Miguel de Tucumán, Tucumán, Argentina",
+      "website": ""
+    }
+  }
 }

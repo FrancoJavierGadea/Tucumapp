@@ -2,7 +2,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { getAPIObject, getEndpoints, getEndpointsData } from './endpoints.js';
 import { getMarkdown } from './markdown.js';
-import { updateMetadata } from './update-data.js';
+import { addMetadata } from './update-metadata.js';
 
 
 const DATA_FOLDER = path.join(import.meta.dirname, '../../../public/data');
@@ -20,4 +20,4 @@ const DATA_FOLDER = path.join(import.meta.dirname, '../../../public/data');
 // //fs.writeFileSync(path.join(DATA_FOLDER, '../endpoints.md'), md);
 
 
-updateMetadata(DATA_FOLDER);
+addMetadata(DATA_FOLDER);

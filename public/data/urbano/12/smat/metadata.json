@@ -2,5 +2,14 @@
   "name": "Linea 12",
   "direction": "Smat",
   "length_km": 24.13,
-  "category": "urbano"
+  "category": "urbano",
+  "provider": {
+    "name": "Cerro Pozo U.T.E.",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "address": "",
+      "website": ""
+    }
+  }
 }
