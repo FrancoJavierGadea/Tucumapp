@@ -15,9 +15,9 @@ const DATA_FOLDER = path.join(import.meta.dirname, '../../../public/data');
 
 
 // //Endpoints mardown
-// const md = getMarkdown(DATA_FOLDER);
+const md = getMarkdown(DATA_FOLDER);
 
-// //fs.writeFileSync(path.join(DATA_FOLDER, '../endpoints.md'), md);
+fs.writeFileSync(path.join(DATA_FOLDER, '../endpoints.md'), md);
 
 
-addMetadata(DATA_FOLDER);
+//addMetadata(DATA_FOLDER);
