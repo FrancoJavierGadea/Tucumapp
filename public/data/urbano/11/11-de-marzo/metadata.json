@@ -1,10 +1,10 @@
 {
   "name": "Linea 11",
-  "direction": "Mar",
-  "length_km": 26.43,
+  "direction": "11 de Marzo",
+  "length_km": 33.58,
   "category": "urbano",
   "provider": {
-    "name": "Los Pumas U.T.E.",
+    "name": "TCM Bus S.R.L",
     "contact": {
       "phone": "381 429-9266",
       "email": "",

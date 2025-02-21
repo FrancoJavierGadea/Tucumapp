@@ -8,10 +8,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23655298379285,
-          -26.84275967965184
-        ]
+        "coordinates": [-65.23655298379285, -26.84275967965184]
       },
       "properties": {
         "name": "Av Colon e Independencia"
@@ -21,10 +18,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2362751869345,
-          -26.841612567321437
-        ]
+        "coordinates": [-65.2362751869345, -26.841612567321437]
       },
       "properties": {
         "name": "Av Colon y Florida"
@@ -34,10 +28,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23594080833229,
-          -26.84035134492512
-        ]
+        "coordinates": [-65.23594080833229, -26.84035134492512]
       },
       "properties": {
         "name": "Av Colon y Plata"
@@ -47,10 +38,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23568242486694,
-          -26.83923928771695
-        ]
+        "coordinates": [-65.23568242486694, -26.83923928771695]
       },
       "properties": {
         "name": "Av Colon y Alsina "
@@ -60,10 +48,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23512006085396,
-          -26.837001578529343
-        ]
+        "coordinates": [-65.23512006085396, -26.837001578529343]
       },
       "properties": {
         "name": "Av Colon y Pasaje Agustin Garcia"
@@ -73,10 +58,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23472488614219,
-          -26.835482623462337
-        ]
+        "coordinates": [-65.23472488614219, -26.835482623462337]
       },
       "properties": {
         "name": "Av Colon y Pasaje Becker"
@@ -86,10 +68,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2343297114305,
-          -26.834099271657927
-        ]
+        "coordinates": [-65.2343297114305, -26.834099271657927]
       },
       "properties": {
         "name": "Av Colon y Lavalle "
@@ -99,10 +78,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23387374060925,
-          -26.832119150457913
-        ]
+        "coordinates": [-65.23387374060925, -26.832119150457913]
       },
       "properties": {
         "name": "Av Colon y Lamadrid"
@@ -112,10 +88,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23352416297965,
-          -26.830776445839902
-        ]
+        "coordinates": [-65.23352416297965, -26.830776445839902]
       },
       "properties": {
         "name": "Av Colon y Gral Paz "
@@ -125,10 +98,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23315938632267,
-          -26.829474414040835
-        ]
+        "coordinates": [-65.23315938632267, -26.829474414040835]
       },
       "properties": {
         "name": "Av Colon y Las Piedras "
@@ -138,10 +108,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23282500772044,
-          -26.828050299624927
-        ]
+        "coordinates": [-65.23282500772044, -26.828050299624927]
       },
       "properties": {
         "name": "Av Colon y San Lorenzo "
@@ -151,10 +118,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23242983300868,
-          -26.826693983537314
-        ]
+        "coordinates": [-65.23242983300868, -26.826693983537314]
       },
       "properties": {
         "name": "Av Colon y Crisostomo Alvarez "
@@ -164,10 +128,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23176190549421,
-          -26.823912553609443
-        ]
+        "coordinates": [-65.23176190549421, -26.823912553609443]
       },
       "properties": {
         "name": "Av Ejercito del Norte y San Martin "
@@ -177,10 +138,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23158290184128,
-          -26.82250822702665
-        ]
+        "coordinates": [-65.23158290184128, -26.82250822702665]
       },
       "properties": {
         "name": "Av Ejercito del Norte y Mendoza "
@@ -190,10 +148,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23132030401035,
-          -26.821227865137008
-        ]
+        "coordinates": [-65.23132030401035, -26.821227865137008]
       },
       "properties": {
         "name": "Av Ejercito del Norte y Don Bosco "
@@ -203,10 +158,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23100112443548,
-          -26.81979008299957
-        ]
+        "coordinates": [-65.23100112443548, -26.81979008299957]
       },
       "properties": {
         "name": "Av Ejercito del Norte y San Juan "
@@ -216,10 +168,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23078833805222,
-          -26.818420103803533
-        ]
+        "coordinates": [-65.23078833805222, -26.818420103803533]
       },
       "properties": {
         "name": "Av Ejercito del Norte y Santiago"
@@ -229,10 +178,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23034756625837,
-          -26.817050108047287
-        ]
+        "coordinates": [-65.23034756625837, -26.817050108047287]
       },
       "properties": {
         "name": "Av Ejercito del Norte y Corrientes "
@@ -242,10 +188,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22963321197179,
-          -26.814554231630897
-        ]
+        "coordinates": [-65.22963321197179, -26.814554231630897]
       },
       "properties": {
         "name": "Av Ejercito del Norte y Santa Fe"
@@ -255,10 +198,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22777893063217,
-          -26.813591134188783
-        ]
+        "coordinates": [-65.22777893063217, -26.813591134188783]
       },
       "properties": {
         "name": "Av Belgrano y JJ Passo."
@@ -268,10 +208,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22633502303167,
-          -26.813875994847802
-        ]
+        "coordinates": [-65.22633502303167, -26.813875994847802]
       },
       "properties": {
         "name": "Av Belgrano y Thames "
@@ -281,10 +218,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22335601366643,
-          -26.814418584598926
-        ]
+        "coordinates": [-65.22335601366643, -26.814418584598926]
       },
       "properties": {
         "name": "Av Belgrano y Paso de los Andes"
@@ -294,10 +228,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2201946159727,
-          -26.815083253504618
-        ]
+        "coordinates": [-65.2201946159727, -26.815083253504618]
       },
       "properties": {
         "name": "Av Belgrano y Asuncion"
@@ -307,10 +238,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2171396114706,
-          -26.815625837477008
-        ]
+        "coordinates": [-65.2171396114706, -26.815625837477008]
       },
       "properties": {
         "name": "Av Belgrano y 12 de Octubre "
@@ -320,10 +248,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21341584976406,
-          -26.816561788725068
-        ]
+        "coordinates": [-65.21341584976406, -26.816561788725068]
       },
       "properties": {
         "name": "Av Sarmiento entre Suipacha e lrigoyen"
@@ -333,10 +258,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20861295711398,
-          -26.817497732244508
-        ]
+        "coordinates": [-65.20861295711398, -26.817497732244508]
       },
       "properties": {
         "name": "Av Sarmiento entre Catamarca y Salta"
@@ -346,10 +268,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20542116136548,
-          -26.81810812602809
-        ]
+        "coordinates": [-65.20542116136548, -26.81810812602809]
       },
       "properties": {
         "name": "Av Sarmiento entre Junin y Maipu"
@@ -359,10 +278,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20251814713711,
-          -26.81869138812762
-        ]
+        "coordinates": [-65.20251814713711, -26.81869138812762]
       },
       "properties": {
         "name": "Av Sarmiento entre Munecas y 25 de Mayo"
@@ -372,10 +288,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19953913777186,
-          -26.819233954827688
-        ]
+        "coordinates": [-65.19953913777186, -26.819233954827688]
       },
       "properties": {
         "name": "Av Sarmiento entre Laprida y Virgen de la Merced"
@@ -385,10 +298,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19660572548871,
-          -26.81976295485937
-        ]
+        "coordinates": [-65.19660572548871, -26.81976295485937]
       },
       "properties": {
         "name": "Av Sarmiento entre Monteagudo y Balcarce"
@@ -398,10 +308,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19479704123124,
-          -26.82217733390625
-        ]
+        "coordinates": [-65.19479704123124, -26.82217733390625]
       },
       "properties": {
         "name": "Av Avellaneda entre Santa Fe y Marcos Paz"
@@ -411,10 +318,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19545059940823,
-          -26.824944311800987
-        ]
+        "coordinates": [-65.19545059940823, -26.824944311800987]
       },
       "properties": {
         "name": "Av Avellaneda entre Comentes y Santiago"
@@ -424,10 +328,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19616495369479,
-          -26.827711222125327
-        ]
+        "coordinates": [-65.19616495369479, -26.827711222125327]
       },
       "properties": {
         "name": "Av Avellaneda entre Cordoba y San Juan "
@@ -437,10 +338,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1967881138171,
-          -26.83031531128932
-        ]
+        "coordinates": [-65.1967881138171, -26.83031531128932]
       },
       "properties": {
         "name": "Av Avellaneda entre Mendoza y San Martin"
@@ -450,10 +348,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19504022566916,
-          -26.833922960900246
-        ]
+        "coordinates": [-65.19504022566916, -26.833922960900246]
       },
       "properties": {
         "name": "Av Brigido Teran entre Bernabe Araoz y Charcas "
@@ -463,10 +358,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19572418190096,
-          -26.836689651918977
-        ]
+        "coordinates": [-65.19572418190096, -26.836689651918977]
       },
       "properties": {
         "name": "Av Brigido Teran entre Santa Cruz y Domingo Garcia "
@@ -476,10 +368,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19882478348524,
-          -26.838913805492428
-        ]
+        "coordinates": [-65.19882478348524, -26.838913805492428]
       },
       "properties": {
         "name": "Av Saenz Pena entre Gral Paz y Lamadrid"
@@ -489,10 +378,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19941754555283,
-          -26.841382022341364
-        ]
+        "coordinates": [-65.19941754555283, -26.841382022341364]
       },
       "properties": {
         "name": "Av Saenz Pena entre Lavalle y Bolivar"
@@ -502,10 +388,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20017749692151,
-          -26.8444333149497
-        ]
+        "coordinates": [-65.20017749692151, -26.8444333149497]
       },
       "properties": {
         "name": "Plazoleta Dorrego"
@@ -515,10 +398,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20242695297281,
-          -26.844080725339577
-        ]
+        "coordinates": [-65.20242695297281, -26.844080725339577]
       },
       "properties": {
         "name": "Av Roca entre Moreno y Entre Rios "
@@ -528,10 +408,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20536036525591,
-          -26.843511155188118
-        ]
+        "coordinates": [-65.20536036525591, -26.843511155188118]
       },
       "properties": {
         "name": "Av Roca entre Las Heras y Congreso "
@@ -541,10 +418,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20850656392227,
-          -26.842873775668735
-        ]
+        "coordinates": [-65.20850656392227, -26.842873775668735]
       },
       "properties": {
         "name": "Av Roca entre 9 de Julio y Buenos Aires"
@@ -554,10 +428,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21150077231488,
-          -26.84231776081714
-        ]
+        "coordinates": [-65.21150077231488, -26.84231776081714]
       },
       "properties": {
         "name": "Av Roca entre Ayacucho y Chacabuco"
@@ -567,10 +438,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21473816514549,
-          -26.841639690229474
-        ]
+        "coordinates": [-65.21473816514549, -26.841639690229474]
       },
       "properties": {
         "name": "Av Roca entre Jujuy y La Rioja"
@@ -580,10 +448,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21771717451074,
-          -26.84109723083547
-        ]
+        "coordinates": [-65.21771717451074, -26.84109723083547]
       },
       "properties": {
         "name": "Av Roca entre Bernabe Araoz y Alberdi "
@@ -593,10 +458,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22188170801111,
-          -26.841639690229474
-        ]
+        "coordinates": [-65.22188170801111, -26.841639690229474]
       },
       "properties": {
         "name": "Av Alem y Alsina "
@@ -606,10 +468,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22218568855861,
-          -26.84291445957507
-        ]
+        "coordinates": [-65.22218568855861, -26.84291445957507]
       },
       "properties": {
         "name": "Av Alem y La Plata"
@@ -619,10 +478,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22250486813344,
-          -26.844324825955862
-        ]
+        "coordinates": [-65.22250486813344, -26.844324825955862]
       },
       "properties": {
         "name": "Av Alem y Florida"
@@ -632,10 +488,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22280884868091,
-          -26.845613126044558
-        ]
+        "coordinates": [-65.22280884868091, -26.845613126044558]
       },
       "properties": {
         "name": "Av Alem e Independencia "
@@ -645,10 +498,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22382718351501,
-          -26.84559956506733
-        ]
+        "coordinates": [-65.22382718351501, -26.84559956506733]
       },
       "properties": {
         "name": "Av Independencia y Miguel Lillo "
@@ -658,10 +508,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2252254940334,
-          -26.845287662143065
-        ]
+        "coordinates": [-65.2252254940334, -26.845287662143065]
       },
       "properties": {
         "name": "Av Independencia y Pje OHiggins "
@@ -671,10 +518,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22671499871609,
-          -26.844975758359436
-        ]
+        "coordinates": [-65.22671499871609, -26.844975758359436]
       },
       "properties": {
         "name": "Av Independencia y Prospero Mena "
@@ -684,10 +528,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22802211507026,
-          -26.844704536979467
-        ]
+        "coordinates": [-65.22802211507026, -26.844704536979467]
       },
       "properties": {
         "name": "Av Independencia y Libertad "
@@ -697,10 +538,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22957241586236,
-          -26.8444333149497
-        ]
+        "coordinates": [-65.22957241586236, -26.8444333149497]
       },
       "properties": {
         "name": "Av Independencia y Frias Silva "
@@ -710,10 +548,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23127470692823,
-          -26.844121408812182
-        ]
+        "coordinates": [-65.23127470692823, -26.844121408812182]
       },
       "properties": {
         "name": "Av Independencia y Pellegrini "
@@ -723,10 +558,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23236903689913,
-          -26.84390443012272
-        ]
+        "coordinates": [-65.23236903689913, -26.84390443012272]
       },
       "properties": {
         "name": "Av Independencia y Matienzo "
@@ -736,10 +568,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23379774547224,
-          -26.843660328600002
-        ]
+        "coordinates": [-65.23379774547224, -26.843660328600002]
       },
       "properties": {
         "name": "Av Independencia y Amador Lucero "
@@ -749,10 +578,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23548483751074,
-          -26.84334842033281
-        ]
+        "coordinates": [-65.23548483751074, -26.84334842033281]
       },
       "properties": {
         "name": "Av Independencia y Chiclana"

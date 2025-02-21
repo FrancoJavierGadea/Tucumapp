@@ -8,23 +8,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.16877081673921,
-          -26.791733447597064
-        ]
+        "coordinates": [-65.16877081673921, -26.791733447597064]
       },
       "properties": {
-        "name": "B� San Ramon (Inicio de recorrido)"
+        "name": "Barrio San Ramon (Inicio de recorrido)"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17140693254517,
-          -26.79104197873688
-        ]
+        "coordinates": [-65.17140693254517, -26.79104197873688]
       },
       "properties": {
         "name": "Mario Bravo y Croronel Suarez"
@@ -34,10 +28,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1739832713255,
-          -26.793541413849724
-        ]
+        "coordinates": [-65.1739832713255, -26.793541413849724]
       },
       "properties": {
         "name": "Av. Circunvalacion"
@@ -47,10 +38,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.173040217636,
-          -26.7950119105564
-        ]
+        "coordinates": [-65.173040217636, -26.7950119105564]
       },
       "properties": {
         "name": "Rotonda"
@@ -60,10 +48,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17594641040353,
-          -26.794644497483105
-        ]
+        "coordinates": [-65.17594641040353, -26.794644497483105]
       },
       "properties": {
         "name": "Av. San Ramon y E. del Campo"
@@ -73,10 +58,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17764440459538,
-          -26.794267880974502
-        ]
+        "coordinates": [-65.17764440459538, -26.794267880974502]
       },
       "properties": {
         "name": "Av. San Ramon y Jose Hernandez"
@@ -86,10 +68,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17919846450928,
-          -26.79392707998766
-        ]
+        "coordinates": [-65.17919846450928, -26.79392707998766]
       },
       "properties": {
         "name": "Av San Ramon y Justo de la Vega"
@@ -99,10 +78,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18190658080634,
-          -26.79334012909845
-        ]
+        "coordinates": [-65.18190658080634, -26.79334012909845]
       },
       "properties": {
         "name": "Av. San Ramon y Juan Posse"
@@ -112,10 +88,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18452521066882,
-          -26.792791147413677
-        ]
+        "coordinates": [-65.18452521066882, -26.792791147413677]
       },
       "properties": {
         "name": "Av. San Ramon y Calle S/N"
@@ -125,10 +98,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18697957569555,
-          -26.79225604871656
-        ]
+        "coordinates": [-65.18697957569555, -26.79225604871656]
       },
       "properties": {
         "name": "Av San Ramon y J B Justo"
@@ -138,10 +108,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19029353400352,
-          -26.791700754947595
-        ]
+        "coordinates": [-65.19029353400352, -26.791700754947595]
       },
       "properties": {
         "name": "Hernandez y William Cross"
@@ -151,10 +118,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19167293571566,
-          -26.795676139146202
-        ]
+        "coordinates": [-65.19167293571566, -26.795676139146202]
       },
       "properties": {
         "name": "Av Francisco de Aguirre y Rivadavia"
@@ -164,10 +128,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19382669353094,
-          -26.79806911458247
-        ]
+        "coordinates": [-65.19382669353094, -26.79806911458247]
       },
       "properties": {
         "name": "Rivadavia y Emilio Castelar"
@@ -177,10 +138,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1941415759,
-          -26.79939115016841
-        ]
+        "coordinates": [-65.1941415759, -26.79939115016841]
       },
       "properties": {
         "name": "Rivadavia e Isabel la Catolica"
@@ -190,10 +148,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19457308136872,
-          -26.80123364650349
-        ]
+        "coordinates": [-65.19457308136872, -26.80123364650349]
       },
       "properties": {
         "name": "Rivadavia y Delfin Gallo"
@@ -203,10 +158,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1937474559462,
-          -26.80310276096342
-        ]
+        "coordinates": [-65.1937474559462, -26.80310276096342]
       },
       "properties": {
         "name": "Manuel Estrada y Monteagudo"
@@ -216,10 +168,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19065447233226,
-          -26.8036885282703
-        ]
+        "coordinates": [-65.19065447233226, -26.8036885282703]
       },
       "properties": {
         "name": "Manuel Estrada y Av.Juan B.Justo"
@@ -229,10 +178,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19054462046181,
-          -26.80480595305077
-        ]
+        "coordinates": [-65.19054462046181, -26.80480595305077]
       },
       "properties": {
         "name": " Av.Juan B.Justo y Mexico"
@@ -242,10 +188,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19119339725958,
-          -26.807739001354435
-        ]
+        "coordinates": [-65.19119339725958, -26.807739001354435]
       },
       "properties": {
         "name": " Av.Juan B.Justo y Colombia"
@@ -255,10 +198,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19188205206804,
-          -26.81043726883502
-        ]
+        "coordinates": [-65.19188205206804, -26.81043726883502]
       },
       "properties": {
         "name": " Av.Juan B.Justo y Paraguay"
@@ -268,10 +208,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19216637839726,
-          -26.811781643609113
-        ]
+        "coordinates": [-65.19216637839726, -26.811781643609113]
       },
       "properties": {
         "name": " Av.Juan B.Justo y Peru"
@@ -281,10 +218,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19247053196631,
-          -26.81306479583258
-        ]
+        "coordinates": [-65.19247053196631, -26.81306479583258]
       },
       "properties": {
         "name": " Av.Juan B.Justo y Bolivia"
@@ -294,10 +228,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19316539456861,
-          -26.815854386693978
-        ]
+        "coordinates": [-65.19316539456861, -26.815854386693978]
       },
       "properties": {
         "name": " Av.Juan B.Justo y Uruguay"
@@ -307,10 +238,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19379385572218,
-          -26.81866823252151
-        ]
+        "coordinates": [-65.19379385572218, -26.81866823252151]
       },
       "properties": {
         "name": " Av.Juan B.Justo y Espa�a"
@@ -320,10 +248,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19464868704269,
-          -26.822068567993018
-        ]
+        "coordinates": [-65.19464868704269, -26.822068567993018]
       },
       "properties": {
         "name": "Centro de Salud"
@@ -333,10 +258,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19538367218101,
-          -26.825034267152287
-        ]
+        "coordinates": [-65.19538367218101, -26.825034267152287]
       },
       "properties": {
         "name": " Av.Avellaneda y Santiago"
@@ -346,10 +268,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19613000556154,
-          -26.828040032860724
-        ]
+        "coordinates": [-65.19613000556154, -26.828040032860724]
       },
       "properties": {
         "name": " Av.Avellaneda y Cordoba"
@@ -359,10 +278,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1966939493416,
-          -26.830559118971657
-        ]
+        "coordinates": [-65.1966939493416, -26.830559118971657]
       },
       "properties": {
         "name": " Av.Avellaneda y San Martin"
@@ -372,10 +288,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.197655867297,
-          -26.834482522092195
-        ]
+        "coordinates": [-65.197655867297, -26.834482522092195]
       },
       "properties": {
         "name": "Av.Saenz Pe�a y San Lorenzo"
@@ -385,10 +298,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2093497953294,
-          -26.836761669860795
-        ]
+        "coordinates": [-65.2093497953294, -26.836761669860795]
       },
       "properties": {
         "name": "Chacabuco y Lamadrid"
@@ -398,10 +308,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21216252051869,
-          -26.83648591601049
-        ]
+        "coordinates": [-65.21216252051869, -26.83648591601049]
       },
       "properties": {
         "name": "Lamadrid y Av.Jujuy"
@@ -411,10 +318,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21540412624188,
-          -26.835766529964392
-        ]
+        "coordinates": [-65.21540412624188, -26.835766529964392]
       },
       "properties": {
         "name": "Lamadrid y Alberdi"
@@ -424,10 +328,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21960416405075,
-          -26.834799875203593
-        ]
+        "coordinates": [-65.21960416405075, -26.834799875203593]
       },
       "properties": {
         "name": "Lamadrid y Av.Alem"
@@ -437,10 +338,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22146664287187,
-          -26.834101658149805
-        ]
+        "coordinates": [-65.22146664287187, -26.834101658149805]
       },
       "properties": {
         "name": "Lamadrid y Miguel Lillo"
@@ -450,10 +348,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22477193289501,
-          -26.833845346516622
-        ]
+        "coordinates": [-65.22477193289501, -26.833845346516622]
       },
       "properties": {
         "name": "Lamadrid y Libertad"
@@ -463,10 +358,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22799039288385,
-          -26.833168776855157
-        ]
+        "coordinates": [-65.22799039288385, -26.833168776855157]
       },
       "properties": {
         "name": "Lamadrid y Pellegrini"
@@ -476,10 +368,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23102781520035,
-          -26.832550074810964
-        ]
+        "coordinates": [-65.23102781520035, -26.832550074810964]
       },
       "properties": {
         "name": "Lamadrid y A Lucero"
@@ -489,10 +378,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23365512664364,
-          -26.831954231023534
-        ]
+        "coordinates": [-65.23365512664364, -26.831954231023534]
       },
       "properties": {
         "name": "Lamadrid y Av Colon"
@@ -502,10 +388,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23488136167619,
-          -26.831653015958604
-        ]
+        "coordinates": [-65.23488136167619, -26.831653015958604]
       },
       "properties": {
         "name": "Lamadrid y Baltazar Aguirre"
@@ -515,10 +398,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23599367171991,
-          -26.83143406999913
-        ]
+        "coordinates": [-65.23599367171991, -26.83143406999913]
       },
       "properties": {
         "name": "Lamadrid y G�emes"
@@ -528,10 +408,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.235843610109,
-          -26.830269223995252
-        ]
+        "coordinates": [-65.235843610109, -26.830269223995252]
       },
       "properties": {
         "name": "Guemes y Gral Paz"
@@ -541,10 +418,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23543019350438,
-          -26.829027048460716
-        ]
+        "coordinates": [-65.23543019350438, -26.829027048460716]
       },
       "properties": {
         "name": "Guemes y Piedras"
@@ -554,10 +428,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2522560034284,
-          -26.82500396993946
-        ]
+        "coordinates": [-65.2522560034284, -26.82500396993946]
       },
       "properties": {
         "name": "Av Adolfo de la Vega y Piedras"
@@ -567,10 +438,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25274674769348,
-          -26.826598702309596
-        ]
+        "coordinates": [-65.25274674769348, -26.826598702309596]
       },
       "properties": {
         "name": "Av Adolfo de la Vega y Gral Paz"
@@ -580,10 +448,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25292809664019,
-          -26.827666431908096
-        ]
+        "coordinates": [-65.25292809664019, -26.827666431908096]
       },
       "properties": {
         "name": "Av Adolfo de la Vega y Lamadrid"
@@ -593,10 +458,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25331550681082,
-          -26.828699944620677
-        ]
+        "coordinates": [-65.25331550681082, -26.828699944620677]
       },
       "properties": {
         "name": "Av Adolfo de la Vega y Pje Bolougne Sur Mer"
@@ -606,10 +468,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25367409530206,
-          -26.82997468721513
-        ]
+        "coordinates": [-65.25367409530206, -26.82997468721513]
       },
       "properties": {
         "name": "Av Adolfo de la Vega y Lavalle"
@@ -619,10 +478,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25659031000312,
-          -26.831277437215455
-        ]
+        "coordinates": [-65.25659031000312, -26.831277437215455]
       },
       "properties": {
         "name": "Diag Juan 23 y Rondeau"
@@ -632,10 +488,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2571273004421,
-          -26.833128499428547
-        ]
+        "coordinates": [-65.2571273004421, -26.833128499428547]
       },
       "properties": {
         "name": "Diag Juan 23 y Av Kirchner"
@@ -645,10 +498,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25994157662463,
-          -26.834683446344062
-        ]
+        "coordinates": [-65.25994157662463, -26.834683446344062]
       },
       "properties": {
         "name": "Ruta 301 Complejo Ojo de Agua"
@@ -658,10 +508,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26234189521736,
-          -26.83603229211168
-        ]
+        "coordinates": [-65.26234189521736, -26.83603229211168]
       },
       "properties": {
         "name": "Ruta 301 Pepsi"
@@ -671,10 +518,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26322691567029,
-          -26.840144147858204
-        ]
+        "coordinates": [-65.26322691567029, -26.840144147858204]
       },
       "properties": {
         "name": "Av Independencia y Torres Posse"
@@ -684,10 +528,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26297815895191,
-          -26.840752283577245
-        ]
+        "coordinates": [-65.26297815895191, -26.840752283577245]
       },
       "properties": {
         "name": "Torres Posse y Larrea"
@@ -697,10 +538,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26348446563597,
-          -26.8425074674307
-        ]
+        "coordinates": [-65.26348446563597, -26.8425074674307]
       },
       "properties": {
         "name": "Torres Posse y Fortunata Garcia"
@@ -710,10 +548,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2638153824285,
-          -26.84403023893761
-        ]
+        "coordinates": [-65.2638153824285, -26.84403023893761]
       },
       "properties": {
         "name": "Torres Posse y Malabia"
@@ -723,10 +558,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26415368466097,
-          -26.84517188449994
-        ]
+        "coordinates": [-65.26415368466097, -26.84517188449994]
       },
       "properties": {
         "name": "Torres Posse y Lavaisse"
@@ -736,10 +568,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26447152536177,
-          -26.84632656841961
-        ]
+        "coordinates": [-65.26447152536177, -26.84632656841961]
       },
       "properties": {
         "name": "Torres Posse e Inca Garcilaso de la Vega"
@@ -749,10 +578,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26497175566297,
-          -26.848314033053445
-        ]
+        "coordinates": [-65.26497175566297, -26.848314033053445]
       },
       "properties": {
         "name": "Torres Posse y Magallanes"
@@ -762,10 +588,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26362126795972,
-          -26.84856171584535
-        ]
+        "coordinates": [-65.26362126795972, -26.84856171584535]
       },
       "properties": {
         "name": "Magallanes y Rufino Cossio"
@@ -775,10 +598,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26276430505764,
-          -26.84635408923982
-        ]
+        "coordinates": [-65.26276430505764, -26.84635408923982]
       },
       "properties": {
         "name": "Rufino Cossio e Inca Garcilaso de la Vega"
@@ -788,10 +608,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26252431602319,
-          -26.845766538132462
-        ]
+        "coordinates": [-65.26252431602319, -26.845766538132462]
       },
       "properties": {
         "name": "Rufino Cossio y Lavaisse"
@@ -801,10 +618,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26217451179974,
-          -26.844637434559566
-        ]
+        "coordinates": [-65.26217451179974, -26.844637434559566]
       },
       "properties": {
         "name": "Rufino Cossio y Malabia"
@@ -814,10 +628,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2617512062114,
-          -26.843385874091016
-        ]
+        "coordinates": [-65.2617512062114, -26.843385874091016]
       },
       "properties": {
         "name": "Rufino Cossio y Fortunata Garcia"
@@ -827,10 +638,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26124489952734,
-          -26.841482586978408
-        ]
+        "coordinates": [-65.26124489952734, -26.841482586978408]
       },
       "properties": {
         "name": "Rufino Cossio y Larrea"
@@ -840,10 +648,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26117214299417,
-          -26.840760121584374
-        ]
+        "coordinates": [-65.26117214299417, -26.840760121584374]
       },
       "properties": {
         "name": "Rufino Cossio y Av Independencia"
@@ -853,10 +658,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25964690980099,
-          -26.840827271139283
-        ]
+        "coordinates": [-65.25964690980099, -26.840827271139283]
       },
       "properties": {
         "name": "Av Independencia y Rojas Paz"
@@ -866,10 +668,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25899471992412,
-          -26.839490977442114
-        ]
+        "coordinates": [-65.25899471992412, -26.839490977442114]
       },
       "properties": {
         "name": "Rojas Paz y Florida"
@@ -879,10 +678,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26039139024444,
-          -26.838908092612197
-        ]
+        "coordinates": [-65.26039139024444, -26.838908092612197]
       },
       "properties": {
         "name": " Florida y Rufino Cossio"
@@ -892,10 +688,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26274217456236,
-          -26.840097681349047
-        ]
+        "coordinates": [-65.26274217456236, -26.840097681349047]
       },
       "properties": {
         "name": "Torres Posse y Av Independencia"
@@ -905,10 +698,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26625739918862,
-          -26.839474091198987
-        ]
+        "coordinates": [-65.26625739918862, -26.839474091198987]
       },
       "properties": {
         "name": "Av Independencia y Ruta 301"
@@ -918,10 +708,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.26045563202085,
-          -26.835144821955755
-        ]
+        "coordinates": [-65.26045563202085, -26.835144821955755]
       },
       "properties": {
         "name": "Ruta 301 Complejo Ojo de Agua"
@@ -931,10 +718,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25782171916623,
-          -26.834189618939387
-        ]
+        "coordinates": [-65.25782171916623, -26.834189618939387]
       },
       "properties": {
         "name": "Av Kirchner y Diag Juan 23"
@@ -944,10 +728,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25668066891622,
-          -26.831709055403177
-        ]
+        "coordinates": [-65.25668066891622, -26.831709055403177]
       },
       "properties": {
         "name": "Diag Juan 23 y Rondeau"
@@ -957,10 +738,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25406072825807,
-          -26.830313312996683
-        ]
+        "coordinates": [-65.25406072825807, -26.830313312996683]
       },
       "properties": {
         "name": "Lavalle y Av Adolfo de la Vega"
@@ -970,10 +748,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25290339600302,
-          -26.830483706437924
-        ]
+        "coordinates": [-65.25290339600302, -26.830483706437924]
       },
       "properties": {
         "name": "Lavalle y Pedro Leon Gallo"
@@ -983,10 +758,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25109709630833,
-          -26.83093542914664
-        ]
+        "coordinates": [-65.25109709630833, -26.83093542914664]
       },
       "properties": {
         "name": "Lavalle y Gorriti"
@@ -996,10 +768,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24985043870048,
-          -26.83117970604476
-        ]
+        "coordinates": [-65.24985043870048, -26.83117970604476]
       },
       "properties": {
         "name": "Lavalle y Lidoro Quinteros"
@@ -1009,10 +778,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24615049100707,
-          -26.831900055814145
-        ]
+        "coordinates": [-65.24615049100707, -26.831900055814145]
       },
       "properties": {
         "name": "Lavalle y Lincoln"
@@ -1022,10 +788,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24411933223729,
-          -26.832251162672478
-        ]
+        "coordinates": [-65.24411933223729, -26.832251162672478]
       },
       "properties": {
         "name": "Lavalle y E Padilla"
@@ -1035,10 +798,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24291765191802,
-          -26.832374524283253
-        ]
+        "coordinates": [-65.24291765191802, -26.832374524283253]
       },
       "properties": {
         "name": "Lavalle y J.B.Teran"
@@ -1048,10 +808,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24107791125222,
-          -26.83270665102906
-        ]
+        "coordinates": [-65.24107791125222, -26.83270665102906]
       },
       "properties": {
         "name": "Lavalle y Coronel  Zelaya"
@@ -1061,10 +818,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2394381227276,
-          -26.8330799261906
-        ]
+        "coordinates": [-65.2394381227276, -26.8330799261906]
       },
       "properties": {
         "name": "Lavalle y Constituci�n"
@@ -1074,10 +828,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23694968737621,
-          -26.833535411214367
-        ]
+        "coordinates": [-65.23694968737621, -26.833535411214367]
       },
       "properties": {
         "name": "Lavalle y Guemes"
@@ -1087,10 +838,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23479680691045,
-          -26.833892068153208
-        ]
+        "coordinates": [-65.23479680691045, -26.833892068153208]
       },
       "properties": {
         "name": "Lavalle y Av.Col�n"
@@ -1100,10 +848,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23018333707485,
-          -26.834104625335833
-        ]
+        "coordinates": [-65.23018333707485, -26.834104625335833]
       },
       "properties": {
         "name": "Lavalle y Matienzo"
@@ -1113,10 +858,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22885298125239,
-          -26.834352293304
-        ]
+        "coordinates": [-65.22885298125239, -26.834352293304]
       },
       "properties": {
         "name": "Lavalle y Pellegrini"
@@ -1126,10 +868,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22696751292844,
-          -26.834719524121972
-        ]
+        "coordinates": [-65.22696751292844, -26.834719524121972]
       },
       "properties": {
         "name": "Lavalle y Frias Silva"
@@ -1139,10 +878,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22543616809675,
-          -26.835078213538814
-        ]
+        "coordinates": [-65.22543616809675, -26.835078213538814]
       },
       "properties": {
         "name": "Lavalle y Libertad"
@@ -1152,10 +888,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22422066313662,
-          -26.835394200893443
-        ]
+        "coordinates": [-65.22422066313662, -26.835394200893443]
       },
       "properties": {
         "name": "Lavalle y Prospero Mena"
@@ -1165,10 +898,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22198685358065,
-          -26.835761650590644
-        ]
+        "coordinates": [-65.22198685358065, -26.835761650590644]
       },
       "properties": {
         "name": "Lavalle y Miguel Lillo"
@@ -1178,10 +908,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22074131950764,
-          -26.836025047250846
-        ]
+        "coordinates": [-65.22074131950764, -26.836025047250846]
       },
       "properties": {
         "name": "Lavalle y Av.Alem"
@@ -1191,10 +918,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21795262881757,
-          -26.836914877613022
-        ]
+        "coordinates": [-65.21795262881757, -26.836914877613022]
       },
       "properties": {
         "name": "Lavalle y Bernab� Araoz"
@@ -1204,10 +928,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21316752027866,
-          -26.837796062754528
-        ]
+        "coordinates": [-65.21316752027866, -26.837796062754528]
       },
       "properties": {
         "name": "Lavalle y Av.Jujuy"
@@ -1217,10 +938,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21015329342069,
-          -26.83845951336399
-        ]
+        "coordinates": [-65.21015329342069, -26.83845951336399]
       },
       "properties": {
         "name": "Lavalle y Chacabuco"
@@ -1230,10 +948,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2080074443746,
-          -26.83765005529349
-        ]
+        "coordinates": [-65.2080074443746, -26.83765005529349]
       },
       "properties": {
         "name": "Buenos Aires y Lamadrid"
@@ -1243,10 +958,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20732522790556,
-          -26.834685872112786
-        ]
+        "coordinates": [-65.20732522790556, -26.834685872112786]
       },
       "properties": {
         "name": "Buenos Aires y Piedras"
@@ -1256,10 +968,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20035319094845,
-          -26.832148276254994
-        ]
+        "coordinates": [-65.20035319094845, -26.832148276254994]
       },
       "properties": {
         "name": "Entre Rios y 24 de Septiembre"
@@ -1269,10 +978,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19941640013387,
-          -26.828128055039283
-        ]
+        "coordinates": [-65.19941640013387, -26.828128055039283]
       },
       "properties": {
         "name": "Rivadavia y Cordoba"
@@ -1282,10 +988,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19892995854647,
-          -26.826391677380453
-        ]
+        "coordinates": [-65.19892995854647, -26.826391677380453]
       },
       "properties": {
         "name": "Monteagudo y San Juan"
@@ -1295,10 +998,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19861732359108,
-          -26.825033315059045
-        ]
+        "coordinates": [-65.19861732359108, -26.825033315059045]
       },
       "properties": {
         "name": "Monteagudo y Santiago del Estero"
@@ -1308,10 +1008,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20133087076331,
-          -26.8233531380742
-        ]
+        "coordinates": [-65.20133087076331, -26.8233531380742]
       },
       "properties": {
         "name": "Laprida y Corrientes"
@@ -1321,10 +1018,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20061805086316,
-          -26.820571048309347
-        ]
+        "coordinates": [-65.20061805086316, -26.820571048309347]
       },
       "properties": {
         "name": "Laprida y Santa Fe"
@@ -1334,10 +1028,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19996338921487,
-          -26.81775961632835
-        ]
+        "coordinates": [-65.19996338921487, -26.81775961632835]
       },
       "properties": {
         "name": "Laprida y Espana"
@@ -1347,10 +1038,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19865822642139,
-          -26.81783748051594
-        ]
+        "coordinates": [-65.19865822642139, -26.81783748051594]
       },
       "properties": {
         "name": "Espa�a y Rivadavia"
@@ -1360,10 +1048,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19722152313334,
-          -26.818129731964426
-        ]
+        "coordinates": [-65.19722152313334, -26.818129731964426]
       },
       "properties": {
         "name": "Espa�a y Monteagudo"
@@ -1373,10 +1058,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19665695705422,
-          -26.816876742253022
-        ]
+        "coordinates": [-65.19665695705422, -26.816876742253022]
       },
       "properties": {
         "name": "Monteagudo e Italia"
@@ -1386,10 +1068,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19625662788248,
-          -26.81568792570083
-        ]
+        "coordinates": [-65.19625662788248, -26.81568792570083]
       },
       "properties": {
         "name": "Monteagudo y Uruguay"
@@ -1399,10 +1078,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19588336257976,
-          -26.814329791657315
-        ]
+        "coordinates": [-65.19588336257976, -26.814329791657315]
       },
       "properties": {
         "name": "Monteagudo y Chile"
@@ -1412,10 +1088,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19526125374193,
-          -26.811639100689522
-        ]
+        "coordinates": [-65.19526125374193, -26.811639100689522]
       },
       "properties": {
         "name": "Monteagudo y Peru"
@@ -1425,10 +1098,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19492627205999,
-          -26.81021258147917
-        ]
+        "coordinates": [-65.19492627205999, -26.81021258147917]
       },
       "properties": {
         "name": "Monteagudo y Paraguay"
@@ -1438,10 +1108,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19436158865332,
-          -26.807607215638466
-        ]
+        "coordinates": [-65.19436158865332, -26.807607215638466]
       },
       "properties": {
         "name": "Monteagudo y Colombia"
@@ -1451,10 +1118,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19404062625075,
-          -26.8062148152495
-        ]
+        "coordinates": [-65.19404062625075, -26.8062148152495]
       },
       "properties": {
         "name": "Monteagudo y Venezuela"
@@ -1464,10 +1128,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19277796788964,
-          -26.806162630756205
-        ]
+        "coordinates": [-65.19277796788964, -26.806162630756205]
       },
       "properties": {
         "name": "Venezuela y Balcarce"
@@ -1477,10 +1138,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.191152687394,
-          -26.80645246993739
-        ]
+        "coordinates": [-65.191152687394, -26.80645246993739]
       },
       "properties": {
         "name": "Venezuela y Av.Juan B.Justo"
@@ -1490,10 +1148,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19053382500107,
-          -26.805300422108996
-        ]
+        "coordinates": [-65.19053382500107, -26.805300422108996]
       },
       "properties": {
         "name": "Av.Juan B.Justo y Mexico"
@@ -1503,10 +1158,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18987574833208,
-          -26.802500803932602
-        ]
+        "coordinates": [-65.18987574833208, -26.802500803932602]
       },
       "properties": {
         "name": "Av.Juan B.Justo y Delfin Gallo"
@@ -1516,10 +1168,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18953418569154,
-          -26.801061872351102
-        ]
+        "coordinates": [-65.18953418569154, -26.801061872351102]
       },
       "properties": {
         "name": "Av.Juan B.Justo e Isabel la Cat�lica"
@@ -1529,10 +1178,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1886176776186,
-          -26.797245396389048
-        ]
+        "coordinates": [-65.1886176776186, -26.797245396389048]
       },
       "properties": {
         "name": "Av.Juan B.Justo y Pje Marconi"
@@ -1542,10 +1188,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18797923741882,
-          -26.794701205030513
-        ]
+        "coordinates": [-65.18797923741882, -26.794701205030513]
       },
       "properties": {
         "name": "Av. J. B. Justo y Pasaje Alvarez"
@@ -1555,10 +1198,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18752893691787,
-          -26.792758903377578
-        ]
+        "coordinates": [-65.18752893691787, -26.792758903377578]
       },
       "properties": {
         "name": "Av. J. B. Justo y Pje. Darlo Ledesma"
@@ -1568,10 +1208,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18267642342033,
-          -26.793324708071445
-        ]
+        "coordinates": [-65.18267642342033, -26.793324708071445]
       },
       "properties": {
         "name": "Av. San Ramon y Juan Posse"
@@ -1581,10 +1218,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1792011900798,
-          -26.79420942662822
-        ]
+        "coordinates": [-65.1792011900798, -26.79420942662822]
       },
       "properties": {
         "name": "Av. San Ramon y Calle S/N"
@@ -1594,10 +1228,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17760785205002,
-          -26.794489399418
-        ]
+        "coordinates": [-65.17760785205002, -26.794489399418]
       },
       "properties": {
         "name": "Av. San Ramon y Jose Hernandez"
@@ -1607,10 +1238,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17583887045792,
-          -26.794769371516892
-        ]
+        "coordinates": [-65.17583887045792, -26.794769371516892]
       },
       "properties": {
         "name": "Av. San Ramon y E. del Campo"
@@ -1620,10 +1248,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17297396718912,
-          -26.795063167852074
-        ]
+        "coordinates": [-65.17297396718912, -26.795063167852074]
       },
       "properties": {
         "name": "Rotonda"
@@ -1633,10 +1258,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17388725629131,
-          -26.793566784308236
-        ]
+        "coordinates": [-65.17388725629131, -26.793566784308236]
       },
       "properties": {
         "name": "Av. Circunvalacion"
@@ -1646,10 +1268,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.17198740293557,
-          -26.791095591313812
-        ]
+        "coordinates": [-65.17198740293557, -26.791095591313812]
       },
       "properties": {
         "name": "Avenida y Coronel Suarez"

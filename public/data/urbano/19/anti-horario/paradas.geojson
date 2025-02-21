@@ -8,23 +8,17 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24484531270693,
-          -26.79442482568225
-        ]
+        "coordinates": [-65.24484531270693, -26.79442482568225]
       },
       "properties": {
-        "name": "Av America esquina M�jico"
+        "name": "Av America esquina Mexico"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24554401621154,
-          -26.7976199778944
-        ]
+        "coordinates": [-65.24554401621154, -26.7976199778944]
       },
       "properties": {
         "name": "Av America esquina Pje Homerg"
@@ -34,10 +28,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24632141896373,
-          -26.800887993681012
-        ]
+        "coordinates": [-65.24632141896373, -26.800887993681012]
       },
       "properties": {
         "name": "Av America 1535 - pje Pedro de Valdivia"
@@ -47,10 +38,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24665760274418,
-          -26.802388336385427
-        ]
+        "coordinates": [-65.24665760274418, -26.802388336385427]
       },
       "properties": {
         "name": "Av America 1415 - Bolivia"
@@ -60,10 +48,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24703114027803,
-          -26.804115979155817
-        ]
+        "coordinates": [-65.24703114027803, -26.804115979155817]
       },
       "properties": {
         "name": "Av America Esquina Chile"
@@ -73,10 +58,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24742505258641,
-          -26.80597695437971
-        ]
+        "coordinates": [-65.24742505258641, -26.80597695437971]
       },
       "properties": {
         "name": "Av Am�rica 1135 - Pje Zuvir�a"
@@ -86,10 +68,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24799894207024,
-          -26.807750004969012
-        ]
+        "coordinates": [-65.24799894207024, -26.807750004969012]
       },
       "properties": {
         "name": "Av Am�rica 1030 - Espa�a"
@@ -99,10 +78,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2486645180396,
-          -26.81035345977781
-        ]
+        "coordinates": [-65.2486645180396, -26.81035345977781]
       },
       "properties": {
         "name": "Av Am�rica 637 - pasaje Houssay"
@@ -112,10 +88,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2491942621784,
-          -26.81302656071799
-        ]
+        "coordinates": [-65.2491942621784, -26.81302656071799]
       },
       "properties": {
         "name": "Av America 600 esq Pje Dr Vallejo"
@@ -125,10 +98,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24970023574694,
-          -26.815090442472645
-        ]
+        "coordinates": [-65.24970023574694, -26.815090442472645]
       },
       "properties": {
         "name": "Av Am�rica 433 - Pasaje Jos� Carman"
@@ -138,10 +108,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.250070377485,
-          -26.81683304465082
-        ]
+        "coordinates": [-65.250070377485, -26.81683304465082]
       },
       "properties": {
         "name": "Av America 295 - esquina Don Bosco"
@@ -151,10 +118,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25033864535024,
-          -26.818118007182406
-        ]
+        "coordinates": [-65.25033864535024, -26.818118007182406]
       },
       "properties": {
         "name": "Av America 177- Mendoza"
@@ -164,10 +128,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25064766276458,
-          -26.819372649937108
-        ]
+        "coordinates": [-65.25064766276458, -26.819372649937108]
       },
       "properties": {
         "name": "Av America 100 - Mendoza"
@@ -177,10 +138,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25201277266102,
-          -26.82400319184723
-        ]
+        "coordinates": [-65.25201277266102, -26.82400319184723]
       },
       "properties": {
         "name": "Av Adolfo de La Vega 298 - San Lorenzo"
@@ -190,10 +148,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25252553782111,
-          -26.825769899785584
-        ]
+        "coordinates": [-65.25252553782111, -26.825769899785584]
       },
       "properties": {
         "name": "Av Adolfo de La Vega 356 Las Piedras"
@@ -203,10 +158,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25334052880407,
-          -26.828709301344702
-        ]
+        "coordinates": [-65.25334052880407, -26.828709301344702]
       },
       "properties": {
         "name": "Av Adolfo de La Vega 542 y Pie B Sur Mer"
@@ -216,10 +168,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25389064771755,
-          -26.830927438420467
-        ]
+        "coordinates": [-65.25389064771755, -26.830927438420467]
       },
       "properties": {
         "name": "Av Adofo de la Vega y Lavalle"
@@ -229,10 +178,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25196183572466,
-          -26.834548484165232
-        ]
+        "coordinates": [-65.25196183572466, -26.834548484165232]
       },
       "properties": {
         "name": "Av.Kirchner y Gorriti"
@@ -242,10 +188,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24781896489479,
-          -26.835224197876077
-        ]
+        "coordinates": [-65.24781896489479, -26.835224197876077]
       },
       "properties": {
         "name": "Av Kirchner 3137 - Diego de Rojas"
@@ -255,10 +198,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24680022616614,
-          -26.835790824651347
-        ]
+        "coordinates": [-65.24680022616614, -26.835790824651347]
       },
       "properties": {
         "name": "Lincoln 930 - Kirchner"
@@ -268,10 +208,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24692587060936,
-          -26.836978610616214
-        ]
+        "coordinates": [-65.24692587060936, -26.836978610616214]
       },
       "properties": {
         "name": "Alsina y Lincoln"
@@ -281,10 +218,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24952705016322,
-          -26.838478475605054
-        ]
+        "coordinates": [-65.24952705016322, -26.838478475605054]
       },
       "properties": {
         "name": "Diego de Rojas 1119"
@@ -294,10 +228,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.25025375045635,
-          -26.841114553806996
-        ]
+        "coordinates": [-65.25025375045635, -26.841114553806996]
       },
       "properties": {
         "name": "Diego de Rojas y Av Independencia"
@@ -307,10 +238,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24725186700257,
-          -26.841602373043756
-        ]
+        "coordinates": [-65.24725186700257, -26.841602373043756]
       },
       "properties": {
         "name": "Av Independencia 2977 ? Pie Esperanza"
@@ -320,10 +248,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24544971819162,
-          -26.84194839013506
-        ]
+        "coordinates": [-65.24544971819162, -26.84194839013506]
       },
       "properties": {
         "name": "Av Independencia 2803 Juan B Teran"
@@ -333,10 +258,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24157373313807,
-          -26.84276447422551
-        ]
+        "coordinates": [-65.24157373313807, -26.84276447422551]
       },
       "properties": {
         "name": "Av. Independencia y Constitucion"
@@ -346,10 +268,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23892766116425,
-          -26.84334563093394
-        ]
+        "coordinates": [-65.23892766116425, -26.84334563093394]
       },
       "properties": {
         "name": "Av Independencia 2365 intersecci�n G�emes"
@@ -359,10 +278,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23597966559339,
-          -26.843515134411934
-        ]
+        "coordinates": [-65.23597966559339, -26.843515134411934]
       },
       "properties": {
         "name": "Av Independencia y Chiclana"
@@ -372,10 +288,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2342902504101,
-          -26.843805711212426
-        ]
+        "coordinates": [-65.2342902504101, -26.843805711212426]
       },
       "properties": {
         "name": "Av independencia 2104 - Amador Lucero"
@@ -385,10 +298,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23181040603463,
-          -26.84429908469663
-        ]
+        "coordinates": [-65.23181040603463, -26.84429908469663]
       },
       "properties": {
         "name": "Av independencia y Pellegrini"
@@ -398,10 +308,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23010063645158,
-          -26.844586632668076
-        ]
+        "coordinates": [-65.23010063645158, -26.844586632668076]
       },
       "properties": {
         "name": "Av independencia y Frias Silva"
@@ -411,10 +318,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22721370408017,
-          -26.845167780022702
-        ]
+        "coordinates": [-65.22721370408017, -26.845167780022702]
       },
       "properties": {
         "name": "Av. Independencia y Prospero Mena"
@@ -424,10 +328,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22320049491987,
-          -26.845960799203866
-        ]
+        "coordinates": [-65.22320049491987, -26.845960799203866]
       },
       "properties": {
         "name": "Av Independencia 1450 - Alem"
@@ -437,10 +338,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22038819534768,
-          -26.846529832444848
-        ]
+        "coordinates": [-65.22038819534768, -26.846529832444848]
       },
       "properties": {
         "name": "Av Independencia 1232 - Bernab� Ar�oz"
@@ -450,10 +348,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21759625017532,
-          -26.847020167304894
-        ]
+        "coordinates": [-65.21759625017532, -26.847020167304894]
       },
       "properties": {
         "name": "Av Independencia 977 - La Rioja"
@@ -463,10 +358,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21481227788445,
-          -26.847560049066395
-        ]
+        "coordinates": [-65.21481227788445, -26.847560049066395]
       },
       "properties": {
         "name": "Av Independencia - Jujuy"
@@ -476,10 +368,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21239647236446,
-          -26.84801532824352
-        ]
+        "coordinates": [-65.21239647236446, -26.84801532824352]
       },
       "properties": {
         "name": "Av independencia - Chacabuco"
@@ -489,10 +378,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21144384158819,
-          -26.851255700110578
-        ]
+        "coordinates": [-65.21144384158819, -26.851255700110578]
       },
       "properties": {
         "name": "Matheu y Buenos Aires"
@@ -502,10 +388,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20830642488421,
-          -26.852028481604613
-        ]
+        "coordinates": [-65.20830642488421, -26.852028481604613]
       },
       "properties": {
         "name": "Matheu y Congreso"
@@ -515,10 +398,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.206844757808,
-          -26.852377548788013
-        ]
+        "coordinates": [-65.206844757808, -26.852377548788013]
       },
       "properties": {
         "name": "Matheu y Las Heras"
@@ -528,10 +408,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20421262514007,
-          -26.85295115823379
-        ]
+        "coordinates": [-65.20421262514007, -26.85295115823379]
       },
       "properties": {
         "name": "Matheu y Moreno"
@@ -541,10 +418,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20211380409746,
-          -26.85231098461328
-        ]
+        "coordinates": [-65.20211380409746, -26.85231098461328]
       },
       "properties": {
         "name": "Marina Alfaro y Tomas Edison"
@@ -554,10 +428,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20192843813638,
-          -26.849599097865084
-        ]
+        "coordinates": [-65.20192843813638, -26.849599097865084]
       },
       "properties": {
         "name": "Marina Alfaro y Pje La Pampa"
@@ -567,10 +438,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20137234025337,
-          -26.847927476285676
-        ]
+        "coordinates": [-65.20137234025337, -26.847927476285676]
       },
       "properties": {
         "name": "Marina Alfaro y La Plata"
@@ -580,10 +448,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20064682186835,
-          -26.845279506046396
-        ]
+        "coordinates": [-65.20064682186835, -26.845279506046396]
       },
       "properties": {
         "name": "Plazoleta Dorrego"
@@ -593,10 +458,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19750755962514,
-          -26.845441338106777
-        ]
+        "coordinates": [-65.19750755962514, -26.845441338106777]
       },
       "properties": {
         "name": "Av Br�gido Teran 838 ? Diagonal Padre Monti"
@@ -606,10 +468,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19694946855968,
-          -26.843333946464814
-        ]
+        "coordinates": [-65.19694946855968, -26.843333946464814]
       },
       "properties": {
         "name": "Av Br�gido Teran - Julio Prebish"
@@ -619,10 +478,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19639536385904,
-          -26.84105400685799
-        ]
+        "coordinates": [-65.19639536385904, -26.84105400685799]
       },
       "properties": {
         "name": "Av. Brigido Teran y Rawson"
@@ -632,10 +488,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19549643860718,
-          -26.837338780703018
-        ]
+        "coordinates": [-65.19549643860718, -26.837338780703018]
       },
       "properties": {
         "name": "Av. Br�gido Teran - Pje Domingo Garc�a"
@@ -645,10 +498,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19472109066265,
-          -26.834059178683795
-        ]
+        "coordinates": [-65.19472109066265, -26.834059178683795]
       },
       "properties": {
         "name": "Av. Brigido Teran - Charcas"
@@ -658,10 +508,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19652890707826,
-          -26.830614071468638
-        ]
+        "coordinates": [-65.19652890707826, -26.830614071468638]
       },
       "properties": {
         "name": "Av. Avellaneda 141 - Pje R�o de Janeiro"
@@ -671,10 +518,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19577947050465,
-          -26.827517476292684
-        ]
+        "coordinates": [-65.19577947050465, -26.827517476292684]
       },
       "properties": {
         "name": "Av Avellaneda y Guatemala"
@@ -684,10 +528,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19504996575485,
-          -26.824495501981502
-        ]
+        "coordinates": [-65.19504996575485, -26.824495501981502]
       },
       "properties": {
         "name": "Av Avellaneda y Honduras"
@@ -697,10 +538,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19453771788403,
-          -26.822417959058225
-        ]
+        "coordinates": [-65.19453771788403, -26.822417959058225]
       },
       "properties": {
         "name": "Av. Avellaneda 727 - Pasaje Enzo Bordabehre"
@@ -710,10 +548,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19369695112434,
-          -26.818942049740997
-        ]
+        "coordinates": [-65.19369695112434, -26.818942049740997]
       },
       "properties": {
         "name": "Av.Juan B.Justo y Villaroel"
@@ -723,10 +558,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19337678970544,
-          -26.817558743990517
-        ]
+        "coordinates": [-65.19337678970544, -26.817558743990517]
       },
       "properties": {
         "name": "Av Juan B Justo y Juramento"
@@ -736,10 +568,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19270334672072,
-          -26.814799964164372
-        ]
+        "coordinates": [-65.19270334672072, -26.814799964164372]
       },
       "properties": {
         "name": "Av Juan B. Justo 1287 - Ra�l Colombres"
@@ -749,10 +578,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19180247872822,
-          -26.810945442198683
-        ]
+        "coordinates": [-65.19180247872822, -26.810945442198683]
       },
       "properties": {
         "name": "Av Juan B Justo 1591 - Martin Berho"
@@ -762,10 +588,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19119086001754,
-          -26.808285036181022
-        ]
+        "coordinates": [-65.19119086001754, -26.808285036181022]
       },
       "properties": {
         "name": "Av Juan B Justo y Nicaragua"
@@ -775,10 +598,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19046221678826,
-          -26.805277716884493
-        ]
+        "coordinates": [-65.19046221678826, -26.805277716884493]
       },
       "properties": {
         "name": "Av Juan B Justo y Mejico"
@@ -788,10 +608,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18982189395047,
-          -26.802581703611864
-        ]
+        "coordinates": [-65.18982189395047, -26.802581703611864]
       },
       "properties": {
         "name": "Av Juan B Justo - Eduardo Wilde"
@@ -801,10 +618,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1891859871322,
-          -26.799856063642444
-        ]
+        "coordinates": [-65.1891859871322, -26.799856063642444]
       },
       "properties": {
         "name": "Av Juan B Justo y Jos� Ignacio Warner"
@@ -814,10 +628,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.1885964485194,
-          -26.79745161247688
-        ]
+        "coordinates": [-65.1885964485194, -26.79745161247688]
       },
       "properties": {
         "name": "Av Juan B Justo 2649 Pje Thomas Chueca"
@@ -827,10 +638,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.18917494708323,
-          -26.796217833323155
-        ]
+        "coordinates": [-65.18917494708323, -26.796217833323155]
       },
       "properties": {
         "name": "Av Francisco De Aguirre 30 J.B Justo"
@@ -840,10 +648,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19308974843321,
-          -26.795449178184782
-        ]
+        "coordinates": [-65.19308974843321, -26.795449178184782]
       },
       "properties": {
         "name": "Av Francisco De Aguirre 310 - Rivadavia"
@@ -853,10 +658,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19552739123652,
-          -26.794997837227996
-        ]
+        "coordinates": [-65.19552739123652, -26.794997837227996]
       },
       "properties": {
         "name": "Av Francisco De Aguirre - 25 de Mayo"
@@ -866,10 +668,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19719634680754,
-          -26.794646632761165
-        ]
+        "coordinates": [-65.19719634680754, -26.794646632761165]
       },
       "properties": {
         "name": "Av Francisco De Aguirre 630 - Mu�ecas"
@@ -879,10 +678,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.19991622264949,
-          -26.794091641161053
-        ]
+        "coordinates": [-65.19991622264949, -26.794091641161053]
       },
       "properties": {
         "name": "Av Francisco De Aguirre 764 -  Jun�n"
@@ -892,10 +688,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20200336485442,
-          -26.793719030436343
-        ]
+        "coordinates": [-65.20200336485442, -26.793719030436343]
       },
       "properties": {
         "name": "Av Francisco de Aguirre y Siria"
@@ -905,10 +698,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20737460978118,
-          -26.79260159588345
-        ]
+        "coordinates": [-65.20737460978118, -26.79260159588345]
       },
       "properties": {
         "name": "Av Francisco De Aguirre 1258 - Suipacha"
@@ -918,10 +708,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.20965293755795,
-          -26.792185308070003
-        ]
+        "coordinates": [-65.20965293755795, -26.792185308070003]
       },
       "properties": {
         "name": "Av Francisco de Aguirre y Mitre"
@@ -931,10 +718,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21217901526362,
-          -26.791684459770252
-        ]
+        "coordinates": [-65.21217901526362, -26.791684459770252]
       },
       "properties": {
         "name": "Av Francisco de Aguirre y Lucas Cordoba"
@@ -944,10 +728,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21481439440849,
-          -26.79118360925976
-        ]
+        "coordinates": [-65.21481439440849, -26.79118360925976]
       },
       "properties": {
         "name": "Av. Francisco De Aguirre y San Miguel"
@@ -957,10 +738,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21788697931007,
-          -26.79048978671828
-        ]
+        "coordinates": [-65.21788697931007, -26.79048978671828]
       },
       "properties": {
         "name": "Av Francisco de Aguirre 2020 Alberti "
@@ -970,10 +748,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.21924067763442,
-          -26.790193729180313
-        ]
+        "coordinates": [-65.21924067763442, -26.790193729180313]
       },
       "properties": {
         "name": "Av Francisco De Aguirre 2110 Thames"
@@ -983,10 +758,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22374050164608,
-          -26.789246165559735
-        ]
+        "coordinates": [-65.22374050164608, -26.789246165559735]
       },
       "properties": {
         "name": "Av. Francisco. De Aguirre 2436 -Saavedra"
@@ -996,10 +768,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.2260198126791,
-          -26.788841383220515
-        ]
+        "coordinates": [-65.2260198126791, -26.788841383220515]
       },
       "properties": {
         "name": "Av Francisco. De Aguirre 2585 -Diagonal Facundo Qulroga"
@@ -1009,10 +778,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.22904071442842,
-          -26.78827653945481
-        ]
+        "coordinates": [-65.22904071442842, -26.78827653945481]
       },
       "properties": {
         "name": "Av. Francisco. De Aguirre 2650 - Necochea"
@@ -1022,10 +788,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23302116961544,
-          -26.787533156826772
-        ]
+        "coordinates": [-65.23302116961544, -26.787533156826772]
       },
       "properties": {
         "name": "Av Francisco De Aguirre 2914- Viamonte"
@@ -1035,10 +798,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23558867506443,
-          -26.787083625755006
-        ]
+        "coordinates": [-65.23558867506443, -26.787083625755006]
       },
       "properties": {
         "name": "Av. Francisco de Aguirre 3046 - Pje Padre Roque"
@@ -1048,10 +808,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23717504353249,
-          -26.78680504222535
-        ]
+        "coordinates": [-65.23717504353249, -26.78680504222535]
       },
       "properties": {
         "name": "Av. Francisco de Aguirre 3212 - Bulnes"
@@ -1061,10 +818,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.23867157295166,
-          -26.786551783877712
-        ]
+        "coordinates": [-65.23867157295166, -26.786551783877712]
       },
       "properties": {
         "name": "Av Fco De Aguirre 3296 Pje Federico Helguera"
@@ -1074,10 +828,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24006880658001,
-          -26.786285862004444
-        ]
+        "coordinates": [-65.24006880658001, -26.786285862004444]
       },
       "properties": {
         "name": "Fco Aguirre  Esq Castro Barros"
@@ -1087,10 +838,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24109959145639,
-          -26.788318249075928
-        ]
+        "coordinates": [-65.24109959145639, -26.788318249075928]
       },
       "properties": {
         "name": "Castro Barro 2551 Pje Madrid"
@@ -1100,10 +848,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24124853514266,
-          -26.789082231480485
-        ]
+        "coordinates": [-65.24124853514266, -26.789082231480485]
       },
       "properties": {
         "name": "Emilio Castelar - Castro Barros"
@@ -1113,10 +858,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24262645337538,
-          -26.789637550600837
-        ]
+        "coordinates": [-65.24262645337538, -26.789637550600837]
       },
       "properties": {
         "name": "Lizondo Borda y Arquitectos"
@@ -1126,10 +868,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24268581807321,
-          -26.79145468062729
-        ]
+        "coordinates": [-65.24268581807321, -26.79145468062729]
       },
       "properties": {
         "name": "Lizondo Borda y Medicos"
@@ -1139,10 +878,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -65.24405503610339,
-          -26.792899132936295
-        ]
+        "coordinates": [-65.24405503610339, -26.792899132936295]
       },
       "properties": {
         "name": "Inicio del recorrido"

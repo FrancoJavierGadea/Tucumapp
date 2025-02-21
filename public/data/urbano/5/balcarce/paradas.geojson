@@ -1,1647 +1,1658 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "name": "Linea 5 - Oeste - 25 de mayo"
+    "name": "Linea 5",
+    "direction": "Balcarce"
   },
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2558058685474, -26.79695350201514]
+        "coordinates": [-65.258354, -26.796068]
       },
       "properties": {
-        "name": "Ecuador y Olegario Andrade "
+        "name": "Ecuador Y Camino Del Peru"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25601247937874, -26.797907967140763]
+        "coordinates": [-65.259164, -26.797527]
       },
       "properties": {
-        "name": "Olegario Andrade y Paraguay "
+        "name": "Camino Del Peru  1468"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25490401490906, -26.798449305259016]
+        "coordinates": [-65.259975, -26.800048]
       },
       "properties": {
-        "name": "Paraguay y E Echeverria "
+        "name": "Camino Del Peru  1250"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2553013247227, -26.79984193209691]
+        "coordinates": [-65.261022, -26.803555]
       },
       "properties": {
-        "name": "E Echeverria y Peru"
+        "name": "Camino Del Peru  950"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25243763579553, -26.80125366894788]
+        "coordinates": [-65.262122, -26.807352]
       },
       "properties": {
-        "name": "Peru y Belisario Roldan "
+        "name": "Camino del Perú 756"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25310913168029, -26.80284199562277]
+        "coordinates": [-65.264146, -26.815953]
       },
       "properties": {
-        "name": "Belisario Roldan y Uruguay "
+        "name": "Camino Del Peru y Mendoza"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25352182628718, -26.80356539148553]
+        "coordinates": [-65.263203, -26.816297]
       },
       "properties": {
-        "name": "Belisario Roldan e Italia "
+        "name": "Mendoza 4710"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25411024448171, -26.804105808598255]
+        "coordinates": [-65.260514, -26.816797]
       },
       "properties": {
-        "name": "Diagonal Frias y Araujo y Diagonal 5 "
+        "name": "Mendoza 4510"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25488093922952, -26.804420904465438]
+        "coordinates": [-65.25907, -26.81703]
       },
       "properties": {
-        "name": "Diagonal Frias y Araujo Y Diagonal 5 "
+        "name": "Mendoza 4410"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25580080070273, -26.804798130760595]
+        "coordinates": [-65.25872, -26.816193]
       },
       "properties": {
-        "name": "Diagonal Frias y Araujo Y Diagonal 6 "
+        "name": "L. Mansilla 269"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2565118287604, -26.80509547295594]
+        "coordinates": [-65.258219, -26.814896]
       },
       "properties": {
-        "name": "Diagonal Frias y Araujo Y Diagonal 7 "
+        "name": "L. Mansilla 369"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2571681623521, -26.805370624740707]
+        "coordinates": [-65.25568, -26.815114]
       },
       "properties": {
-        "name": "Diagonal Frias y Araujo Y Diagonal 8 "
+        "name": "San Juan 4110"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25781876869655, -26.805647044266603]
+        "coordinates": [-65.25637, -26.815002]
       },
       "properties": {
-        "name": "Diagonal Frias y Araujo Y Diagonal 9 "
+        "name": "San juan 4210"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25737530005351, -26.806290740138227]
+        "coordinates": [-65.255822, -26.8151]
       },
       "properties": {
-        "name": "Espana y Diagonal 9"
+        "name": "San juan 4150"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2562061554491, -26.806510635406127]
+        "coordinates": [-65.255038, -26.815351]
       },
       "properties": {
-        "name": "Espana y Diagonal 7"
+        "name": "San juan 4050"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25524754646317, -26.806654566623283]
+        "coordinates": [-65.25308, -26.815531]
       },
       "properties": {
-        "name": "Espana y Diagonal 6"
+        "name": "San juan 3920"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2543382117709, -26.805699019845243]
+        "coordinates": [-65.251858, -26.815632]
       },
       "properties": {
-        "name": "Andres Villa av Central Y Diagonal 5"
+        "name": "San juan 3820"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25369696849634, -26.80574739600566]
+        "coordinates": [-65.249943, -26.815973]
       },
       "properties": {
-        "name": "Andres Villa av Central Y Diagonal 4"
+        "name": "San juan 3620"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25174997441458, -26.806044889463738]
+        "coordinates": [-65.249577, -26.816902]
       },
       "properties": {
-        "name": "Andres Villa avCentral Y Diagonal 2"
+        "name": "Avenida América 315"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25106896930878, -26.8072530157232]
+        "coordinates": [-65.251113, -26.816929]
       },
       "properties": {
-        "name": "Godoy Cruz y Espana"
+        "name": "Don Bosco 3680"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25120016952583, -26.808468812455324]
+        "coordinates": [-65.250709, -26.818335]
       },
       "properties": {
-        "name": "Godoy Cruz y Belgrano"
+        "name": "Mendoza 3610"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24997863097333, -26.80927475174999]
+        "coordinates": [-65.252026, -26.817423]
       },
       "properties": {
-        "name": "Av Belgrano y Esquiu"
+        "name": "Esquiú 215"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24898097285768, -26.809494738311187]
+        "coordinates": [-65.249085, -26.818466]
       },
       "properties": {
-        "name": "Av Belgrano y America"
+        "name": "Mendoza 3510"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24873067262571, -26.810432516293503]
+        "coordinates": [-65.246884, -26.818966]
       },
       "properties": {
-        "name": "Av America y Santa Fe"
+        "name": "Mendoza 3410"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24895782304861, -26.811769985177126]
+        "coordinates": [-65.245515, -26.819238]
       },
       "properties": {
-        "name": "Av America y Marcos Paz"
+        "name": "Mendoza 3310"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24931047589456, -26.813004486322875]
+        "coordinates": [-65.243545, -26.819571]
       },
       "properties": {
-        "name": "Av America y Corrientes"
+        "name": "Mendoza 3110"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25064738115618, -26.818300739415765]
+        "coordinates": [-65.242008, -26.819897]
       },
       "properties": {
-        "name": "Mendoza y Av America"
+        "name": "Mendoza 3010"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24935821276206, -26.818510346238817]
+        "coordinates": [-65.240687, -26.820181]
       },
       "properties": {
-        "name": "Mendoza y Lizondo Borda "
+        "name": "Mendoza 2910"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24693980125976, -26.81902838871122]
+        "coordinates": [-65.239127, -26.820455]
       },
       "properties": {
-        "name": "Mendoza  y Castro Barros "
+        "name": "Mendoza 2810"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24490499224733, -26.819360691754767]
+        "coordinates": [-65.237726, -26.820697]
       },
       "properties": {
-        "name": "Mendoza y Bulnes "
+        "name": "Mendoza 2710"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24363590062781, -26.81965323890089]
+        "coordinates": [-65.236312, -26.821035]
       },
       "properties": {
-        "name": "Mendoza y Padre Roque Correa "
+        "name": "Mendoza 2610"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24215899140492, -26.8198973200705]
+        "coordinates": [-65.234819, -26.821207]
       },
       "properties": {
-        "name": "Mendoza y Juan Luis Nougues "
+        "name": "Mendoza 2510"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24090088354836, -26.820180453568685]
+        "coordinates": [-65.233314, -26.821572]
       },
       "properties": {
-        "name": "Viamonte y Mendoza "
+        "name": "Mendoza 2410"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23936927398391, -26.820414770411528]
+        "coordinates": [-65.231898, -26.821848]
       },
       "properties": {
-        "name": "Mendoza y Azcuenaga"
+        "name": "Mendoza 2320"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23792518496595, -26.82064908676994]
+        "coordinates": [-65.231305, -26.821112]
       },
       "properties": {
-        "name": "Mendoza y Necochea "
+        "name": "Ejercito Del Norte 295"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23648109594801, -26.820981034114958]
+        "coordinates": [-65.231143, -26.819825]
       },
       "properties": {
-        "name": "Mendoza y Sargento Cabral "
+        "name": "Ejercito Del Norte 350"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23503700693009, -26.821254401786632]
+        "coordinates": [-65.230286, -26.819814]
       },
       "properties": {
-        "name": "Mendoza y Castelli "
+        "name": "San juan 2240"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23220352923582, -26.821791372078987]
+        "coordinates": [-65.228739, -26.82012]
       },
       "properties": {
-        "name": "Mendoza entre Saavedra y Av Ejercito del Norte "
+        "name": "San juan 2140"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2312079830189, -26.82139108537516]
+        "coordinates": [-65.227317, -26.820788]
       },
       "properties": {
-        "name": "Av Ejercito del Norte entre Mendoza y Don Bosco "
+        "name": "San Juan 2040"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23097764366838, -26.819815345360702]
+        "coordinates": [-65.225611, -26.820973]
       },
       "properties": {
-        "name": "Av Ejercito del Norte y San Juan "
+        "name": "San Juan 1940"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22998209745147, -26.81982510860361]
+        "coordinates": [-65.223844, -26.821355]
       },
       "properties": {
-        "name": "San Juan y Juan Jose Paso"
+        "name": "San Juan 1840"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22845048788699, -26.820059426181164]
+        "coordinates": [-65.222279, -26.821496]
       },
       "properties": {
-        "name": "San Juan y Thames "
+        "name": "San Juan 1740"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22701733893737, -26.82069403385419]
+        "coordinates": [-65.220887, -26.82193]
       },
       "properties": {
-        "name": "San Juan y Manuel Alberti "
+        "name": "San Juan 1640"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22514658725504, -26.820918586487263]
+        "coordinates": [-65.219339, -26.822189]
       },
       "properties": {
-        "name": "San Juan y Paso de Los Andes "
+        "name": "San Juan 1540"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22336335611925, -26.821162664931595]
+        "coordinates": [-65.21732, -26.8233]
       },
       "properties": {
-        "name": " San Juan y San Miguel "
+        "name": "San Juan 1440"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22201772771619, -26.821504373870493]
+        "coordinates": [-65.21815, -26.82605]
       },
       "properties": {
-        "name": "San Juan y Asuncion"
+        "name": "Avenida Mitre 150"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22056269862992, -26.82182655564054]
+        "coordinates": [-65.217856, -26.828574]
       },
       "properties": {
-        "name": " San Juan y Lucas Cordoba"
+        "name": "24 de Septiembre 1350"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21904202913376, -26.82214873649459]
+        "coordinates": [-65.214345, -26.828978]
       },
       "properties": {
-        "name": "San Juan y 12 de Octubre "
+        "name": "24 de Septiembre 1125"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2175213596376, -26.823330058455717]
+        "coordinates": [-65.212194, -26.828856]
       },
       "properties": {
-        "name": "Av Mitre al 300 "
+        "name": "Catamarca 51"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21836374489806, -26.826210089307697]
+        "coordinates": [-65.211532, -26.826126]
       },
       "properties": {
-        "name": "Av Mitre al 100 "
+        "name": "Catamarca 241"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21771828086733, -26.828660498592075]
+        "coordinates": [-65.209266, -26.824538]
       },
       "properties": {
-        "name": " 24 de Septiembre al 1300 "
+        "name": "San juan 890"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21451284085026, -26.82927553323879]
+        "coordinates": [-65.207339, -26.82482]
       },
       "properties": {
-        "name": "24 de Septiembre al 1100 "
+        "name": "San juan 758"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2121139234779, -26.828573739651087]
+        "coordinates": [-65.204295, -26.824382]
       },
       "properties": {
-        "name": "Catamarca 1 Cuadra "
+        "name": "I. Muñecas  475"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21142469917389, -26.825674243407295]
+        "coordinates": [-65.20379, -26.82163]
       },
       "properties": {
-        "name": "Catamarca al 200 "
+        "name": "I. Muñecas 675"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21004625056588, -26.824151245959023]
+        "coordinates": [-65.203943, -26.819035]
       },
       "properties": {
-        "name": "San Juan al 900 "
+        "name": "I. Muñecas 850"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20708149205177, -26.824805356345507]
+        "coordinates": [-65.202866, -26.817524]
       },
       "properties": {
-        "name": "San Juan al 700 "
+        "name": "I. Muñecas 969"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20449963592881, -26.824688202524033]
+        "coordinates": [-65.202602, -26.816422]
       },
       "properties": {
-        "name": "Munecas y Santiago"
+        "name": "I. Muñecas 1069"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2037010109416, -26.821593345208676]
+        "coordinates": [-65.2023, -26.81456]
       },
       "properties": {
-        "name": "Munecas y Marcos Paz "
+        "name": "I. Muñecas 1181"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20337280889208, -26.819211126172473]
+        "coordinates": [-65.201851, -26.813257]
       },
       "properties": {
-        "name": "Munecas al 800 "
+        "name": "I. Muñecas 1285"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20286956574951, -26.817238923344927]
+        "coordinates": [-65.20162, -26.81195]
       },
       "properties": {
-        "name": "Munecas y Espana"
+        "name": "I. Muñecas 1379"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.202508543495, -26.81562794012499]
+        "coordinates": [-65.201407, -26.810624]
       },
       "properties": {
-        "name": " Munecas e Italia "
+        "name": "I. Muñecas 1477"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20232256233359, -26.814661339202665]
+        "coordinates": [-65.200969, -26.808459]
       },
       "properties": {
-        "name": "Munecas y Uruguay "
+        "name": "I. Muñecas 1600"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20196154007911, -26.813343233752498]
+        "coordinates": [-65.20046, -26.807219]
       },
       "properties": {
-        "name": "Munecas y Chile "
+        "name": "I. Muñecas 1691"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20162239796124, -26.811947001633968]
+        "coordinates": [-65.200203, -26.806049]
       },
       "properties": {
-        "name": " Munecas y Bolivia "
+        "name": "I. Muñecas 1791"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20137077638996, -26.810648392690698]
+        "coordinates": [-65.200058, -26.80503]
       },
       "properties": {
-        "name": " Munecas y Peru"
+        "name": "I. Muñecas 1891"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20100035345233, -26.80923495745834]
+        "coordinates": [-65.199701, -26.803824]
       },
       "properties": {
-        "name": "Munecas y Paraguay "
+        "name": "I. Muñecas 1991"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20057369078789, -26.8073309313123]
+        "coordinates": [-65.199287, -26.802193]
       },
       "properties": {
-        "name": "Munecas y Ecuador "
+        "name": "I. Muñecas 2091"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20027830894331, -26.806227557939014]
+        "coordinates": [-65.199006, -26.800826]
       },
       "properties": {
-        "name": "Munecas y Colombia "
+        "name": "I. Muñecas 2191"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20000480723539, -26.805026528700946]
+        "coordinates": [-65.198996, -26.799879]
       },
       "properties": {
-        "name": "Munecas y Venezuela "
+        "name": "I. Muñecas 2291"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19977506580072, -26.80376689900474]
+        "coordinates": [-65.198612, -26.799142]
       },
       "properties": {
-        "name": "Munecas y Mexico"
+        "name": "I. Muñecas 2391"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.1994578038195, -26.802351019466414]
+        "coordinates": [-65.199532, -26.796948]
       },
       "properties": {
-        "name": "Munecas y Manuel Estrada "
+        "name": "Emilio Castelar 669"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19914054183829, -26.800896062767883]
+        "coordinates": [-65.200561, -26.796648]
       },
       "properties": {
-        "name": "Munecas y Delfin Gallo"
+        "name": "Emilio Castelar 769"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19867011890062, -26.799148137088373]
+        "coordinates": [-65.200501, -26.796009]
       },
       "properties": {
-        "name": "Munecas e Isabel la Catolica"
+        "name": "Junin 2569"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19839661719267, -26.797712669599708]
+        "coordinates": [-65.200188, -26.794693]
       },
       "properties": {
-        "name": "Munecas y Emilio Castelar "
+        "name": "Junin 2669"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19953438429766, -26.796931455170263]
+        "coordinates": [-65.200113, -26.794436]
       },
       "properties": {
-        "name": "Emilio Castelar y Maipu"
+        "name": "Avenida Fco de Agrirre 768"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2004861702413, -26.79676544641092]
+        "coordinates": [-65.199618, -26.794538]
       },
       "properties": {
-        "name": "Emilio Castelar y Junin"
+        "name": "Avenida Fco de Agrirre 668"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20061745106109, -26.7958475112386]
+        "coordinates": [-65.197178, -26.795106]
       },
       "properties": {
-        "name": "Junin y Madrid "
+        "name": "Avenida Fco de Agrirre 568"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20025642880661, -26.794548717933484]
+        "coordinates": [-65.195351, -26.795439]
       },
       "properties": {
-        "name": "Junin y Av Francisco de Aguirre "
+        "name": "Avenida Fco de Agrirre 468"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.1997641257323, -26.794460829127594]
+        "coordinates": [-65.194337, -26.795757]
       },
       "properties": {
-        "name": "Av Francisco de Aguirre y Maipu"
+        "name": "Avenida Fco de Agrirre 368"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19821063603119, -26.794812383942624]
+        "coordinates": [-65.192605, -26.795857]
       },
       "properties": {
-        "name": "Av Francisco de Aguirre y Munecas"
+        "name": "Avenida Fco de Agrirre 268"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19665714633008, -26.795007691702466]
+        "coordinates": [-65.191178, -26.796136]
       },
       "properties": {
-        "name": "Av Francisco de Aguirre y 25 de Mayo "
+        "name": "Avenida Fco de Agrirre 168"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19661338605681, -26.79598422545831]
+        "coordinates": [-65.190357, -26.796987]
       },
       "properties": {
-        "name": "25 de Mayo y PjeMadrid "
+        "name": "Balcarce 2610"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19697440831129, -26.797439245161243]
+        "coordinates": [-65.190522, -26.797805]
       },
       "properties": {
-        "name": "25 de Mayo y Emilio Castelar "
+        "name": "Balcarce 2518"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.1972260298826, -26.79881612581456]
+        "coordinates": [-65.19144, -26.800868]
       },
       "properties": {
-        "name": "25 de mayo y Isabel la Catolica"
+        "name": "Balcarce 2318"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.1977183329569, -26.800661705581025]
+        "coordinates": [-65.19173, -26.801957]
       },
       "properties": {
-        "name": " 25 de mayo y Delfin Gallo"
+        "name": "Balcarce 2218"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19799183466486, -26.80188231062134]
+        "coordinates": [-65.192125, -26.803355]
       },
       "properties": {
-        "name": "25 de Mayo y Manuel Estrada "
+        "name": "Balcarce 2100"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19682124735488, -26.802634196787988]
+        "coordinates": [-65.1922, -26.804822]
       },
       "properties": {
-        "name": "Manuel Estrada y Laprida "
+        "name": "Balcarce 2018"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19527869772209, -26.802858785195586]
+        "coordinates": [-65.190844, -26.803772]
       },
       "properties": {
-        "name": "Manuel Estrada y Rivadavia "
+        "name": "Manuel Estrada 20"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19375802822596, -26.803161490606506]
+        "coordinates": [-65.190652, -26.804701]
       },
       "properties": {
-        "name": "Manuel Estrada y Monteagudo "
+        "name": "Juan B. Justo 2020"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19228111900307, -26.80342513659642]
+        "coordinates": [-65.191902, -26.804723]
       },
       "properties": {
-        "name": "Manuel Estrada y Balcarce "
+        "name": "Mexico 91"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19074413019, -26.803705092980977]
+        "coordinates": [-65.193421, -26.804369]
       },
       "properties": {
-        "name": "Manuel Estrada y Av Juan B Justo "
+        "name": "Mexico 191"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19066731951008, -26.804753044364695]
+        "coordinates": [-65.19488, -26.804254]
       },
       "properties": {
-        "name": "Av Juan B Justo y Mexico"
+        "name": "Mexico 291"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19176461493736, -26.804772632148804]
+        "coordinates": [-65.196421, -26.804017]
       },
       "properties": {
-        "name": "Mexico y Balcarce "
+        "name": "Mexico 391"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.1932679096727, -26.804469021114482]
+        "coordinates": [-65.198098, -26.803626]
       },
       "properties": {
-        "name": "Mexico y Monteagudo "
+        "name": "Mexico 491"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.1947821773623, -26.804253554726053]
+        "coordinates": [-65.198744, -26.804688]
       },
       "properties": {
-        "name": "Mexico y Rivadavia "
+        "name": "25 de Mayo 1920"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19643909345747, -26.80389117851319]
+        "coordinates": [-65.198915, -26.805672]
       },
       "properties": {
-        "name": "Mexico y Laprida "
+        "name": "25 de Mayo 1820"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19793141523854, -26.80369529899709]
+        "coordinates": [-65.199191, -26.806848]
       },
       "properties": {
-        "name": "Mexico y 25 de Mayo "
+        "name": "25 de Mayo 1720"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19856068384712, -26.804748922364887]
+        "coordinates": [-65.199392, -26.808324]
       },
       "properties": {
-        "name": "25 de Mayo y Venezuela "
+        "name": "25 de Mayo 1650"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19884150038284, -26.80575864852867]
+        "coordinates": [-65.199762, -26.808967]
       },
       "properties": {
-        "name": "25 de Mayo y Colombia "
+        "name": "25 de Mayo 1610"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19909022360015, -26.806983197982724]
+        "coordinates": [-65.199958, -26.810067]
       },
       "properties": {
-        "name": "25 de Mayo y Ecuador "
+        "name": "25 de Mayo 1520"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19938708679503, -26.80810748028155]
+        "coordinates": [-65.200364, -26.811509]
       },
       "properties": {
-        "name": "25 de Mayo y Pje Brasil "
+        "name": "25 de Mayo 1420"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19955557671645, -26.808959635870888]
+        "coordinates": [-65.200671, -26.812897]
       },
       "properties": {
-        "name": "25 de Mayo y Paraguay "
+        "name": "25 de Mayo 1320"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19988453322969, -26.81025575940415]
+        "coordinates": [-65.200977, -26.814268]
       },
       "properties": {
-        "name": "25 de Mayo y Peru"
+        "name": "25 de Mayo 1220"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20021348974295, -26.811537546557897]
+        "coordinates": [-65.201054, -26.815488]
       },
       "properties": {
-        "name": "25 de Mayo y Bolivia "
+        "name": "25 de Mayo 1120"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20047825961947, -26.81286228341529]
+        "coordinates": [-65.201906, -26.817353]
       },
       "properties": {
-        "name": "25 de Mayo y Chile "
+        "name": "25 de Mayo 1020"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20079116947356, -26.814215647245664]
+        "coordinates": [-65.201886, -26.818195]
       },
       "properties": {
-        "name": "25 de Mayo y Uruguay "
+        "name": "25 de Mayo 920"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20107198600928, -26.81522528910365]
+        "coordinates": [-65.200977, -26.819068]
       },
       "properties": {
-        "name": "25 de Mayo e Italia "
+        "name": "Avenida Sarmiento 450"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20144908250009, -26.816721833894846]
+        "coordinates": [-65.199365, -26.821065]
       },
       "properties": {
-        "name": "25 de Mayo y Espana"
+        "name": "Virgen De la Merced 776"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20172989903581, -26.818017868681096]
+        "coordinates": [-65.200096, -26.823914]
       },
       "properties": {
-        "name": "25 de Mayo y Av Sarmiento "
+        "name": "Virgen De la Merced 570"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19933092348795, -26.819227965130217]
+        "coordinates": [-65.200737, -26.826783]
       },
       "properties": {
-        "name": "Av Sarmiento y Laprida "
+        "name": "Virgen De la Merced 354"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.19944325010222, -26.821662439551048]
+        "coordinates": [-65.203234, -26.826981]
       },
       "properties": {
-        "name": "Rivadavia al 700 "
+        "name": "Cordoba 473"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20010918645829, -26.824046741744567]
+        "coordinates": [-65.205998, -26.82637]
       },
       "properties": {
-        "name": "Rivadavia al 500 "
+        "name": "Cordoba 649"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20080721613276, -26.826932181504016]
+        "coordinates": [-65.20892, -26.825752]
       },
       "properties": {
-        "name": "Rivadavia al 300 "
+        "name": "Cordoba 839"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20306177174801, -26.827039578587737]
+        "coordinates": [-65.213359, -26.825823]
       },
       "properties": {
-        "name": "Cordoba al 400 "
+        "name": "Jose Colombres  238"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2060223803673, -26.82647395280287]
+        "coordinates": [-65.213995, -26.827671]
       },
       "properties": {
-        "name": "Cordoba al 600 "
+        "name": "San Martin 1121"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.20923973553349, -26.825736487095533]
+        "coordinates": [-65.217503, -26.82833]
       },
       "properties": {
-        "name": "Cordoba al 800 "
+        "name": "24 de Septiembre 1321"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21321930701092, -26.825793766157346]
+        "coordinates": [-65.220059, -26.827563]
       },
       "properties": {
-        "name": "Jose Colombres 200"
+        "name": "12 de Octubre 11"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21435059648331, -26.827633840610794]
+        "coordinates": [-65.219755, -26.826609]
       },
       "properties": {
-        "name": "San Martin al 1100 "
+        "name": "12 de Octubre 97"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21781330468181, -26.828301939194578]
+        "coordinates": [-65.219213, -26.825226]
       },
       "properties": {
-        "name": "24 de Septiembre 1300 "
+        "name": "12 de Octubre 197"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21997158034192, -26.827779278253022]
+        "coordinates": [-65.218876, -26.823867]
       },
       "properties": {
-        "name": "12 de Octubre y Av Mate De Luna "
+        "name": "12 de Octubre 297"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21978704376133, -26.826583592784694]
+        "coordinates": [-65.220492, -26.82327]
       },
       "properties": {
-        "name": "12 de Octubre y San Martin "
+        "name": "Don Bosco 1597"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21939390061134, -26.82534493524981]
+        "coordinates": [-65.221873, -26.822739]
       },
       "properties": {
-        "name": "12 de Octubre y Mendoza "
+        "name": "Don Bosco 1697"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.21903285077971, -26.82387714433988]
+        "coordinates": [-65.223269, -26.822429]
       },
       "properties": {
-        "name": "12 de Octubre y Don Bosco "
+        "name": "Don Bosco 1797"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22024437354803, -26.823254222450668]
+        "coordinates": [-65.224985, -26.822112]
       },
       "properties": {
-        "name": "Don Bosco y Lucas Cordoba"
+        "name": "Don Bosco 1897"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22179287615918, -26.822917700005352]
+        "coordinates": [-65.226753, -26.821824]
       },
       "properties": {
-        "name": "Don Bosco y Asuncion"
+        "name": "Don Bosco 1997"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22314881886015, -26.822581176560593]
+        "coordinates": [-65.22828, -26.82159]
       },
       "properties": {
-        "name": "Don Bosco y San Miguel "
+        "name": "Don Bosco 2097"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22484174140395, -26.822244652116428]
+        "coordinates": [-65.22989, -26.821281]
       },
       "properties": {
-        "name": "Don Bosco y Paso de Los Andes "
+        "name": "Don Bosco 2197"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2265988505845, -26.82192244692488]
+        "coordinates": [-65.231312, -26.821009]
       },
       "properties": {
-        "name": "Don Bosco y Alberti "
+        "name": "Don Bosco 2297"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22811660260184, -26.821529444729634]
+        "coordinates": [-65.232661, -26.820055]
       },
       "properties": {
-        "name": "Don Bosco y Thames "
+        "name": "Don Bosco 2397"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.22953636874354, -26.821264253664552]
+        "coordinates": [-65.233996, -26.819888]
       },
       "properties": {
-        "name": "Don Bosco y JJ Paso"
+        "name": "Don Bosco 2497"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23084607549441, -26.820940130408886]
+        "coordinates": [-65.235552, -26.81953]
       },
       "properties": {
-        "name": "Don Bosco y Ejercito del Norte "
+        "name": "Don Bosco 2597"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23385069686404, -26.819928467012197]
+        "coordinates": [-65.237053, -26.819255]
       },
       "properties": {
-        "name": "Don Bosco y Castelli "
+        "name": "Don Bosco 2697"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2352924748839, -26.819643628115834]
+        "coordinates": [-65.238431, -26.818991]
       },
       "properties": {
-        "name": "Don Bosco y Sargento Cabral "
+        "name": "Don Bosco 2797"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23677827666012, -26.819378432637745]
+        "coordinates": [-65.239775, -26.81871]
       },
       "properties": {
-        "name": "Don Bosco y Necochea "
+        "name": "Don Bosco 2897"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.23829709625358, -26.819142702802917]
+        "coordinates": [-65.241301, -26.818494]
       },
       "properties": {
-        "name": "Don Bosco y Azcuenaga "
+        "name": "Don Bosco 2997"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2397168623953, -26.818897150370265]
+        "coordinates": [-65.241303, -26.817746]
       },
       "properties": {
-        "name": "Don Bosco y Viamonte "
+        "name": "Juan L. Nougues 397"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24124668792783, -26.818631953145413]
+        "coordinates": [-65.240975, -26.816433]
       },
       "properties": {
-        "name": "Don Bosco y Juan Luis Nougues"
+        "name": "Juan L. Nougues 497"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24097153945077, -26.816677332235805]
+        "coordinates": [-65.242908, -26.815559]
       },
       "properties": {
-        "name": "Juan Luis Nougues y Santiago"
+        "name": "Santiago 3197"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24275450158224, -26.815930834953186]
+        "coordinates": [-65.244558, -26.81527]
       },
       "properties": {
-        "name": "Santiago y Bulnes"
+        "name": "Santiago 3297"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24426231523661, -26.815547762070455]
+        "coordinates": [-65.245833, -26.815119]
       },
       "properties": {
-        "name": "Santiago y Federico Helguera"
+        "name": "Santiago 3397"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24561604574382, -26.815341491520414]
+        "coordinates": [-65.249516, -26.814285]
       },
       "properties": {
-        "name": "Santiago y Castro Barros"
+        "name": "Santiago 3597"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24902788685957, -26.81467356525906]
+        "coordinates": [-65.250762, -26.814303]
       },
       "properties": {
-        "name": "Santiago y America"
+        "name": "Santiago 3697"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24915721265461, -26.813565342876835]
+        "coordinates": [-65.252398, -26.813674]
       },
       "properties": {
-        "name": "Av America y Corrientes"
+        "name": "Santiago 3897"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24873945200366, -26.81224492092002]
+        "coordinates": [-65.255856, -26.813477]
       },
       "properties": {
-        "name": "Av America y Marcos Paz"
+        "name": "Santiago y Belisario Roldán"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24847527536468, -26.81101118220481]
+        "coordinates": [-65.256445, -26.812201]
       },
       "properties": {
-        "name": "Av America y Santa Fe"
+        "name": "Deán Funes 569"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.24884474591296, -26.80917882493672]
+        "coordinates": [-65.255856, -26.809635]
       },
       "properties": {
-        "name": "Av Belgrano y Diagonal 1"
+        "name": "Deán Funes 769"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25086701620617, -26.808779419774968]
+        "coordinates": [-65.255234, -26.807761]
       },
       "properties": {
-        "name": "Av Belgrano y Godoy Cruz"
+        "name": "Deán Funes 889"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25074566238915, -26.807636545140156]
+        "coordinates": [-65.257507, -26.807289]
       },
       "properties": {
-        "name": "Godoy Cruz y Espana"
+        "name": "Belgrano 4449"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25135417375579, -26.806241394606083]
+        "coordinates": [-65.257844, -26.807193]
       },
       "properties": {
-        "name": "Diagonal 2 Y Avenida Central"
+        "name": "Diagonal 9 y España"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2523907997044, -26.805811643684738]
+        "coordinates": [-65.257356, -26.805457]
       },
       "properties": {
-        "name": "Andres Villa Av Central y Diagonal 3"
+        "name": "José Frías y Araujo y Diagonal 8"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25431666738605, -26.80549658889068]
+        "coordinates": [-65.255982, -26.804908]
       },
       "properties": {
-        "name": "Andres Villa Av Central y Diagonal 5"
+        "name": "José Frías y Araujo y Diagonal 6"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.2560185175297, -26.80609409956178]
+        "coordinates": [-65.254279, -26.804209]
       },
       "properties": {
-        "name": "Andres Villa Av Central y Diagonal 7"
+        "name": "José Frías y Araujo y Diagonal 4"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25652065536454, -26.805353849696388]
+        "coordinates": [-65.253564, -26.803913]
       },
       "properties": {
-        "name": "Diagonal 7 y Diagonal Frias y Araujo"
+        "name": "José Frías y Araujo y Diagonal 3"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25516093381178, -26.804653881093046]
+        "coordinates": [-65.253221, -26.803257]
       },
       "properties": {
-        "name": "Diagonal Frias y Araujo Y Diagonal 5"
+        "name": "Belisario Roldan 1189"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25372222428496, -26.80404455238848]
+        "coordinates": [-65.252347, -26.803574]
       },
       "properties": {
-        "name": "Diagonal Frias y Araujo Y Diagonal 3"
+        "name": "Uruguay 4110"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25316413262962, -26.80323007900224]
+        "coordinates": [-65.253056, -26.802737]
       },
       "properties": {
-        "name": "Belisario Roldan y Uruguay "
+        "name": "Belisario Roldan 1251"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25209779498033, -26.803517120613428]
+        "coordinates": [-65.252275, -26.801261]
       },
       "properties": {
-        "name": "Patricias Argentinas y Uruguay"
+        "name": "Belisario Roldan y Diag. Isla de Cerdeña"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25130227324195, -26.802011403019378]
+        "coordinates": [-65.255185, -26.800241]
       },
       "properties": {
-        "name": "Patricias Argentinas y Peru"
+        "name": "Peru 4478"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25204431927976, -26.80133946179032]
+        "coordinates": [-65.254833, -26.798928]
       },
       "properties": {
-        "name": "Peru y Belisario Roldan "
+        "name": "Esteban Eheverria 1579"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25513049226477, -26.800035154103316]
+        "coordinates": [-65.255891, -26.797923]
       },
       "properties": {
-        "name": "E Echeverria y Peru "
+        "name": "Paraguay 4597"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25468477441137, -26.798670399115032]
+        "coordinates": [-65.255826, -26.797508]
       },
       "properties": {
-        "name": "Paraguay y E Echeverria "
+        "name": "Olegario Andrade 1660"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25575111206066, -26.798071110371016]
+        "coordinates": [-65.255513, -26.796217]
       },
       "properties": {
-        "name": "Olegario Andrade y Paraguay "
+        "name": "Olegario Andrade 1778"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25557621011822, -26.797179725457962]
+        "coordinates": [-65.256241, -26.795797]
       },
       "properties": {
-        "name": "Olegario Andrade y Ecuador"
+        "name": "Colombia 4650"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-65.25520948023883, -26.7961775385756]
+        "coordinates": [-65.2567, -26.796641]
       },
       "properties": {
-        "name": "Olegario Andrade y Colombia"
+        "name": "Patagonia 1750"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.255579, -26.796972]
+      },
+      "properties": {
+        "name": "Ecuador 4598"
       }
     }
   ]
