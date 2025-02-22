@@ -1,18 +1,7 @@
-import Map from "ol/Map.js";
-import TileLayer from "ol/layer/Tile.js";
-import View from "ol/View.js"
-import { XYZ } from "ol/source.js";
-import { fromLonLat, transform, useGeographic } from "ol/proj";
-import VectorSource from "ol/source/Vector";
-import VectorLayer from "ol/layer/Vector";
-import GeoJSON from "ol/format/GeoJSON.js"
-import Style from "ol/style/Style";
-import Stroke from "ol/style/Stroke";
-import RegularShape from "ol/style/RegularShape.js";
-import Fill from "ol/style/Fill";
-import { Point } from "ol/geom";
 
-useGeographic();
+import Map from "@/utils/OpenLayers/Map.js";
+import Controls_css from "@/utils/OpenLayers/Controls.css?url";
+import bootstrapIcons_css from "bootstrap-icons/font/bootstrap-icons.css?url";
 
 export class CustomMap extends HTMLElement {
 
@@ -20,47 +9,39 @@ export class CustomMap extends HTMLElement {
         return ['zoom', 'zoom-min', 'zoom-max', 'tiles-url', 'center', 'rotate'];
     }
 
-    static defaultValues = {
-        zoom: 12,
-        zoomMin: 1,
-        zoomMax: 18,
-        tilesURL: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-        center: [-65.2087, -26.83,],
-        rotate: 0 
-    }
-
     attributeChangedCallback(name){
 
         switch(name){
 
             case 'zoom':
-                this.map.getView().setZoom(this.zoom);
+                this.map.changeZoom({zoom: this.zoom})
                 break;
 
             case 'zoom-min':
-                this.map.getView().setMinZoom(this.zoomMin);
+                this.map.changeZoom({zoomMin: this.zoomMin})
                 break;
 
             case 'zoom-max':
-                this.map.getView().setMaxZoom(this.zoomMax);
+                this.map.changeZoom({zoomMax: this.zoomMax})
                 break;
 
             case 'center':
-                this.map.getView().setCenter(this.center);
+                
+                this.map.changeCenter(this.center);
                 break;
 
             case 'tiles-url':
 
-                this.#tilesLayer.getSource().setUrl(this.tilesURL);
+                this.map.changeTilesURL(this.tilesURL);
                 break;
 
             case 'rotate':
-                this.map.getView().setRotation(this.rotate * (Math.PI / 180));
+                
+                this.map.rotate(this.rotate);
                 break;
         }
     }
 
-    #tilesLayer = null;
 
     constructor(){
         super();
@@ -68,7 +49,8 @@ export class CustomMap extends HTMLElement {
         const shadow = this.attachShadow({ mode: 'open' });
         shadow.innerHTML = `
             <style>
-                @import url("${''}");
+                @import url("${bootstrapIcons_css}");
+                @import url("${Controls_css}");
 
                 :host {
                     overflow: hidden;
@@ -86,27 +68,16 @@ export class CustomMap extends HTMLElement {
             <div class="Map-container"></div>
         `;
 
-
-        this.#tilesLayer = new TileLayer({
-            source: new XYZ({
-                url: this.tilesURL
-            })
+        this.map = new Map({
+            element: this.shadowRoot.querySelector('.Map-container'),
+            zoom: this.zoom,
+            zoomMax: this.zoomMax,
+            zoomMin: this.zoomMin,
+            rotate: this.rotate,
+            tilesURL: this.tilesURL,
         });
 
-        this.map = new Map({
-            target: this.shadowRoot.querySelector('.Map-container'),
-            layers: [ this.#tilesLayer ],
-            view: new View({
-                center: this.center,
-                zoom: this.zoom,
-                maxZoom: this.zoomMax,
-                minZoom: this.zoomMin,
-                rotation: this.rotate
-            }),
-            controls: []
-        })
-
-        this.renderPath();
+        //this.renderPath();
     }
 
 
@@ -115,7 +86,7 @@ export class CustomMap extends HTMLElement {
     get zoom(){ 
         const attr = this.getAttribute('zoom');
 
-        return Number(attr ?? CustomMap.defaultValues.zoom); 
+        return Number(attr ?? Map.defaultValues.zoom); 
     }
     set zoom(value){ 
 
@@ -126,7 +97,7 @@ export class CustomMap extends HTMLElement {
 
         const attr = this.getAttribute('zoom-min');
 
-        return Number(attr ?? CustomMap.defaultValues.zoomMin); 
+        return Number(attr ?? Map.defaultValues.zoomMin); 
     }
     set zoomMin(value){ 
 
@@ -137,7 +108,7 @@ export class CustomMap extends HTMLElement {
 
         const attr = this.getAttribute('zoom-max');
 
-        return Number(attr ?? CustomMap.defaultValues.zoomMax); 
+        return Number(attr ?? Map.defaultValues.zoomMax); 
     }
     set zoomMax(value){ 
 
@@ -147,7 +118,7 @@ export class CustomMap extends HTMLElement {
     get center(){ 
         const attr = this.getAttribute('center');
 
-        return attr ? JSON.parse(`[${attr}]`) : CustomMap.defaultValues.center;
+        return attr ? JSON.parse(`[${attr}]`) : Map.defaultValues.center;
     }
     set center(value){
 
@@ -156,7 +127,7 @@ export class CustomMap extends HTMLElement {
 
     get tilesURL(){ 
 
-        return this.getAttribute('tiles-url') ?? CustomMap.defaultValues.tilesURL;
+        return this.getAttribute('tiles-url') ?? Map.defaultValues.tilesURL;
     }
     set tilesURL(value){
 
@@ -167,7 +138,7 @@ export class CustomMap extends HTMLElement {
 
         const attr = this.getAttribute('rotate');
 
-        return Number(attr ?? CustomMap.defaultValues.rotate); 
+        return Number(attr ?? Map.defaultValues.rotate); 
     }
     set rotate(value){
 
@@ -177,7 +148,7 @@ export class CustomMap extends HTMLElement {
  //
     getConfigValues(){
 
-        return Object.keys(CustomMap.defaultValues).reduce((acc, key) => {
+        return Object.keys(Map.defaultValues).reduce((acc, key) => {
 
             acc[key] = this[key];
 
@@ -186,74 +157,6 @@ export class CustomMap extends HTMLElement {
         }, {});
     }
  
- 
- //MARK: Render Path
-    #pathLayers = new Set();
-
-    async renderPath(src = 'http://localhost:4321/data/urbano/3/lavalle/recorrido.geojson'){
-        
-        const response = await fetch(src);
-
-        const json = await response.json();
-
-        const source = new VectorSource({
-
-            features: new GeoJSON().readFeatures(json),
-        });
-
-        const color = '#0c19ca';
-
-        const pathLayer = new VectorLayer({
-            source,
-            style: new Style({
-                stroke: new Stroke({
-                    color,
-                    width: 3
-                })
-            })
-        });
-
-        const arrowsLayer = new VectorLayer({
-            source,
-            style: (feature) => {
-
-                const geometry = feature.getGeometry(); 
-
-                const styles = []
-
-                //Arrows
-                geometry.forEachSegment(function (start, end) {
-
-                    const dx = end[0] - start[0];
-                    const dy = end[1] - start[1];
-
-                    const rotation = Math.atan2(dy, dx);
-
-                    // arrows
-                    styles.push(
-                      new Style({
-                        geometry: new Point(end),
-                        image: new RegularShape({
-                            points: 3,
-                            radius: 6,
-                            rotation: -rotation,
-                            angle: Math.PI / 2,
-                            fill: new Fill({ color }),
-                            rotateWithView: true
-                        })
-                      }),
-                    );
-                });
-
-                return styles;
-            }
-        });
-
-        this.#pathLayers
-            .add({pathLayer, arrowsLayer});
-        
-        this.map.getLayers().push(pathLayer);
-        this.map.getLayers().push(arrowsLayer);
-    }
-
 }
+
+
