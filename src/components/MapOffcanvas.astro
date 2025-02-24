@@ -1,0 +1,118 @@
+---
+import arrowRight_icon from "bootstrap-icons/icons/arrow-bar-right.svg?raw";
+---
+
+
+
+<div class="Map-offcanvas">
+
+
+    <div class="Map-offcanvas-aside collapse collapse-horizontal" id="collapseWidthExample">
+
+        <div class="aside-content">
+            
+            <div class="card card-body" style="width: 300px;">
+                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+            </div>
+    
+            <div class="card card-body" style="width: 300px;">
+                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+            </div>
+    
+            <div class="card card-body" style="width: 300px;">
+                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+            </div>
+    
+            <div class="card card-body" style="width: 300px;">
+                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="Map-offcanvas-content">
+
+
+        <div class="Map-offcanvas-controls">
+
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-secondary">Secondary</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-danger">Danger</button>
+
+        </div>
+
+        <button class="btn Map-offcanvas-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            
+            <div class="arrow-right-icon" set:html={arrowRight_icon} />
+
+        </button>
+
+    </div>
+
+    
+</div>
+
+
+<style>
+
+    .Map-offcanvas {
+        display: flex;
+        height: 100dvh;
+        width: 100dvw;
+        position: relative;
+        z-index: 1000;
+
+        .Map-offcanvas-aside {
+            height: 100%;
+            background-color: brown;
+
+            .aside-content {
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        .Map-offcanvas-content {
+            position: relative;
+            height: 100%;
+            flex-grow: 1;
+        }
+
+        .Map-offcanvas-btn {
+            --bs-btn-padding-x: 5px;
+            --bs-btn-padding-y: 5px;
+            --bs-border-radius: 0px 8px 8px 0px;
+            align-content: center;
+            background-color: #777;
+            height: 50px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .Map-offcanvas-content .Map-offcanvas-controls {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+
+        }
+    }
+
+    .Map-offcanvas-btn :global(svg) {
+        display: block;
+    }
+</style>

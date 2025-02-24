@@ -53,3 +53,21 @@
   	right: var(--border-gap);
   	top: var(--border-gap);
 }
+
+
+.custom-controls {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	position: absolute;
+	top: var(--border-gap);
+	left: var(--border-gap);
+
+	
+	button .play-icon, button[data-paused] .pause-icon {
+		display: none;
+	}
+	button[data-paused] .play-icon {
+		display: block;
+	}
+}

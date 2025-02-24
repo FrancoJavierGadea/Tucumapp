@@ -5,26 +5,10 @@ import { XYZ } from "ol/source.js";
 import {defaults as InteractionDefaults} from 'ol/interaction/defaults';
 import DragRotate from 'ol/interaction/DragRotate.js';
 import * as Condition from 'ol/events/condition.js'
-import { Zoom, ScaleLine, FullScreen, Rotate } from 'ol/control.js';
 
-
-//MARK: Icons
-import zoomIn_icon from "bootstrap-icons/icons/zoom-in.svg?raw";
-import zoomOut_icon from "bootstrap-icons/icons/zoom-out.svg?raw";
-import fullscreen_icon from "bootstrap-icons/icons/arrows-fullscreen.svg?raw";
-import rotation_icon from "bootstrap-icons/icons/arrow-repeat.svg?raw";
-import { renderPath } from "./RenderPath.js";
 import { useGeographic } from "ol/proj.js";
-
-function parseIcon(rawSvg){
-
-    const div = document.createElement('div');
-
-    div.innerHTML = rawSvg;
-
-    return div;
-}
-
+import BusPath from "./BusPath.js";
+import { DEFAULT_CONTROLS, PlayButton, CustomControls } from "./MapControls.js";
 
 
 useGeographic();
@@ -88,18 +72,15 @@ export default class OpenMap {
             }),
 
             controls: [
-                new Zoom({
-                    zoomInLabel: parseIcon(zoomIn_icon), 
-                    zoomInTipLabel: 'Acercar',
-                    zoomOutLabel: parseIcon(zoomOut_icon), 
-                    zoomOutTipLabel: 'Alejar'
-                }),
-                new FullScreen({
-                    tipLabel: 'Pantalla completa',
-                    label: parseIcon(fullscreen_icon)
-                }),
-                new Rotate({
-                    label: parseIcon(rotation_icon)
+                ...DEFAULT_CONTROLS, 
+                new CustomControls({
+                    buttons: [
+                        new PlayButton({
+                            paused: false,
+                            onPlay: () => this.play(),
+                            onPause: () => this.stop()
+                        })
+                    ]
                 })
             ],
 
@@ -118,6 +99,8 @@ export default class OpenMap {
         })
 
         this.renderPath();
+
+        this.play();
     }
 
 
@@ -146,15 +129,65 @@ export default class OpenMap {
     }
 
 
+    #children = [];
+
     async renderPath(src = 'http://localhost:4321/data/urbano/7/aget/recorrido.v2.geojson'){
 
         const response = await fetch(src);
 
         const json = await response.json();
 
-        const layer = renderPath(json);
+        const busPath = new BusPath({
+            geojson: json,
+            style: {
+                color: '#756'
+            }
+        });
 
-        this.map.getLayers().push(layer);
+        this.#children.push(busPath);
+
+        this.map.addLayer(busPath.layers);
     }
 
+
+
+    //MARK: Animations
+    #animationID = null;
+
+    play(){
+
+        const loopAnimation = () => {
+
+            const duration = 10000;
+    
+            const startTime = window.performance.now();
+    
+            const updateFrame = (currentTime) => {
+    
+                let elapsedTime = currentTime - startTime;
+    
+                let fraction = elapsedTime / duration;
+    
+                if (fraction > 1) fraction = 1;
+                
+                //----> Update Elements
+                for (let i = 0; i < this.#children.length; i++) {
+    
+                    this.#children[i].animate(fraction);   
+                }
+    
+                if (fraction < 1) this.#animationID = requestAnimationFrame(updateFrame); 
+                else loopAnimation(); 
+            }
+    
+            this.#animationID = requestAnimationFrame(updateFrame);  
+        }
+
+        loopAnimation();
+    }
+
+    stop(){
+
+        if(this.#animationID) cancelAnimationFrame(this.#animationID);
+    }
 }

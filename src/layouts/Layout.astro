@@ -1,6 +1,7 @@
 ---
 import "bootstrap-icons/font/bootstrap-icons.min.css";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import bootstrap_script from "bootstrap/dist/js/bootstrap.min.js?url";
 
 const {title} = Astro.props;
 ---
@@ -16,6 +17,8 @@ const {title} = Astro.props;
     <body>
         
         <slot />
+
+        <script is:inline src={bootstrap_script}></script>
         
     </body>
 </html>

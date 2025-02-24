@@ -44,4 +44,4 @@ export function writeJSON(path, json){
     );
 }
 
-exploreDataFolder((e) => console.log(e));
+//exploreDataFolder((e) => console.log(e));

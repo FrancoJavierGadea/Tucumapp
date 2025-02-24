@@ -1,23 +1,19 @@
-import path from 'node:path';
-import fs from 'node:fs';
-import { getAPIObject, getEndpoints, getEndpointsData } from './endpoints.js';
-import { getMarkdown } from './markdown.js';
-import { addMetadata } from './update-metadata.js';
+import path from "path";
+import { DATA_FOLDER } from "./constants.js";
+import { readJSON, writeJSON } from "./update/utils.js";
+import { slitLineString } from "./update/geojson-utils.js";
 
 
-const DATA_FOLDER = path.join(import.meta.dirname, '../../../public/data');
+const file = path.join(DATA_FOLDER, 'interurbano/131/lomas-de-tafi/recorrido.v2.geojson');
 
 
-// //Endpoints
-// const api = getAPIObject(DATA_FOLDER);
-
-// //fs.writeFileSync(path.join(DATA_FOLDER, '../data.json'), JSON.stringify(api, null, 2));
+const json = readJSON(file);
 
 
-// //Endpoints mardown
-const md = getMarkdown(DATA_FOLDER);
+const splitJson = slitLineString(json.features[0], 10);
 
-fs.writeFileSync(path.join(DATA_FOLDER, '../endpoints.md'), md);
+const output = path.join(DATA_FOLDER, 'interurbano/131/lomas-de-tafi/recorrido.v2.split.geojson');
+
+writeJSON(output, splitJson);
 
 
-//addMetadata(DATA_FOLDER);
