@@ -3,11 +3,87 @@ import Layout from "@/layouts/Layout.astro";
 
 import Map from "@/components/Map/index.astro";
 import MapOffcanvas from "@/components/MapOffcanvas.astro";
+import BusCard from "@/components/BusCard.astro";
+import VerticalTabsMenu from "@/components/VerticalTabsMenu.astro";
+import HorizontalTabsMenu from "@/components/HorizontalTabsMenu.astro";
 
+
+const LINES = ['100', '101', '103', '107', '125', '132'];
+
+const ASIDE_TABS = [
+    {name: 'Recorridos', id: 'recorridos', icon: 'bi-shuffle', active: true},
+    {name: 'Guardados', id: 'guardados', icon: 'bi-bookmark'},
+    {name: 'Acerca de', id: 'acerca-de', icon: 'bi-info-circle'},
+];
+
+const RECORRIDOS_TABS = [
+	{name: 'Urbano', id: 'urbano', label: 'Urbano', active: true},
+	{name: 'Interurbano', id: 'interurbano', label: 'Interurbano'},
+	{name: 'Otros', id: 'otros', label: 'Otros'}
+]
 ---
 
 <Layout title="Recorridos">
 
-  <MapOffcanvas />
+  	<MapOffcanvas>
+
+		<VerticalTabsMenu tabs={ASIDE_TABS} slot="aside-content">
+	
+			<div slot="recorridos" style="height: 600px;">
+	
+				<HorizontalTabsMenu tabs={RECORRIDOS_TABS}>
+					
+					<div class="Bus-lines" slot="urbano">
+	
+						{
+							LINES.map((line) => {
+	
+								return <BusCard image={`images/${line}.png`} title={`Linea ${line}`} />
+							})
+						}
+	
+					</div>
+	
+					<Fragment slot="interurbano">
+	
+						<p>Interurbano</p>
+	
+					</Fragment>
+	
+					<Fragment slot="otros">
+	
+						<p>Otros</p>
+	
+					</Fragment>
+	
+				</HorizontalTabsMenu>
+	
+			</div>
+	
+			<Fragment slot="guardados">
+	
+				<p>Guardados</p>
+	
+			</Fragment>
+	
+			<Fragment slot="acerca-de">
+	
+				<p>Acerca de</p>
+	
+			</Fragment>
+	
+		</VerticalTabsMenu>
+		
+  	</MapOffcanvas>
+
 
 </Layout>
+
+<style>
+	.Bus-lines {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		padding: 5px;
+	}
+</style>

@@ -1,0 +1,55 @@
+---
+import HorizontalTabsMenu from "@/components/HorizontalTabsMenu.astro";
+import Layout from "@/layouts/Layout.astro";
+
+const RECORRIDOS_TABS = [
+	{name: 'Urbano', id: 'urbano', label: 'Urbano', active: true},
+	{name: 'Interurbano', id: 'interurbano', label: 'Interurbano'},
+	{name: 'Otros', id: 'otros', label: 'Otros'}
+]
+---
+
+
+<Layout title="Test">
+
+    <div class="Container">
+
+        <HorizontalTabsMenu tabs={RECORRIDOS_TABS}>
+					
+            <Fragment slot="urbano">
+
+                <p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p>v<p>Urbano</p><p>Urbano</p><p>Urbano</p>vv<p>Urbano</p>v<p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p>v
+
+            </Fragment>
+
+            <Fragment slot="interurbano">
+
+                <p>Interurbano</p>
+
+            </Fragment>
+
+            <Fragment slot="otros">
+
+                <p>Otros</p>
+
+            </Fragment>
+
+        </HorizontalTabsMenu>
+
+    </div>
+
+
+</Layout>
+
+<style>
+    .Container {
+        width: 600px;
+        height: 400px;
+        margin: 50px auto;
+
+        outline: 1px dashed gray;
+        overflow: hidden;
+        resize: both;
+    }
+
+</style>

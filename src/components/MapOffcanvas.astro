@@ -1,33 +1,19 @@
 ---
 import arrowRight_icon from "bootstrap-icons/icons/arrow-bar-right.svg?raw";
+import arrowLeft_icon from "bootstrap-icons/icons/arrow-bar-left.svg?raw";
 ---
 
 
 
-<div class="Map-offcanvas">
+<custom-map-offcanvas class="Map-offcanvas">
 
-
-    <div class="Map-offcanvas-aside collapse collapse-horizontal" id="collapseWidthExample">
+    <div class="Map-offcanvas-aside collapse collapse-horizontal">
 
         <div class="aside-content">
             
-            <div class="card card-body" style="width: 300px;">
-                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
-            </div>
-    
-            <div class="card card-body" style="width: 300px;">
-                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
-            </div>
-    
-            <div class="card card-body" style="width: 300px;">
-                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
-            </div>
-    
-            <div class="card card-body" style="width: 300px;">
-                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
-            </div>
-        </div>
+            <slot name="aside-content" />
 
+        </div>
 
     </div>
 
@@ -43,16 +29,45 @@ import arrowRight_icon from "bootstrap-icons/icons/arrow-bar-right.svg?raw";
 
         </div>
 
-        <button class="btn Map-offcanvas-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        <button class="btn Map-offcanvas-btn" type="button">
             
             <div class="arrow-right-icon" set:html={arrowRight_icon} />
-
+            <div class="arrow-left-icon" set:html={arrowLeft_icon} />
         </button>
 
     </div>
 
-    
-</div>
+</custom-map-offcanvas>
+
+<script>
+    import Collapse from "bootstrap/js/dist/collapse.js";
+
+    class CustomMapOffcanvas extends HTMLElement {
+
+        #show = false;
+
+        constructor() {
+            super();
+
+            this.#show = this.hasAttribute('show');
+
+            this.collapse = new Collapse(this.querySelector('.Map-offcanvas-aside'), {
+                toggle: this.#show
+            });
+
+            this.querySelector('.Map-offcanvas-btn').addEventListener('click', () => {
+
+                this.collapse.toggle();
+
+                this.#show = !this.#show;
+
+                this.#show ? this.setAttribute('show', '') : this.removeAttribute('show');
+            });
+        }
+    }
+
+    customElements.define('custom-map-offcanvas', CustomMapOffcanvas);
+</script>
 
 
 <style>
@@ -64,30 +79,37 @@ import arrowRight_icon from "bootstrap-icons/icons/arrow-bar-right.svg?raw";
         position: relative;
         z-index: 1000;
 
-        .Map-offcanvas-aside {
+        & .Map-offcanvas-aside {
             height: 100%;
-            background-color: brown;
-
-            .aside-content {
-                padding: 5px;
+            background-color: #ffffff;
+            overflow: hidden;
+            
+            & .aside-content {
+                height: 100%;
+                width: 400px;
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+                overflow: hidden auto;
+
+                & * {
+                    flex-shrink: 0;
+                }
             }
         }
 
-        .Map-offcanvas-content {
+        & .Map-offcanvas-content {
             position: relative;
             height: 100%;
             flex-grow: 1;
         }
 
-        .Map-offcanvas-btn {
+        & .Map-offcanvas-btn {
             --bs-btn-padding-x: 5px;
             --bs-btn-padding-y: 5px;
             --bs-border-radius: 0px 8px 8px 0px;
             align-content: center;
-            background-color: #777;
+            background-color: #e4e4e4;
             height: 50px;
             position: absolute;
             top: 0;
@@ -101,7 +123,14 @@ import arrowRight_icon from "bootstrap-icons/icons/arrow-bar-right.svg?raw";
             justify-content: center;
         }
 
-        .Map-offcanvas-content .Map-offcanvas-controls {
+        & .arrow-left-icon, &[show] .arrow-right-icon {
+            display: none;
+        }
+        &[show] .arrow-left-icon {
+            display: block;
+        }
+
+        & .Map-offcanvas-content .Map-offcanvas-controls {
             position: absolute;
             top: 0;
             left: 0;
