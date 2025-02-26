@@ -11,5 +11,8 @@
       "address": "Emilio Castelar 3072, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
-  }
+  },
+  "id": "8/muñecas",
+  "image": "/data/images/8.png",
+  "bus_path": "/data/urbano/8/muñecas/recorrido.geojson"
 }

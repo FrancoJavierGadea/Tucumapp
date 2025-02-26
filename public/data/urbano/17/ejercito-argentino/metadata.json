@@ -11,5 +11,8 @@
       "address": "Av. Independencia 2601, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
-  }
+  },
+  "id": "17/ejercito-argentino",
+  "image": "/data/images/17.png",
+  "bus_path": "/data/urbano/17/ejercito-argentino/recorrido.geojson"
 }

@@ -11,5 +11,8 @@
       "address": "Av. Colón 1256, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
-  }
+  },
+  "id": "18/antihorario",
+  "image": "/data/images/18.png",
+  "bus_path": "/data/urbano/18/antihorario/recorrido.geojson"
 }

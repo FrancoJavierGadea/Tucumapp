@@ -11,5 +11,8 @@
       "address": "Entre Ríos 146, San Miguel de Tucumán, Tucumán, Argentina",
       "website": "https://www.facebook.com/linea130tucuman"
     }
-  }
+  },
+  "id": "130/san-jose",
+  "bus_path": "public/data/interurbano/130/san-jose/recorrido.geojson",
+  "image": "/data/images/130.png"
 }

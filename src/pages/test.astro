@@ -1,6 +1,7 @@
 ---
 import HorizontalTabsMenu from "@/components/HorizontalTabsMenu.astro";
 import Layout from "@/layouts/Layout.astro";
+import BusCard from "@/components/BusCard/index.astro";
 
 const RECORRIDOS_TABS = [
 	{name: 'Urbano', id: 'urbano', label: 'Urbano', active: true},
@@ -14,27 +15,7 @@ const RECORRIDOS_TABS = [
 
     <div class="Container">
 
-        <HorizontalTabsMenu tabs={RECORRIDOS_TABS}>
-					
-            <Fragment slot="urbano">
-
-                <p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p>v<p>Urbano</p><p>Urbano</p><p>Urbano</p>vv<p>Urbano</p>v<p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p><p>Urbano</p>v
-
-            </Fragment>
-
-            <Fragment slot="interurbano">
-
-                <p>Interurbano</p>
-
-            </Fragment>
-
-            <Fragment slot="otros">
-
-                <p>Otros</p>
-
-            </Fragment>
-
-        </HorizontalTabsMenu>
+        <BusCard />
 
     </div>
 
@@ -50,6 +31,7 @@ const RECORRIDOS_TABS = [
         outline: 1px dashed gray;
         overflow: hidden;
         resize: both;
+        padding: 10px;
     }
 
 </style>

@@ -11,5 +11,8 @@
       "address": "Batalla de Chacabuco 902, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
-  }
+  },
+  "id": "el-provincial/rinconada",
+  "bus_path": "public/data/interurbano/el-provincial/rinconada/recorrido.geojson",
+  "image": "/data/images/el-provincial.png"
 }

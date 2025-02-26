@@ -11,5 +11,8 @@
       "address": "Av Belgrano 2526, San Miguel de Tucumán, Tucumán",
       "website": ""
     }
-  }
+  },
+  "id": "6/crisostomo-alvarez",
+  "image": "/data/images/6.png",
+  "bus_path": "/data/urbano/6/crisostomo-alvarez/recorrido.geojson"
 }

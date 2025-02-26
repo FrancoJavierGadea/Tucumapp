@@ -1,0 +1,33 @@
+---
+const {image, alt, title, direction = 'Las Piedras'} = Astro.props;
+---
+
+
+<custom-card-bus src="/data/interurbano/107/el-sol/metadata.json"></custom-card-bus>
+
+<script>
+    import {CustomCardBus} from "./custom-bus-card.js";
+
+    customElements.define('custom-card-bus', CustomCardBus);
+</script>
+
+<style>
+    .Bus-card {
+
+        
+
+        &:hover .Bus-card-content {
+            background-color: #cecece;
+        }
+
+        img {
+            
+        }
+        
+        .Bus-card-content {
+            
+
+            
+        }
+    }
+</style>

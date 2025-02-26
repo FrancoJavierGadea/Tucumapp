@@ -11,5 +11,8 @@
       "address": "",
       "website": ""
     }
-  }
+  },
+  "id": "12/smat",
+  "image": "/data/images/12.png",
+  "bus_path": "/data/urbano/12/smat/recorrido.geojson"
 }

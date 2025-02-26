@@ -11,5 +11,8 @@
       "address": "Pcia de Jujuy 3500, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
-  }
+  },
+  "id": "11/villa-angelina",
+  "image": "/data/images/11.png",
+  "bus_path": "/data/urbano/11/villa-angelina/recorrido.geojson"
 }

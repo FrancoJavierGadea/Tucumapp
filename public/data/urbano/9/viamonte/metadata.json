@@ -11,5 +11,8 @@
       "address": "Av. Independencia 2513, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
-  }
+  },
+  "id": "9/viamonte",
+  "image": "/data/images/9.png",
+  "bus_path": "/data/urbano/9/viamonte/recorrido.geojson"
 }

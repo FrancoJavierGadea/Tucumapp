@@ -11,5 +11,8 @@
       "address": "Emilio Castelar 3072, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
-  }
+  },
+  "id": "131/lomas-de-tafi",
+  "bus_path": "public/data/interurbano/131/lomas-de-tafi/recorrido.geojson",
+  "image": "/data/images/131.png"
 }

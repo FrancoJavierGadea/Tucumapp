@@ -11,5 +11,8 @@
       "address": "",
       "website": ""
     }
-  }
+  },
+  "id": "3/lavalle",
+  "image": "/data/images/3.png",
+  "bus_path": "/data/urbano/3/lavalle/recorrido.geojson"
 }

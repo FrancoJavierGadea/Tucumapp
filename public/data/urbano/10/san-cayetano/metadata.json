@@ -11,5 +11,8 @@
       "address": "Av. Brígido Terán 250, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
-  }
+  },
+  "id": "10/san-cayetano",
+  "image": "/data/images/10.png",
+  "bus_path": "/data/urbano/10/san-cayetano/recorrido.geojson"
 }
