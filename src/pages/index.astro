@@ -3,16 +3,14 @@ import Layout from "@/layouts/Layout.astro";
 
 import Map from "@/components/Map/index.astro";
 import MapOffcanvas from "@/components/MapOffcanvas.astro";
-import BusCard from "@/components/BusCard.astro";
+import BusCard from "@/components/BusCard/index.astro";
 import VerticalTabsMenu from "@/components/VerticalTabsMenu.astro";
 import HorizontalTabsMenu from "@/components/HorizontalTabsMenu.astro";
 
 
-const LINES = ['100', '101', '103', '107', '125', '132'];
-
 const ASIDE_TABS = [
     {name: 'Recorridos', id: 'recorridos', icon: 'bi-shuffle', active: true},
-    {name: 'Guardados', id: 'guardados', icon: 'bi-bookmark'},
+    {name: 'Guardados', id: 'guardados', icon: 'bi-bookmarks'},
     {name: 'Acerca de', id: 'acerca-de', icon: 'bi-info-circle'},
 ];
 
@@ -35,12 +33,7 @@ const RECORRIDOS_TABS = [
 					
 					<div class="Bus-lines" slot="urbano">
 	
-						{
-							LINES.map((line) => {
-	
-								return <BusCard image={`images/${line}.png`} title={`Linea ${line}`} />
-							})
-						}
+						
 	
 					</div>
 	

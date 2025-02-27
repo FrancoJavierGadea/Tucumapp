@@ -1,9 +1,9 @@
 ---
-const {image, alt, title, direction = 'Las Piedras'} = Astro.props;
+const {src = '/data/interurbano/107/el-sol/metadata.json'} = Astro.props;
 ---
 
 
-<custom-card-bus src="/data/interurbano/107/el-sol/metadata.json"></custom-card-bus>
+<custom-card-bus src={src}></custom-card-bus>
 
 <script>
     import {CustomCardBus} from "./custom-bus-card.js";
@@ -11,23 +11,77 @@ const {image, alt, title, direction = 'Las Piedras'} = Astro.props;
     customElements.define('custom-card-bus', CustomCardBus);
 </script>
 
-<style>
-    .Bus-card {
+<style is:global>
+    custom-card-bus {
 
-        
+        display: flex;
+        height: 120px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 
-        &:hover .Bus-card-content {
-            background-color: #cecece;
+        .Bus-content {
+            flex-grow: 1;
+            height: 100%;
+            display: flex;
+            cursor: pointer;
+
+            &:hover .Bus-info {
+                background-color: #e4e4e4;
+            }
         }
 
-        img {
-            
+        .Bus-image {
+            display: block;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 1/1;
         }
         
-        .Bus-card-content {
-            
+        .Bus-info {
+            padding: 10px;
+            background-color: #ffffff;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
 
-            
+            .Bus-title {
+                font-size: 20px;
+                letter-spacing: 2px;
+            }
+            .Bus-direction {
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            .Bus-footer {
+                font-size: 14px;
+                margin-top: auto;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .Bus-controls { 
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            border-left: 1px solid #e4e4e4;
+        }
+
+        .save-icon, .saved-icon {
+            color: #333;
+
+            &:hover {
+                color: #ce1414;
+            }
+        }
+    
+        .saved-icon, &[saved] .save-icon {
+            display: none;
+        }
+        &[saved] .saved-icon {
+            display: block;
         }
     }
+
 </style>
