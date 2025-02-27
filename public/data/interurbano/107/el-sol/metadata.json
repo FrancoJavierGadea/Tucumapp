@@ -12,7 +12,10 @@
       "website": "https://www.facebook.com/Linea7107ElCeiboSrl"
     }
   },
-  "image": "/images/107.png",
+  "image": {
+    "landscape": "/data/interurbano/107/el-sol/img/landscape.png",
+    "square": "/data/interurbano/107/el-sol/img/square.png"
+  },
   "id": "107/el-sol",
   "bus_path": "/data/interurbano/107/el-sol/recorrido.geojson"
 }

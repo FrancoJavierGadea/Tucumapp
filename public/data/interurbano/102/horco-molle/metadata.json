@@ -11,5 +11,9 @@
       "address": "Av. Aconquija 294, Yerba Buena, Tucumán, Argentina",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/102/horco-molle/img/landscape.png",
+    "square": "/data/interurbano/102/horco-molle/img/square.png"
   }
 }

@@ -11,5 +11,9 @@
       "address": "Av. República del Líbano 2488, San Miguel de Tucumán, Tucumán, Argentina",
       "website": "https://www.facebook.com/elgalgosrl"
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/101/el-grafico/img/landscape.png",
+    "square": "/data/interurbano/101/el-grafico/img/square.png"
   }
 }

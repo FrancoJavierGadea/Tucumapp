@@ -13,6 +13,9 @@
     }
   },
   "id": "12/smat",
-  "image": "/data/images/12.png",
-  "bus_path": "/data/urbano/12/smat/recorrido.geojson"
+  "bus_path": "/data/urbano/12/smat/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/12/smat/img/landscape.png",
+    "square": "/data/urbano/12/smat/img/square.png"
+  }
 }

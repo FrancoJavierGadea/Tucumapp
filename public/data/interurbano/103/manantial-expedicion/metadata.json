@@ -11,5 +11,9 @@
       "address": "",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/103/manantial-expedicion/img/landscape.png",
+    "square": "/data/interurbano/103/manantial-expedicion/img/square.png"
   }
 }

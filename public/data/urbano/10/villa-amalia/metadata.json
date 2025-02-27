@@ -13,6 +13,9 @@
     }
   },
   "id": "10/villa-amalia",
-  "image": "/data/images/10.png",
-  "bus_path": "/data/urbano/10/villa-amalia/recorrido.geojson"
+  "bus_path": "/data/urbano/10/villa-amalia/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/10/villa-amalia/img/landscape.png",
+    "square": "/data/urbano/10/villa-amalia/img/square.png"
+  }
 }

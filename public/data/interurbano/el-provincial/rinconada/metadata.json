@@ -14,5 +14,8 @@
   },
   "id": "el-provincial/rinconada",
   "bus_path": "public/data/interurbano/el-provincial/rinconada/recorrido.geojson",
-  "image": "/data/images/el-provincial.png"
+  "image": {
+    "landscape": "/data/interurbano/el-provincial/rinconada/img/landscape.png",
+    "square": "/data/interurbano/el-provincial/rinconada/img/square.png"
+  }
 }

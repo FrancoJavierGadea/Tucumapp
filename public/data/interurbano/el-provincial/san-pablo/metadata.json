@@ -14,5 +14,8 @@
   },
   "id": "el-provincial/san-pablo",
   "bus_path": "public/data/interurbano/el-provincial/san-pablo/recorrido.geojson",
-  "image": "/data/images/el-provincial.png"
+  "image": {
+    "landscape": "/data/interurbano/el-provincial/san-pablo/img/landscape.png",
+    "square": "/data/interurbano/el-provincial/san-pablo/img/square.png"
+  }
 }

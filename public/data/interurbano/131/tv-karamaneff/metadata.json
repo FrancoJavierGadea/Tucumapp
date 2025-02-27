@@ -14,5 +14,8 @@
   },
   "id": "131/tv-karamaneff",
   "bus_path": "public/data/interurbano/131/tv-karamaneff/recorrido.geojson",
-  "image": "/data/images/131.png"
+  "image": {
+    "landscape": "/data/interurbano/131/tv-karamaneff/img/landscape.png",
+    "square": "/data/interurbano/131/tv-karamaneff/img/square.png"
+  }
 }

@@ -11,5 +11,9 @@
       "address": "Terminal Ómnibus Tucumán: Av. Brígido Terán 250 - Local 520, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/141/los-aguirres/img/landscape.png",
+    "square": "/data/interurbano/141/los-aguirres/img/square.png"
   }
 }

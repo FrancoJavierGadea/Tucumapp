@@ -11,5 +11,9 @@
       "address": "Anta Muerta 2120, Yerba Buena, Tucumán, Argentina",
       "website": "https://www.instagram.com/linea118.tucuman/"
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/118/apunt/img/landscape.png",
+    "square": "/data/interurbano/118/apunt/img/square.png"
   }
 }

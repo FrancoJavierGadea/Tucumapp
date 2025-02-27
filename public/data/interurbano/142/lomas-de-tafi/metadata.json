@@ -11,5 +11,9 @@
       "address": "Ruta 301 Km 2, Manantial, Tucumán, Argentina",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/142/lomas-de-tafi/img/landscape.png",
+    "square": "/data/interurbano/142/lomas-de-tafi/img/square.png"
   }
 }

@@ -13,6 +13,9 @@
     }
   },
   "id": "4/mercofrut",
-  "image": "",
-  "bus_path": "/data/urbano/4/mercofrut/recorrido.geojson"
+  "bus_path": "/data/urbano/4/mercofrut/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/4/mercofrut/img/landscape.png",
+    "square": "/data/urbano/4/mercofrut/img/square.png"
+  }
 }

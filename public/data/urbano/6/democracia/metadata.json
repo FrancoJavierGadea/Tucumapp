@@ -13,6 +13,9 @@
     }
   },
   "id": "6/democracia",
-  "image": "/data/images/6.png",
-  "bus_path": "/data/urbano/6/democracia/recorrido.geojson"
+  "bus_path": "/data/urbano/6/democracia/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/6/democracia/img/landscape.png",
+    "square": "/data/urbano/6/democracia/img/square.png"
+  }
 }

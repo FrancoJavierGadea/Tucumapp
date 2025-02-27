@@ -11,5 +11,9 @@
       "address": "Terminal Ómnibus Tucumán: Av. Brígido Terán 250 - Local 517, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/122/rincon-del-este/img/landscape.png",
+    "square": "/data/interurbano/122/rincon-del-este/img/square.png"
   }
 }

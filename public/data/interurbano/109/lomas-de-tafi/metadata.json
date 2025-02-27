@@ -14,5 +14,8 @@
   },
   "id": "109/lomas-de-tafi",
   "bus_path": "public/data/interurbano/109/lomas-de-tafi/recorrido.geojson",
-  "image": "/data/images/109.png"
+  "image": {
+    "landscape": "/data/interurbano/109/lomas-de-tafi/img/landscape.png",
+    "square": "/data/interurbano/109/lomas-de-tafi/img/square.png"
+  }
 }

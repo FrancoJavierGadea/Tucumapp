@@ -13,6 +13,9 @@
     }
   },
   "id": "9/bulnes",
-  "image": "/data/images/9.png",
-  "bus_path": "/data/urbano/9/bulnes/recorrido.geojson"
+  "bus_path": "/data/urbano/9/bulnes/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/9/bulnes/img/landscape.png",
+    "square": "/data/urbano/9/bulnes/img/square.png"
+  }
 }

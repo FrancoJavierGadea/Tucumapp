@@ -11,5 +11,9 @@
       "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
       "website": "https://www.facebook.com/Linea7107ElCeiboSrl"
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/100/san-pablo/img/landscape.png",
+    "square": "/data/interurbano/100/san-pablo/img/square.png"
   }
 }

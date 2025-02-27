@@ -13,6 +13,9 @@
     }
   },
   "id": "4/colombres",
-  "image": "",
-  "bus_path": "/data/urbano/4/colombres/recorrido.geojson"
+  "bus_path": "/data/urbano/4/colombres/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/4/colombres/img/landscape.png",
+    "square": "/data/urbano/4/colombres/img/square.png"
+  }
 }

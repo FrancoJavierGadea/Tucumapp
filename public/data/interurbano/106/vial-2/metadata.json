@@ -11,5 +11,9 @@
       "address": "Av Belgrano 2526, San Miguel de Tucumán, Tucumán",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/106/vial-2/img/landscape.png",
+    "square": "/data/interurbano/106/vial-2/img/square.png"
   }
 }

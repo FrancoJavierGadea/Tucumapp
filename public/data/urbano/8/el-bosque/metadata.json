@@ -13,6 +13,9 @@
     }
   },
   "id": "8/el-bosque",
-  "image": "/data/images/8.png",
-  "bus_path": "/data/urbano/8/el-bosque/recorrido.geojson"
+  "bus_path": "/data/urbano/8/el-bosque/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/8/el-bosque/img/landscape.png",
+    "square": "/data/urbano/8/el-bosque/img/square.png"
+  }
 }

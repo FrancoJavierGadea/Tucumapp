@@ -13,6 +13,9 @@
     }
   },
   "id": "5/balcarce",
-  "image": "/data/images/5.png",
-  "bus_path": "/data/urbano/5/balcarce/recorrido.geojson"
+  "bus_path": "/data/urbano/5/balcarce/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/5/balcarce/img/landscape.png",
+    "square": "/data/urbano/5/balcarce/img/square.png"
+  }
 }

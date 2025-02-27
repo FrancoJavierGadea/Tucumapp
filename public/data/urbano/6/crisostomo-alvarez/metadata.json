@@ -13,6 +13,9 @@
     }
   },
   "id": "6/crisostomo-alvarez",
-  "image": "/data/images/6.png",
-  "bus_path": "/data/urbano/6/crisostomo-alvarez/recorrido.geojson"
+  "bus_path": "/data/urbano/6/crisostomo-alvarez/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/6/crisostomo-alvarez/img/landscape.png",
+    "square": "/data/urbano/6/crisostomo-alvarez/img/square.png"
+  }
 }

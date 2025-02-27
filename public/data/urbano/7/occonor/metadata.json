@@ -13,6 +13,9 @@
     }
   },
   "id": "7/occonor",
-  "image": "/data/images/7.png",
-  "bus_path": "/data/urbano/7/occonor/recorrido.geojson"
+  "bus_path": "/data/urbano/7/occonor/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/7/occonor/img/landscape.png",
+    "square": "/data/urbano/7/occonor/img/square.png"
+  }
 }

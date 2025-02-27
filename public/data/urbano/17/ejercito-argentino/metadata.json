@@ -13,6 +13,9 @@
     }
   },
   "id": "17/ejercito-argentino",
-  "image": "/data/images/17.png",
-  "bus_path": "/data/urbano/17/ejercito-argentino/recorrido.geojson"
+  "bus_path": "/data/urbano/17/ejercito-argentino/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/17/ejercito-argentino/img/landscape.png",
+    "square": "/data/urbano/17/ejercito-argentino/img/square.png"
+  }
 }

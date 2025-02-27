@@ -13,6 +13,9 @@
     }
   },
   "id": "11/villa-angelina",
-  "image": "/data/images/11.png",
-  "bus_path": "/data/urbano/11/villa-angelina/recorrido.geojson"
+  "bus_path": "/data/urbano/11/villa-angelina/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/11/villa-angelina/img/landscape.png",
+    "square": "/data/urbano/11/villa-angelina/img/square.png"
+  }
 }

@@ -14,5 +14,8 @@
   },
   "id": "130/ruta-9",
   "bus_path": "public/data/interurbano/130/ruta-9/recorrido.geojson",
-  "image": "/data/images/130.png"
+  "image": {
+    "landscape": "/data/interurbano/130/ruta-9/img/landscape.png",
+    "square": "/data/interurbano/130/ruta-9/img/square.png"
+  }
 }

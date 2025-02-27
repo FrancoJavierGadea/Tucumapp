@@ -13,6 +13,9 @@
     }
   },
   "id": "5/barrio-oeste-x-santiago",
-  "image": "/data/images/5.png",
-  "bus_path": "/data/urbano/5/barrio-oeste-x-santiago/recorrido.geojson"
+  "bus_path": "/data/urbano/5/barrio-oeste-x-santiago/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/5/barrio-oeste-x-santiago/img/landscape.png",
+    "square": "/data/urbano/5/barrio-oeste-x-santiago/img/square.png"
+  }
 }

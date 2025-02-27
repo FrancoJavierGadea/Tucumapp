@@ -13,6 +13,9 @@
     }
   },
   "id": "12/municipal",
-  "image": "/data/images/12.png",
-  "bus_path": "/data/urbano/12/municipal/recorrido.geojson"
+  "bus_path": "/data/urbano/12/municipal/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/12/municipal/img/landscape.png",
+    "square": "/data/urbano/12/municipal/img/square.png"
+  }
 }

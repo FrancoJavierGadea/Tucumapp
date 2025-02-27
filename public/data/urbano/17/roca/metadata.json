@@ -13,6 +13,9 @@
     }
   },
   "id": "17/roca",
-  "image": "/data/images/17.png",
-  "bus_path": "/data/urbano/17/roca/recorrido.geojson"
+  "bus_path": "/data/urbano/17/roca/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/17/roca/img/landscape.png",
+    "square": "/data/urbano/17/roca/img/square.png"
+  }
 }

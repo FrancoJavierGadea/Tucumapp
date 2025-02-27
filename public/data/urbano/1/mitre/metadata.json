@@ -13,6 +13,9 @@
     }
   },
   "id": "1/mitre",
-  "image": "/data/images/1.png",
-  "bus_path": "/data/urbano/1/mitre/recorrido.geojson"
+  "bus_path": "/data/urbano/1/mitre/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/1/mitre/img/landscape.png",
+    "square": "/data/urbano/1/mitre/img/square.png"
+  }
 }

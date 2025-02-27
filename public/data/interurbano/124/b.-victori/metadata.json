@@ -11,5 +11,9 @@
       "address": "Terminal Tucumán: Av. Brígido Terán 250 - Local 74, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/124/b.-victori/img/landscape.png",
+    "square": "/data/interurbano/124/b.-victori/img/square.png"
   }
 }

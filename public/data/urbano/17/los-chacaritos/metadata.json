@@ -13,6 +13,9 @@
     }
   },
   "id": "17/los-chacaritos",
-  "image": "/data/images/17.png",
-  "bus_path": "/data/urbano/17/los-chacaritos/recorrido.geojson"
+  "bus_path": "/data/urbano/17/los-chacaritos/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/17/los-chacaritos/img/landscape.png",
+    "square": "/data/urbano/17/los-chacaritos/img/square.png"
+  }
 }

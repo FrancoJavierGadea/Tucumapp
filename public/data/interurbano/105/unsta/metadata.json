@@ -11,5 +11,9 @@
       "address": "Colombia 3275, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/105/unsta/img/landscape.png",
+    "square": "/data/interurbano/105/unsta/img/square.png"
   }
 }

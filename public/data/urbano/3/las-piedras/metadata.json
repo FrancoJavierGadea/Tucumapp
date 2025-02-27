@@ -13,6 +13,9 @@
     }
   },
   "id": "3/las-piedras",
-  "image": "/data/images/3.png",
-  "bus_path": "/data/urbano/3/las-piedras/recorrido.geojson"
+  "bus_path": "/data/urbano/3/las-piedras/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/3/las-piedras/img/landscape.png",
+    "square": "/data/urbano/3/las-piedras/img/square.png"
+  }
 }

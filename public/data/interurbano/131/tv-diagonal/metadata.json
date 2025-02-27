@@ -14,5 +14,8 @@
   },
   "id": "131/tv-diagonal",
   "bus_path": "public/data/interurbano/131/tv-diagonal/recorrido.geojson",
-  "image": "/data/images/131.png"
+  "image": {
+    "landscape": "/data/interurbano/131/tv-diagonal/img/landscape.png",
+    "square": "/data/interurbano/131/tv-diagonal/img/square.png"
+  }
 }

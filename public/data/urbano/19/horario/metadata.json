@@ -13,6 +13,9 @@
     }
   },
   "id": "19/horario",
-  "image": "/data/images/19.png",
-  "bus_path": "/data/urbano/19/horario/recorrido.geojson"
+  "bus_path": "/data/urbano/19/horario/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/19/horario/img/landscape.png",
+    "square": "/data/urbano/19/horario/img/square.png"
+  }
 }

@@ -11,5 +11,9 @@
       "address": "",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/121/hospital-del-este/img/landscape.png",
+    "square": "/data/interurbano/121/hospital-del-este/img/square.png"
   }
 }

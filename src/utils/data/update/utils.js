@@ -2,6 +2,11 @@ import { DATA_FOLDER, PUBLIC_FOLDER } from "../constants.js";
 import fs from "node:fs";
 import path from "node:path";
 
+
+/**
+ * 
+ * @param {({category, line, direction, folder, url}) => {}} callback 
+ */
 export function exploreDataFolder(callback = () => {}){
 
     const categories = fs.readdirSync(DATA_FOLDER);

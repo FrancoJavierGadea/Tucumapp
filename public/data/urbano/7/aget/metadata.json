@@ -13,6 +13,9 @@
     }
   },
   "id": "7/aget",
-  "image": "/data/images/7.png",
-  "bus_path": "/data/urbano/7/aget/recorrido.geojson"
+  "bus_path": "/data/urbano/7/aget/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/7/aget/img/landscape.png",
+    "square": "/data/urbano/7/aget/img/square.png"
+  }
 }

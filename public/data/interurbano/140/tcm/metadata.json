@@ -11,5 +11,9 @@
       "address": "",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/140/tcm/img/landscape.png",
+    "square": "/data/interurbano/140/tcm/img/square.png"
   }
 }

@@ -11,5 +11,9 @@
       "address": "Av. Brígido Terán 250, San Miguel de Tucumán, Tucumán, Argentina",
       "website": ""
     }
+  },
+  "image": {
+    "landscape": "/data/interurbano/110/manantial/img/landscape.png",
+    "square": "/data/interurbano/110/manantial/img/square.png"
   }
 }

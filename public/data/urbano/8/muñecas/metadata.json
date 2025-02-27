@@ -13,6 +13,9 @@
     }
   },
   "id": "8/muñecas",
-  "image": "/data/images/8.png",
-  "bus_path": "/data/urbano/8/muñecas/recorrido.geojson"
+  "bus_path": "/data/urbano/8/muñecas/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/8/muñecas/img/landscape.png",
+    "square": "/data/urbano/8/muñecas/img/square.png"
+  }
 }

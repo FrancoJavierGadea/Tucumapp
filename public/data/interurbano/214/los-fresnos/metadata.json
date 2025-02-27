@@ -2,5 +2,9 @@
   "name": "Linea 214",
   "direction": "Los fresnos",
   "length_km": 12.69,
-  "category": "interurbano"
+  "category": "interurbano",
+  "image": {
+    "landscape": "/data/interurbano/214/los-fresnos/img/landscape.png",
+    "square": "/data/interurbano/214/los-fresnos/img/square.png"
+  }
 }

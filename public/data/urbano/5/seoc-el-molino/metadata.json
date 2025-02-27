@@ -13,6 +13,9 @@
     }
   },
   "id": "5/seoc-el-molino",
-  "image": "/data/images/5.png",
-  "bus_path": "/data/urbano/5/seoc-el-molino/recorrido.geojson"
+  "bus_path": "/data/urbano/5/seoc-el-molino/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/5/seoc-el-molino/img/landscape.png",
+    "square": "/data/urbano/5/seoc-el-molino/img/square.png"
+  }
 }

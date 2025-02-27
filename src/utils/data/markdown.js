@@ -69,11 +69,11 @@ function generateMarkdown(){
     .join('\n');
 }
 
+//MARK: Write md file
+// const md = generateMarkdown();
 
-const md = generateMarkdown();
-
-fs.writeFileSync(
-    path.join(PUBLIC_FOLDER, 'endpoints.md'),
-    md,
-    {encoding: 'utf-8'}
-);
+// fs.writeFileSync(
+//     path.join(PUBLIC_FOLDER, 'endpoints.md'),
+//     md,
+//     {encoding: 'utf-8'}
+// );

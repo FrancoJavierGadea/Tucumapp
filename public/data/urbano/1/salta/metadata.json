@@ -13,6 +13,9 @@
     }
   },
   "id": "1/salta",
-  "image": "/data/images/1.png",
-  "bus_path": "/data/urbano/1/salta/recorrido.geojson"
+  "bus_path": "/data/urbano/1/salta/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/1/salta/img/landscape.png",
+    "square": "/data/urbano/1/salta/img/square.png"
+  }
 }

@@ -13,6 +13,9 @@
     }
   },
   "id": "5/agrimensor",
-  "image": "/data/images/5.png",
-  "bus_path": "/data/urbano/5/agrimensor/recorrido.geojson"
+  "bus_path": "/data/urbano/5/agrimensor/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/5/agrimensor/img/landscape.png",
+    "square": "/data/urbano/5/agrimensor/img/square.png"
+  }
 }

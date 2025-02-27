@@ -13,6 +13,9 @@
     }
   },
   "id": "11/manantial-sur",
-  "image": "/data/images/11.png",
-  "bus_path": "/data/urbano/11/manantial-sur/recorrido.geojson"
+  "bus_path": "/data/urbano/11/manantial-sur/recorrido.geojson",
+  "image": {
+    "landscape": "/data/urbano/11/manantial-sur/img/landscape.png",
+    "square": "/data/urbano/11/manantial-sur/img/square.png"
+  }
 }
