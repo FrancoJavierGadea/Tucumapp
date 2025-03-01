@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/142/lomas-de-tafi/img/landscape.png",
-    "square": "/data/interurbano/142/lomas-de-tafi/img/square.png"
-  }
+    "landscape": "/data/interurbano/142/img/landscape.png",
+    "square": "/data/interurbano/142/img/square.png"
+  },
+  "id": "142/lomas-de-tafi"
 }

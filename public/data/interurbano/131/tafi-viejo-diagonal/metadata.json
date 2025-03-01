@@ -1,6 +1,6 @@
 {
   "name": "Linea 131",
-  "direction": "Tv diagonal",
+  "direction": "Tafi Viejo por diagonal",
   "length_km": 39.99,
   "category": "interurbano",
   "provider": {
@@ -12,10 +12,10 @@
       "website": ""
     }
   },
-  "id": "131/tv-diagonal",
-  "bus_path": "public/data/interurbano/131/tv-diagonal/recorrido.geojson",
+  "id": "131/tafi-viejo-diagonal",
+  "bus_path": "public/data/interurbano/131/tafi-viejo-diagonal/recorrido.geojson",
   "image": {
-    "landscape": "/data/interurbano/131/tv-diagonal/img/landscape.png",
-    "square": "/data/interurbano/131/tv-diagonal/img/square.png"
+    "landscape": "/data/interurbano/131/img/landscape.png",
+    "square": "/data/interurbano/131/img/square.png"
   }
 }

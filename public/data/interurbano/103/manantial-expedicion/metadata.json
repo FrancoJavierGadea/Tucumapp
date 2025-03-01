@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/103/manantial-expedicion/img/landscape.png",
-    "square": "/data/interurbano/103/manantial-expedicion/img/square.png"
-  }
+    "landscape": "/data/interurbano/103/img/landscape.png",
+    "square": "/data/interurbano/103/img/square.png"
+  },
+  "id": "103/manantial-expedicion"
 }

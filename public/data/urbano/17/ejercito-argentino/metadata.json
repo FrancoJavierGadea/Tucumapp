@@ -15,7 +15,7 @@
   "id": "17/ejercito-argentino",
   "bus_path": "/data/urbano/17/ejercito-argentino/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/17/ejercito-argentino/img/landscape.png",
-    "square": "/data/urbano/17/ejercito-argentino/img/square.png"
+    "landscape": "/data/urbano/17/img/landscape.png",
+    "square": "/data/urbano/17/img/square.png"
   }
 }

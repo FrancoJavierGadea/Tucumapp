@@ -15,7 +15,7 @@
   "id": "5/seoc-el-molino",
   "bus_path": "/data/urbano/5/seoc-el-molino/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/5/seoc-el-molino/img/landscape.png",
-    "square": "/data/urbano/5/seoc-el-molino/img/square.png"
+    "landscape": "/data/urbano/5/img/landscape.png",
+    "square": "/data/urbano/5/img/square.png"
   }
 }

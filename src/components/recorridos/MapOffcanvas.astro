@@ -1,11 +1,12 @@
 ---
 import arrowRight_icon from "bootstrap-icons/icons/arrow-bar-right.svg?raw";
 import arrowLeft_icon from "bootstrap-icons/icons/arrow-bar-left.svg?raw";
+
+const {show} = Astro.props;
 ---
 
 
-
-<custom-map-offcanvas class="Map-offcanvas">
+<custom-map-offcanvas class="Map-offcanvas" show>
 
     <div class="Map-offcanvas-aside collapse collapse-horizontal">
 
@@ -86,7 +87,7 @@ import arrowLeft_icon from "bootstrap-icons/icons/arrow-bar-left.svg?raw";
             
             & .aside-content {
                 height: 100%;
-                width: 400px;
+                width: 500px;
                 display: flex;
                 flex-direction: column;
                 gap: 10px;

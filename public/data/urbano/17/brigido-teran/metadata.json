@@ -15,7 +15,7 @@
   "id": "17/brigido-teran",
   "bus_path": "/data/urbano/17/brigido-teran/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/17/brigido-teran/img/landscape.png",
-    "square": "/data/urbano/17/brigido-teran/img/square.png"
+    "landscape": "/data/urbano/17/img/landscape.png",
+    "square": "/data/urbano/17/img/square.png"
   }
 }

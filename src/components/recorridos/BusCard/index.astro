@@ -1,9 +1,43 @@
 ---
-const {src = '/data/interurbano/107/el-sol/metadata.json'} = Astro.props;
+import bookmark_icon from "bootstrap-icons/icons/bookmark.svg?raw";
+import bookmark_fill_icon from "bootstrap-icons/icons/bookmark-fill.svg?raw";
+import stops_icon from "bootstrap-icons/icons/geo-alt.svg?raw";
+import report_icon from "bootstrap-icons/icons/exclamation-triangle.svg?raw";
+
+const {title, direction, length, provider, id, image} = Astro.props;
 ---
 
 
-<custom-card-bus src={src}></custom-card-bus>
+<custom-card-bus data-bus-id={id}>
+
+    <div class="Bus-content" role="button">
+
+        <img class="Bus-image" src={image} />
+
+        <div class="Bus-info">
+            <h4 class="Bus-title">{title}</h4>
+            <p class="Bus-direction">{direction}</p>
+
+            <div class="Bus-footer">
+                <span class="Bus-provider">{provider}</span>
+                <span class="Bus-path-length">{length} km   </span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="Bus-controls">
+        <button class="Save-btn btn" title="Guardar">
+            <div class="save-icon" set:html={bookmark_icon} />
+            <div class="saved-icon" set:html={bookmark_fill_icon} />
+        </button>
+        <button class="Stops-btn btn" title="Mostrar paradas">
+            <div class="stops-icon" set:html={stops_icon} />
+        </button>
+        <button class="Report-btn btn" title="Corregir recorrido">
+            <div class="report-icon" set:html={report_icon} />
+        </button>
+    </div>
+</custom-card-bus>
 
 <script>
     import {CustomCardBus} from "./custom-bus-card.js";
@@ -15,7 +49,7 @@ const {src = '/data/interurbano/107/el-sol/metadata.json'} = Astro.props;
     custom-card-bus {
 
         display: flex;
-        height: 120px;
+        height: 100px;
         border-radius: 5px;
         overflow: hidden;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -46,15 +80,15 @@ const {src = '/data/interurbano/107/el-sol/metadata.json'} = Astro.props;
             flex-direction: column;
 
             .Bus-title {
-                font-size: 20px;
+                font-size: 18px;
                 letter-spacing: 2px;
             }
             .Bus-direction {
-                font-size: 18px;
+                font-size: 16px;
                 letter-spacing: 1px;
             }
             .Bus-footer {
-                font-size: 14px;
+                font-size: 12px;
                 margin-top: auto;
                 display: flex;
                 justify-content: space-between;
@@ -66,6 +100,10 @@ const {src = '/data/interurbano/107/el-sol/metadata.json'} = Astro.props;
             display: flex;
             flex-direction: column;
             border-left: 1px solid #e4e4e4;
+
+            button {
+                font-size: 10px;
+            }
         }
 
         .save-icon, .saved-icon {

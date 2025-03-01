@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/123/pascar/img/landscape.png",
-    "square": "/data/interurbano/123/pascar/img/square.png"
-  }
+    "landscape": "/data/interurbano/123/img/landscape.png",
+    "square": "/data/interurbano/123/img/square.png"
+  },
+  "id": "123/pacara"
 }

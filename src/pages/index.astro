@@ -2,10 +2,15 @@
 import Layout from "@/layouts/Layout.astro";
 
 import Map from "@/components/Map/index.astro";
-import MapOffcanvas from "@/components/MapOffcanvas.astro";
+import MapOffcanvas from "@/components/recorridos/MapOffcanvas.astro";
 import BusCard from "@/components/BusCard/index.astro";
-import VerticalTabsMenu from "@/components/VerticalTabsMenu.astro";
-import HorizontalTabsMenu from "@/components/HorizontalTabsMenu.astro";
+import VerticalTabsMenu from "@/components/recorridos/VerticalTabsMenu.astro";
+import HorizontalTabsMenu from "@/components/recorridos/HorizontalTabsMenu.astro";
+import BusLines from "@/components/recorridos/BusLines.astro";
+import SavedBusLines from "@/components/recorridos/SavedBusLines.astro";
+import About from "@/components/recorridos/About.astro";
+import Donations from "@/components/Donations.astro";
+
 
 
 const ASIDE_TABS = [
@@ -23,7 +28,7 @@ const RECORRIDOS_TABS = [
 
 <Layout title="Recorridos">
 
-  	<MapOffcanvas>
+  	<MapOffcanvas show>
 
 		<VerticalTabsMenu tabs={ASIDE_TABS} slot="aside-content">
 	
@@ -31,17 +36,9 @@ const RECORRIDOS_TABS = [
 	
 				<HorizontalTabsMenu tabs={RECORRIDOS_TABS}>
 					
-					<div class="Bus-lines" slot="urbano">
+					<BusLines category="urbano", slot="urbano" />
 	
-						
-	
-					</div>
-	
-					<Fragment slot="interurbano">
-	
-						<p>Interurbano</p>
-	
-					</Fragment>
+					<BusLines category="interurbano", slot="interurbano" />
 	
 					<Fragment slot="otros">
 	
@@ -52,18 +49,14 @@ const RECORRIDOS_TABS = [
 				</HorizontalTabsMenu>
 	
 			</div>
+
+			<SavedBusLines slot="guardados" />
 	
-			<Fragment slot="guardados">
-	
-				<p>Guardados</p>
-	
-			</Fragment>
-	
-			<Fragment slot="acerca-de">
-	
-				<p>Acerca de</p>
-	
-			</Fragment>
+			<About slot="acerca-de">
+
+				<Donations />
+
+			</About>
 	
 		</VerticalTabsMenu>
 		
@@ -72,11 +65,3 @@ const RECORRIDOS_TABS = [
 
 </Layout>
 
-<style>
-	.Bus-lines {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		padding: 5px;
-	}
-</style>

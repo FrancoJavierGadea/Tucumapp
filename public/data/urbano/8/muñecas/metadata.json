@@ -15,7 +15,7 @@
   "id": "8/muñecas",
   "bus_path": "/data/urbano/8/muñecas/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/8/muñecas/img/landscape.png",
-    "square": "/data/urbano/8/muñecas/img/square.png"
+    "landscape": "/data/urbano/8/img/landscape.png",
+    "square": "/data/urbano/8/img/square.png"
   }
 }

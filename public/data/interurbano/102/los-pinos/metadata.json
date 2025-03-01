@@ -13,7 +13,7 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/102/los-pinos/img/landscape.png",
-    "square": "/data/interurbano/102/los-pinos/img/square.png"
+    "landscape": "/data/interurbano/102/img/landscape.png",
+    "square": "/data/interurbano/102/img/square.png"
   }
 }

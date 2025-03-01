@@ -15,7 +15,7 @@
   "id": "10/villa-amalia",
   "bus_path": "/data/urbano/10/villa-amalia/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/10/villa-amalia/img/landscape.png",
-    "square": "/data/urbano/10/villa-amalia/img/square.png"
+    "landscape": "/data/urbano/10/img/landscape.png",
+    "square": "/data/urbano/10/img/square.png"
   }
 }

@@ -15,7 +15,7 @@
   "id": "19/antihorario",
   "bus_path": "/data/urbano/19/anti-horario/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/19/antihorario/img/landscape.png",
-    "square": "/data/urbano/19/antihorario/img/square.png"
+    "landscape": "/data/urbano/19/img/landscape.png",
+    "square": "/data/urbano/19/img/square.png"
   }
 }

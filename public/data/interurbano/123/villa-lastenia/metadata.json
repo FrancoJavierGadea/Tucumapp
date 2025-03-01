@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/123/v-lasteni/img/landscape.png",
-    "square": "/data/interurbano/123/v-lasteni/img/square.png"
-  }
+    "landscape": "/data/interurbano/123/img/landscape.png",
+    "square": "/data/interurbano/123/img/square.png"
+  },
+  "id": "123/villa-lastenia"
 }

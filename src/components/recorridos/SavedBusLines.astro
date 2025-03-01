@@ -1,0 +1,60 @@
+---
+---
+
+
+<custom-saved-bus-lines class="Saved-bus-lines">
+
+
+</custom-saved-bus-lines>
+
+
+<script>
+    import SAVED_BUS_PATHS from '@/scripts/localStorage/SavedBusPaths.js';
+
+    class SavedBusLines extends HTMLElement {
+
+        constructor(){
+            super();
+
+            this.#update(SAVED_BUS_PATHS.busPaths);
+
+            SAVED_BUS_PATHS.on((busPaths) => {
+
+                this.#update(busPaths);
+            })
+        }
+
+        #update(savedBusPaths = []){
+
+            const elements = [...this.querySelectorAll('[data-bus-id]')]
+                .map(elem => elem.getAttribute('data-bus-id'));
+
+            savedBusPaths.forEach(id => {
+
+                if(!elements.includes(id)) {
+
+                    const busCard = document.querySelector(`.Bus-lines [data-bus-id="${id}"]`);
+
+                    busCard && this.appendChild(busCard?.cloneNode(true));
+                }
+            });
+
+            elements.filter(id => !savedBusPaths.includes(id)).forEach(id => {
+
+                this.removeChild(this.querySelector(`[data-bus-id="${id}"]`))
+            });
+        }
+    }
+
+    customElements.define('custom-saved-bus-lines', SavedBusLines);
+</script>
+
+<style>
+    .Saved-bus-lines {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+</style>

@@ -4,7 +4,7 @@
   "length_km": 24.01,
   "category": "interurbano",
   "image": {
-    "landscape": "/data/interurbano/414/san-andreas/img/landscape.png",
-    "square": "/data/interurbano/414/san-andreas/img/square.png"
+    "landscape": "/data/interurbano/414/img/landscape.png",
+    "square": "/data/interurbano/414/img/square.png"
   }
 }

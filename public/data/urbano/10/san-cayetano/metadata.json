@@ -15,7 +15,7 @@
   "id": "10/san-cayetano",
   "bus_path": "/data/urbano/10/san-cayetano/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/10/san-cayetano/img/landscape.png",
-    "square": "/data/urbano/10/san-cayetano/img/square.png"
+    "landscape": "/data/urbano/10/img/landscape.png",
+    "square": "/data/urbano/10/img/square.png"
   }
 }

@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/110/manantial/img/landscape.png",
-    "square": "/data/interurbano/110/manantial/img/square.png"
-  }
+    "landscape": "/data/interurbano/110/img/landscape.png",
+    "square": "/data/interurbano/110/img/square.png"
+  },
+  "id": "110/manantial"
 }

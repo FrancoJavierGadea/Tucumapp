@@ -4,7 +4,7 @@
   "length_km": 12.69,
   "category": "interurbano",
   "image": {
-    "landscape": "/data/interurbano/214/los-fresnos/img/landscape.png",
-    "square": "/data/interurbano/214/los-fresnos/img/square.png"
+    "landscape": "/data/interurbano/214/img/landscape.png",
+    "square": "/data/interurbano/214/img/square.png"
   }
 }

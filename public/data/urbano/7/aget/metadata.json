@@ -15,7 +15,7 @@
   "id": "7/aget",
   "bus_path": "/data/urbano/7/aget/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/7/aget/img/landscape.png",
-    "square": "/data/urbano/7/aget/img/square.png"
+    "landscape": "/data/urbano/7/img/landscape.png",
+    "square": "/data/urbano/7/img/square.png"
   }
 }

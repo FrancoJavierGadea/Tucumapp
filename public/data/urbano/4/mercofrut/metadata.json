@@ -15,7 +15,7 @@
   "id": "4/mercofrut",
   "bus_path": "/data/urbano/4/mercofrut/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/4/mercofrut/img/landscape.png",
-    "square": "/data/urbano/4/mercofrut/img/square.png"
+    "landscape": "/data/urbano/4/img/landscape.png",
+    "square": "/data/urbano/4/img/square.png"
   }
 }

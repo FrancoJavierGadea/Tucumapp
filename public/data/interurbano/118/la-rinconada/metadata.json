@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/118/la-rinconada/img/landscape.png",
-    "square": "/data/interurbano/118/la-rinconada/img/square.png"
-  }
+    "landscape": "/data/interurbano/118/img/landscape.png",
+    "square": "/data/interurbano/118/img/square.png"
+  },
+  "id": "118/la-rinconada"
 }

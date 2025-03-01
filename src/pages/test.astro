@@ -2,6 +2,7 @@
 import HorizontalTabsMenu from "@/components/HorizontalTabsMenu.astro";
 import Layout from "@/layouts/Layout.astro";
 import BusCard from "@/components/BusCard/index.astro";
+import BusLines from "@/components/BusLines.astro";
 
 const RECORRIDOS_TABS = [
 	{name: 'Urbano', id: 'urbano', label: 'Urbano', active: true},
@@ -15,9 +16,11 @@ const RECORRIDOS_TABS = [
 
     <div class="Container">
 
-        <BusCard />
+        <!-- <BusCard /> -->
 
+        <BusLines ></BusLines>
     </div>
+
 
 
 </Layout>

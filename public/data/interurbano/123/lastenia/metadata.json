@@ -1,7 +1,7 @@
 {
-  "name": "Linea 125",
-  "direction": "San cristo",
-  "length_km": 27.2,
+  "name": "Linea 123",
+  "direction": "Lastenia",
+  "length_km": 25.49,
   "category": "interurbano",
   "provider": {
     "name": "Tandilense S.R.L",
@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/125/san-cristo/img/landscape.png",
-    "square": "/data/interurbano/125/san-cristo/img/square.png"
-  }
+    "landscape": "/data/interurbano/123/img/landscape.png",
+    "square": "/data/interurbano/123/img/square.png"
+  },
+  "id": "123/lastenia"
 }

@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/105/unsta/img/landscape.png",
-    "square": "/data/interurbano/105/unsta/img/square.png"
-  }
+    "landscape": "/data/interurbano/105/img/landscape.png",
+    "square": "/data/interurbano/105/img/square.png"
+  },
+  "id": "105/unsta"
 }

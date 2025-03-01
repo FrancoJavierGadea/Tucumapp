@@ -13,8 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/107/el-grafico/img/landscape.png",
-    "square": "/data/interurbano/107/el-grafico/img/square.png"
+    "landscape": "/data/interurbano/107/img/landscape.png",
+    "square": "/data/interurbano/107/img/square.png"
   },
   "id": "107/el-grafico",
   "bus_path": "/data/interurbano/107/el-grafico/recorrido.geojson"

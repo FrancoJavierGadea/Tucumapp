@@ -15,7 +15,7 @@
   "id": "3/lavalle",
   "bus_path": "/data/urbano/3/lavalle/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/3/lavalle/img/landscape.png",
-    "square": "/data/urbano/3/lavalle/img/square.png"
+    "landscape": "/data/urbano/3/img/landscape.png",
+    "square": "/data/urbano/3/img/square.png"
   }
 }

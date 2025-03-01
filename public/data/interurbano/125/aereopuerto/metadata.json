@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/125/aereopuerto/img/landscape.png",
-    "square": "/data/interurbano/125/aereopuerto/img/square.png"
-  }
+    "landscape": "/data/interurbano/125/img/landscape.png",
+    "square": "/data/interurbano/125/img/square.png"
+  },
+  "id": "125/aereopuerto"
 }

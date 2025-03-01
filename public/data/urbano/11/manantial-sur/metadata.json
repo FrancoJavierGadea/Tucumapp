@@ -15,7 +15,7 @@
   "id": "11/manantial-sur",
   "bus_path": "/data/urbano/11/manantial-sur/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/11/manantial-sur/img/landscape.png",
-    "square": "/data/urbano/11/manantial-sur/img/square.png"
+    "landscape": "/data/urbano/11/img/landscape.png",
+    "square": "/data/urbano/11/img/square.png"
   }
 }

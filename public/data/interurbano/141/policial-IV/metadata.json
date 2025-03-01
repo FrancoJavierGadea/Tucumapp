@@ -1,7 +1,7 @@
 {
-  "name": "Linea 123",
-  "direction": "Lasteni",
-  "length_km": 25.49,
+  "name": "Linea 141",
+  "direction": "Barrio Policial IV",
+  "length_km": 19.42,
   "category": "interurbano",
   "provider": {
     "name": "Tandilense S.R.L",
@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/123/lasteni/img/landscape.png",
-    "square": "/data/interurbano/123/lasteni/img/square.png"
-  }
+    "landscape": "/data/interurbano/141/img/landscape.png",
+    "square": "/data/interurbano/141/img/square.png"
+  },
+  "id": "141/policial-IV"
 }

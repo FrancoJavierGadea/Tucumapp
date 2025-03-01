@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/101/soeme/img/landscape.png",
-    "square": "/data/interurbano/101/soeme/img/square.png"
-  }
+    "landscape": "/data/interurbano/101/img/landscape.png",
+    "square": "/data/interurbano/101/img/square.png"
+  },
+  "id": "101/soeme"
 }

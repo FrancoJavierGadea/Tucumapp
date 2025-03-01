@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/106/prospero-mena/img/landscape.png",
-    "square": "/data/interurbano/106/prospero-mena/img/square.png"
-  }
+    "landscape": "/data/interurbano/106/img/landscape.png",
+    "square": "/data/interurbano/106/img/square.png"
+  },
+  "id": "106/prospero-mena"
 }

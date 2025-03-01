@@ -13,7 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/100/san-pablo/img/landscape.png",
-    "square": "/data/interurbano/100/san-pablo/img/square.png"
-  }
+    "landscape": "/data/interurbano/100/img/landscape.png",
+    "square": "/data/interurbano/100/img/square.png"
+  },
+  "id": "100/san-pablo"
 }

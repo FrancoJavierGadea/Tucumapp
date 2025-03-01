@@ -15,9 +15,11 @@ export function updateLengthKM(){
 
             const meta = readJSON(path.join(folder, 'metadata.json'));
 
+            const fol = url.split('/').slice(0, -1).join('/');
+
             meta.image = {
-                landscape: `${url}/img/landscape.png`,
-                square: `${url}/img/square.png`,
+                landscape: `${fol}/img/landscape.png`,
+                square: `${fol}/img/square.png`,
             }
 
             writeJSON(path.join(folder, 'metadata.json'), meta);
