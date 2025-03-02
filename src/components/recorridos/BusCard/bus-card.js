@@ -2,7 +2,7 @@
 
 import SAVED_BUS_PATHS from '@/scripts/localStorage/SavedBusPaths.js';
 
-export class CustomCardBus extends HTMLElement {
+export class BusCard extends HTMLElement {
 
     constructor() {
         super();
@@ -10,13 +10,6 @@ export class CustomCardBus extends HTMLElement {
         this.id = this.getAttribute('data-bus-id');
 
         this.$ = (selector) => this.querySelector(selector);
-
-        this.$('img.Bus-image').addEventListener('error', (e) => {
-
-            console.log(e.target.src);
-
-            e.target.src = '/square.default.png';
-        });
         
         //Save Bus Path
         this.initSaveBtn();

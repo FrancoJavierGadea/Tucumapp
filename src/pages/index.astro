@@ -7,9 +7,10 @@ import BusCard from "@/components/BusCard/index.astro";
 import VerticalTabsMenu from "@/components/recorridos/VerticalTabsMenu.astro";
 import HorizontalTabsMenu from "@/components/recorridos/HorizontalTabsMenu.astro";
 import BusLines from "@/components/recorridos/BusLines.astro";
-import SavedBusLines from "@/components/recorridos/SavedBusLines.astro";
+import SavedBusLines from "@/components/recorridos/SavedBusPaths.astro";
 import About from "@/components/recorridos/About.astro";
 import Donations from "@/components/Donations.astro";
+import Tab from "@/components/recorridos/Tab.astro";
 
 
 
@@ -32,7 +33,7 @@ const RECORRIDOS_TABS = [
 
 		<VerticalTabsMenu tabs={ASIDE_TABS} slot="aside-content">
 	
-			<div slot="recorridos" style="height: 600px;">
+			<Tab slot="recorridos" title="Recorridos">
 	
 				<HorizontalTabsMenu tabs={RECORRIDOS_TABS}>
 					
@@ -48,20 +49,42 @@ const RECORRIDOS_TABS = [
 	
 				</HorizontalTabsMenu>
 	
-			</div>
+			</Tab>
 
-			<SavedBusLines slot="guardados" />
+			<Tab slot="guardados" title="Guardados">
+				
+				<SavedBusLines />
+			</Tab>
 	
-			<About slot="acerca-de">
-
-				<Donations />
-
-			</About>
+			<Tab slot="acerca-de" title="Acerca de">
+				<About>
+	
+					<Donations />
+	
+				</About>
+			</Tab>
 	
 		</VerticalTabsMenu>
 		
   	</MapOffcanvas>
 
-
 </Layout>
+
+<script>
+	import URLParams from "@/scripts/URLParams.js";
+
+	URLParams.on((params) => {
+
+		document.documentElement.setAttribute('data-bs-theme', params.theme);
+
+		console.log(params.lines.split(','));	
+	});
+</script>
+
+<style is:global>
+
+	body {
+		overflow: hidden;
+	}
+</style>
 

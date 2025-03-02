@@ -35,10 +35,7 @@ const LINES = Object.entries(
 .map(([line, routes]) => {
 
     return [line, routes?.filter(route => route.id)]
-})
-;
-
-console.log(LINES);
+});
 ---
 
 <div class="Bus-lines" slot="urbano">

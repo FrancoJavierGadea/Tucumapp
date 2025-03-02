@@ -1,8 +1,9 @@
 ---
 import arrowRight_icon from "bootstrap-icons/icons/arrow-bar-right.svg?raw";
 import arrowLeft_icon from "bootstrap-icons/icons/arrow-bar-left.svg?raw";
+import close_icon from "bootstrap-icons/icons/x-lg.svg?raw";
 
-const {show} = Astro.props;
+const {show, closeBtn} = Astro.props;
 ---
 
 
@@ -16,6 +17,11 @@ const {show} = Astro.props;
 
         </div>
 
+        {
+            closeBtn && <button class="btn Map-offcanvas-close-button" type="button">
+                <div class="close-icon" set:html={close_icon} /> 
+            </button>
+        }
     </div>
 
     <div class="Map-offcanvas-content">
@@ -45,25 +51,55 @@ const {show} = Astro.props;
 
     class CustomMapOffcanvas extends HTMLElement {
 
-        #show = false;
+        static get observedAttributes() {
+            return ['show'];
+        }
+
+        attributeChangedCallback(name, oldValue, newValue) {
+
+            if(name === 'show') {
+
+                if(this.show) {
+
+                    console.log('show');
+
+                    this.collapse.show();
+
+                } else {
+
+                    console.log('hide');
+
+                    this.collapse.hide();
+                }
+            }
+        }
 
         constructor() {
             super();
 
-            this.#show = this.hasAttribute('show');
+            this.$ = (selector) => this.querySelector(selector);
 
-            this.collapse = new Collapse(this.querySelector('.Map-offcanvas-aside'), {
-                toggle: this.#show
+            this.collapse = new Collapse(this.$('.Map-offcanvas-aside'));
+
+            this.$('.Map-offcanvas-btn').addEventListener('click', () => {
+
+                this.show = !this.show;
             });
 
-            this.querySelector('.Map-offcanvas-btn').addEventListener('click', () => {
+            this.$('.Map-offcanvas-close-button')?.addEventListener('click', () => {
 
-                this.collapse.toggle();
-
-                this.#show = !this.#show;
-
-                this.#show ? this.setAttribute('show', '') : this.removeAttribute('show');
+                this.show = false;
             });
+        }
+
+        get show(){
+
+            return this.hasAttribute('show');
+        }
+
+        set show(value){
+
+            value ? this.setAttribute('show', '') : this.removeAttribute('show');
         }
     }
 
@@ -80,21 +116,46 @@ const {show} = Astro.props;
         position: relative;
         z-index: 1000;
 
+        --offcanvas-width: 500px;
+
         & .Map-offcanvas-aside {
             height: 100%;
-            background-color: #ffffff;
             overflow: hidden;
+            position: relative;
+
+            & .Map-offcanvas-close-button {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+            }
             
             & .aside-content {
                 height: 100%;
-                width: 500px;
+                width: var(--offcanvas-width);
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
                 overflow: hidden auto;
 
+                & .aside-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px;
+                    border-bottom: 1px solid #e4e4e4;
+
+                    & h3 {
+                        margin: 0;
+                    }
+                }
+
                 & * {
                     flex-shrink: 0;
+                }
+
+                @media (max-width: 768px) {
+
+                    width: 100dvw;
                 }
             }
         }

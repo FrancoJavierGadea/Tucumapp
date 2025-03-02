@@ -18,9 +18,8 @@ const RECORRIDOS_TABS = [
 
         <!-- <BusCard /> -->
 
-        <BusLines ></BusLines>
+        <iframe src="/" />
     </div>
-
 
 
 </Layout>
@@ -34,7 +33,13 @@ const RECORRIDOS_TABS = [
         outline: 1px dashed gray;
         overflow: hidden;
         resize: both;
-        padding: 10px;
+
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
     }
 
 </style>

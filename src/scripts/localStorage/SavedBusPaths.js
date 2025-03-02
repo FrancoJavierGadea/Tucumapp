@@ -4,6 +4,18 @@ export class SavedBusPaths {
 
     static NAME = 'busPaths';
 
+    static #instance = null;
+
+    static getInstance() {
+
+        if (!SavedBusPaths.#instance) {
+
+            SavedBusPaths.#instance = new SavedBusPaths();
+        }
+
+        return SavedBusPaths.#instance;
+    }
+
     #listeners = new Set();
 
     constructor() {
@@ -71,6 +83,6 @@ export class SavedBusPaths {
     }
 }
 
-const SAVED_BUS_PATHS = new SavedBusPaths();
+const SAVED_BUS_PATHS = SavedBusPaths.getInstance();
 
 export default SAVED_BUS_PATHS;
