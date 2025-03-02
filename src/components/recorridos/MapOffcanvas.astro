@@ -110,18 +110,32 @@ const {show, closeBtn} = Astro.props;
 <style>
 
     .Map-offcanvas {
+        --map-offcanvas-background: #fff;
+        --map-offcanvas-btn-background: #ffffff;
+    }
+    :global([data-bs-theme="dark"]) .Map-offcanvas {
+        --map-offcanvas-background: #333;
+        --map-offcanvas-btn-background: #444;
+    }
+
+    .Map-offcanvas {
         display: flex;
         height: 100dvh;
         width: 100dvw;
         position: relative;
         z-index: 1000;
+        pointer-events: none;
 
-        --offcanvas-width: 500px;
+        --map-offcanvas-width: 500px;
 
         & .Map-offcanvas-aside {
             height: 100%;
             overflow: hidden;
             position: relative;
+            background-color: var(--map-offcanvas-background);
+            pointer-events: auto;
+
+            box-shadow: 0 1px 2px #3c404386, 0 2px 6px 2px #3c404326;
 
             & .Map-offcanvas-close-button {
                 position: absolute;
@@ -131,7 +145,7 @@ const {show, closeBtn} = Astro.props;
             
             & .aside-content {
                 height: 100%;
-                width: var(--offcanvas-width);
+                width: var(--map-offcanvas-width);
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
@@ -164,32 +178,7 @@ const {show, closeBtn} = Astro.props;
             position: relative;
             height: 100%;
             flex-grow: 1;
-        }
-
-        & .Map-offcanvas-btn {
-            --bs-btn-padding-x: 5px;
-            --bs-btn-padding-y: 5px;
-            --bs-border-radius: 0px 8px 8px 0px;
-            align-content: center;
-            background-color: #e4e4e4;
-            height: 50px;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            margin: auto;
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        & .arrow-left-icon, &[show] .arrow-right-icon {
-            display: none;
-        }
-        &[show] .arrow-left-icon {
-            display: block;
+            pointer-events: none;
         }
 
         & .Map-offcanvas-content .Map-offcanvas-controls {
@@ -199,11 +188,42 @@ const {show, closeBtn} = Astro.props;
             padding: 10px;
             display: flex;
             gap: 10px;
-
+            pointer-events: auto;
         }
     }
 
-    .Map-offcanvas-btn :global(svg) {
+
+    .Map-offcanvas .Map-offcanvas-btn {
+        --bs-btn-padding-x: 5px;
+        --bs-btn-padding-y: 5px;
+        --bs-border-radius: 0px 8px 8px 0px;
+        align-content: center;
+        background-color: var(--map-offcanvas-btn-background);
+        height: 50px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        pointer-events: auto;
+
+        box-shadow: 0 1px 2px #3c404386, 0 2px 6px 2px #3c404326;
+    }
+
+    .Map-offcanvas .arrow-left-icon, .Map-offcanvas[show] .arrow-right-icon {
+        display: none;
+    }
+    .Map-offcanvas[show] .arrow-left-icon {
         display: block;
+    }
+    .Map-offcanvas .Map-offcanvas-btn :global(svg) {
+        display: block;
+        width: 20px;
+        height: 20px;
     }
 </style>

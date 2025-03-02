@@ -73,15 +73,6 @@ export default class OpenMap {
 
             controls: [
                 ...DEFAULT_CONTROLS, 
-                new CustomControls({
-                    buttons: [
-                        new PlayButton({
-                            paused: false,
-                            onPlay: () => this.play(),
-                            onPause: () => this.stop()
-                        })
-                    ]
-                })
             ],
 
             interactions: InteractionDefaults({

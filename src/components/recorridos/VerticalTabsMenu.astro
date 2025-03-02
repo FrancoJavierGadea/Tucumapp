@@ -8,13 +8,24 @@ const TABS = tabs.map(tab => {
         ...tab,
         tab_id: `tab-${tab.id}-${Math.random().toString(36).slice(2)}`,
     }
-})
+});
+
+const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
 ---
 
 
 <custom-vertical-tabs-menu class="Vertical-tabs-menu">
 
     <ul class="Tabs-menu nav nav-pills" role="tablist">
+
+        <li class="nav-item">
+            <a class="nav-link Home-link" href="/" title="Home">
+                <i class="bi bi-bus-front" />
+            </a>
+        </li>
+
+        <hr />
+
         {
             TABS.map(({icon, id, name, tab_id, active, label}) => {
 
@@ -29,6 +40,12 @@ const TABS = tabs.map(tab => {
                 </li>
             })
         }
+
+        <li class="mt-auto">
+            <a class="nav-link" href={GITHUB_URL} title="Ver repositorio" target="_blank">
+                <i class="bi bi-github" />
+            </a>
+        </li>
     </ul>
 
     <div class="Tabs-content tab-content" role="tabpanel">
@@ -63,20 +80,6 @@ const TABS = tabs.map(tab => {
                 button.addEventListener('click', () => {
 
                     tab.show();
-
-
-                    /* this.querySelectorAll('.Tabs-menu button').forEach((button) => {
-                        button.classList.remove('active');
-                    });
-
-                    button.classList.add('active');
-
-                    this.querySelectorAll('.tab-pane').forEach((tab) => {
-
-                        tab.classList.remove('active');
-                    });
-
-                    this.querySelectorAll('.tab-pane')[index].classList.add('active'); */
                 });
             });
         }
@@ -93,12 +96,35 @@ const TABS = tabs.map(tab => {
         justify-content: start;
 
         & .Tabs-menu {
+            width: 60px;
             display: flex;
             flex-direction: column;
-            padding: 5px;
-            gap: 10px;
+            flex-shrink: 0;
+            padding: 15px 5px;
+            gap: 15px;
 
             box-shadow: 0 1px 2px #3c40434d, 0 2px 6px 2px #3c404326;
+
+            & button, & a {
+                flex-shrink: 0;
+                width: 100%;
+                padding-inline: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    display: block;
+                }
+            }
+            .Home-link {
+                font-size: 30px;
+                height: 40px;
+            }
+
+            hr {
+                margin: 0;
+            }
         }
 
         & .Tabs-content {

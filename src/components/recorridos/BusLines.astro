@@ -65,6 +65,14 @@ const LINES = Object.entries(
 </div>
 
 <style>
+
+    .Bus-lines {
+        --bus-lines-background-hover: #f0f0f0;
+    }
+    :global([data-bs-theme="dark"]) .Bus-lines {
+        --bus-lines-background-hover: #444;
+    }
+
 	.Bus-lines {
 		display: flex;
 		flex-direction: column;
@@ -87,7 +95,7 @@ const LINES = Object.entries(
                 font-weight: bold;
     
                 &:hover {
-                    background-color: #f0f0f0;
+                    background-color: var(--bus-lines-background-hover);
                 }
     
                 &::after {

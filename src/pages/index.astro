@@ -1,7 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 
-import Map from "@/components/Map/index.astro";
+import Map from "@/components/recorridos/Map/index.astro";
 import MapOffcanvas from "@/components/recorridos/MapOffcanvas.astro";
 import BusCard from "@/components/BusCard/index.astro";
 import VerticalTabsMenu from "@/components/recorridos/VerticalTabsMenu.astro";
@@ -29,44 +29,50 @@ const RECORRIDOS_TABS = [
 
 <Layout title="Recorridos">
 
-  	<MapOffcanvas show>
+	<main>
 
-		<VerticalTabsMenu tabs={ASIDE_TABS} slot="aside-content">
+		<Map />
 	
-			<Tab slot="recorridos" title="Recorridos">
+		  <MapOffcanvas show>
 	
-				<HorizontalTabsMenu tabs={RECORRIDOS_TABS}>
-					
-					<BusLines category="urbano", slot="urbano" />
-	
-					<BusLines category="interurbano", slot="interurbano" />
-	
-					<Fragment slot="otros">
-	
-						<p>Otros</p>
-	
-					</Fragment>
-	
-				</HorizontalTabsMenu>
-	
-			</Tab>
-
-			<Tab slot="guardados" title="Guardados">
-				
-				<SavedBusLines />
-			</Tab>
-	
-			<Tab slot="acerca-de" title="Acerca de">
-				<About>
-	
-					<Donations />
-	
-				</About>
-			</Tab>
-	
-		</VerticalTabsMenu>
+			<VerticalTabsMenu tabs={ASIDE_TABS} slot="aside-content">
 		
-  	</MapOffcanvas>
+				<Tab slot="recorridos" title="Recorridos">
+		
+					<HorizontalTabsMenu tabs={RECORRIDOS_TABS}>
+						
+						<BusLines category="urbano", slot="urbano" />
+		
+						<BusLines category="interurbano", slot="interurbano" />
+		
+						<Fragment slot="otros">
+		
+							<p>Otros</p>
+		
+						</Fragment>
+		
+					</HorizontalTabsMenu>
+		
+				</Tab>
+	
+				<Tab slot="guardados" title="Guardados">
+					
+					<SavedBusLines />
+				</Tab>
+		
+				<Tab slot="acerca-de" title="Acerca de">
+					<About>
+		
+						<Donations />
+		
+					</About>
+				</Tab>
+		
+			</VerticalTabsMenu>
+			
+		  </MapOffcanvas>
+
+	</main>
 
 </Layout>
 
@@ -85,6 +91,17 @@ const RECORRIDOS_TABS = [
 
 	body {
 		overflow: hidden;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+
+		& > * {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+		}
 	}
 </style>
 
