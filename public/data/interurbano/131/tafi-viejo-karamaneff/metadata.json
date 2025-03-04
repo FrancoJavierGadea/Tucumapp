@@ -15,7 +15,7 @@
   "id": "131/tafi-viejo-karamaneff",
   "bus_path": "public/data/interurbano/131/tafi-viejo-karamaneff/recorrido.geojson",
   "image": {
-    "landscape": "/data/interurbano/131/img/landscape.png",
-    "square": "/data/interurbano/131/img/square.png"
+    "landscape": "/data/interurbano/131/img/landscape.webp",
+    "square": "/data/interurbano/131/img/square.webp"
   }
 }

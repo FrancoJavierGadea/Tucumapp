@@ -13,8 +13,8 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/118/img/landscape.png",
-    "square": "/data/interurbano/118/img/square.png"
+    "landscape": "/data/interurbano/118/img/landscape.webp",
+    "square": "/data/interurbano/118/img/square.webp"
   },
   "id": "118/zona-sur-los-pinos"
 }

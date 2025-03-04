@@ -15,7 +15,7 @@
   "id": "5/barrio-oeste",
   "bus_path": "/data/urbano/5/barrio-oeste/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/5/img/landscape.png",
-    "square": "/data/urbano/5/img/square.png"
+    "landscape": "/data/urbano/5/img/landscape.webp",
+    "square": "/data/urbano/5/img/square.webp"
   }
 }

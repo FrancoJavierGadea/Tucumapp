@@ -15,7 +15,7 @@
   "id": "4/colombres",
   "bus_path": "/data/urbano/4/colombres/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/4/img/landscape.png",
-    "square": "/data/urbano/4/img/square.png"
+    "landscape": "/data/urbano/4/img/landscape.webp",
+    "square": "/data/urbano/4/img/square.webp"
   }
 }

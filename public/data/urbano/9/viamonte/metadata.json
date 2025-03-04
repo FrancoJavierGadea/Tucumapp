@@ -15,7 +15,7 @@
   "id": "9/viamonte",
   "bus_path": "/data/urbano/9/viamonte/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/9/img/landscape.png",
-    "square": "/data/urbano/9/img/square.png"
+    "landscape": "/data/urbano/9/img/landscape.webp",
+    "square": "/data/urbano/9/img/square.webp"
   }
 }

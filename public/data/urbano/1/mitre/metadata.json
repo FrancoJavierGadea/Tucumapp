@@ -15,7 +15,7 @@
   "id": "1/mitre",
   "bus_path": "/data/urbano/1/mitre/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/1/img/landscape.png",
-    "square": "/data/urbano/1/img/square.png"
+    "landscape": "/data/urbano/1/img/landscape.webp",
+    "square": "/data/urbano/1/img/square.webp"
   }
 }

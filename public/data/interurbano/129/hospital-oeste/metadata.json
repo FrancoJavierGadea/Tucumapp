@@ -13,7 +13,7 @@
     }
   },
   "image": {
-    "landscape": "/data/interurbano/129/img/landscape.png",
-    "square": "/data/interurbano/129/img/square.png"
+    "landscape": "/data/interurbano/129/img/landscape.webp",
+    "square": "/data/interurbano/129/img/square.webp"
   }
 }

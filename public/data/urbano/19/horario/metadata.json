@@ -15,7 +15,7 @@
   "id": "19/horario",
   "bus_path": "/data/urbano/19/horario/recorrido.geojson",
   "image": {
-    "landscape": "/data/urbano/19/img/landscape.png",
-    "square": "/data/urbano/19/img/square.png"
+    "landscape": "/data/urbano/19/img/landscape.webp",
+    "square": "/data/urbano/19/img/square.webp"
   }
 }
