@@ -91,7 +91,7 @@ export default class OpenMap {
 
         this.renderPath();
 
-        this.play();
+        //this.play();
     }
 
 
@@ -122,7 +122,7 @@ export default class OpenMap {
 
     #children = [];
 
-    async renderPath(src = 'http://localhost:4321/data/urbano/7/aget/recorrido.v2.geojson'){
+    async renderPath(src = '/data/urbano/7/aget/recorrido.v2.geojson'){
 
         const response = await fetch(src);
 

@@ -10,6 +10,7 @@ import SavedBusLines from "@/components/recorridos/SavedBusPaths.astro";
 import About from "@/components/recorridos/About.astro";
 import Donations from "@/components/Donations.astro";
 import Tab from "@/components/recorridos/Tab.astro";
+import PlayButton from "@/components/recorridos/Map/PlayButton.astro";
 
 
 
@@ -32,7 +33,7 @@ const RECORRIDOS_TABS = [
 
 		<Map />
 	
-		  <MapOffcanvas show>
+		<MapOffcanvas show>
 	
 			<VerticalTabsMenu tabs={ASIDE_TABS} slot="aside-content">
 		
@@ -68,8 +69,12 @@ const RECORRIDOS_TABS = [
 				</Tab>
 		
 			</VerticalTabsMenu>
+
+			<Fragment slot="controls">
+				<PlayButton />
+			</Fragment>
 			
-		  </MapOffcanvas>
+		</MapOffcanvas>
 
 	</main>
 
@@ -80,9 +85,9 @@ const RECORRIDOS_TABS = [
 
 	URLParams.on((params) => {
 
-		document.documentElement.setAttribute('data-bs-theme', params.theme);
+		
 
-		console.log(params.lines.split(','));	
+		
 	});
 </script>
 

@@ -26,13 +26,9 @@ const {show, closeBtn} = Astro.props;
 
     <div class="Map-offcanvas-content">
 
-
         <div class="Map-offcanvas-controls">
 
-            <button class="btn btn-primary">Primary</button>
-            <button class="btn btn-secondary">Secondary</button>
-            <button class="btn btn-success">Success</button>
-            <button class="btn btn-danger">Danger</button>
+            <slot name="controls" />
 
         </div>
 
@@ -114,7 +110,7 @@ const {show, closeBtn} = Astro.props;
         --map-offcanvas-btn-background: #ffffff;
     }
     :global([data-bs-theme="dark"]) .Map-offcanvas {
-        --map-offcanvas-background: #333;
+        --map-offcanvas-background: #222;
         --map-offcanvas-btn-background: #444;
     }
 

@@ -1,22 +1,34 @@
+.ol-control {
+	--ol-button-background: #fff;
+	--ol-button-background-hover: #f1f1f1;
+	--ol-button-color: #333;
+}
+
+:host-context([data-bs-theme="dark"]) .ol-control {
+
+	--ol-button-background: #333;
+	--ol-button-background-hover: #444;
+	--ol-button-color: #ffffff;
+}
 
 .ol-control {
-	background: white;
+	background: var(--ol-button-background);
 	border-radius: 8px;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 	padding: 5px;
 	width: fit-content;
 
-	--button-size: 30px;
-	--border-gap: 5px;
-	--icon-size: 20px;
+	--ol-button-size: 30px;
+	--ol-border-gap: 5px;
+	--ol-icon-size: 20px;
 
 	button {
-	   background: white;
+	   background: var(--ol-button-background);
 	   border: none;
-	   color: #535353;
-	   width: var(--button-size);
-	   height: var(--button-size);
-	   font-size: var(--icon-size);
+	   color: var(--ol-button-color);
+	   width: var(--ol-button-size);
+	   height: var(--ol-button-size);
+	   font-size: var(--ol-icon-size);
 	   
 		display: flex;
 		justify-content: center;
@@ -27,7 +39,7 @@
 	   transition: background 0.2s;
 
 	   	&:hover {
-			background: #f1f1f1;
+			background: var(--ol-button-background-hover);
   		}
 	}
 }
@@ -38,20 +50,20 @@
   flex-direction: column;
   gap: 5px;
   position: absolute;
-  bottom: calc(var(--border-gap) + 40px + var(--border-gap));
-  right: var(--border-gap);
+  bottom: calc(var(--ol-border-gap) + 40px + var(--ol-border-gap));
+  right: var(--ol-border-gap);
 }
 
 .ol-rotate {
 	position: absolute;
-  	right: var(--border-gap);
-  	bottom: var(--border-gap);
+  	right: var(--ol-border-gap);
+  	bottom: var(--ol-border-gap);
 }
 
 .ol-full-screen {
 	position: absolute;
-  	right: var(--border-gap);
-  	top: var(--border-gap);
+  	right: var(--ol-border-gap);
+  	top: var(--ol-border-gap);
 }
 
 
@@ -60,8 +72,8 @@
 	flex-direction: column;
 	gap: 5px;
 	position: absolute;
-	top: var(--border-gap);
-	left: var(--border-gap);
+	top: var(--ol-border-gap);
+	left: var(--ol-border-gap);
 
 	
 	button .play-icon, button[data-paused] .pause-icon {
