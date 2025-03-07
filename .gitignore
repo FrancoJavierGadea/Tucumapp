@@ -5,8 +5,8 @@ dist/
 
 # dependencies
 node_modules/
-public/maptiles/node_modules/
-public/maptiles/tiles/
+src/assets/tiles/maptiles/node_modules/
+src/assets/tiles/maptiles/tiles/
 
 # logs
 npm-debug.log*
