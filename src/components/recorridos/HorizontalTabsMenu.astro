@@ -69,10 +69,20 @@ const TABS = tabs.map(tab => {
     .Horizontal-tabs-menu {
         --sb-track-color: #f2f2f2;
         --sb-thumb-color: #5e5e5e;
+        --h-tabs-menu-color: #222;
+        --h-tabs-menu-hover-color: #222;
+        --h-tabs-menu-active-color: #f2f2f2;
+        --h-tabs-menu-active-bg: #0d6efd;
+        --h-tabs-menu-active-border-color: #0d6efd;
     }
     :global([data-bs-theme="dark"]) .Horizontal-tabs-menu {
         --sb-track-color: #5e5e5e;
         --sb-thumb-color: #f2f2f2;
+        --h-tabs-menu-color: #f2f2f2;
+        --h-tabs-menu-hover-color: #f2f2f2;
+        --h-tabs-menu-active-color: #f2f2f2;
+        --h-tabs-menu-active-bg: #222;
+        --h-tabs-menu-active-border-color: #0d6efd;
     }
 
     .Horizontal-tabs-menu {
@@ -82,6 +92,23 @@ const TABS = tabs.map(tab => {
         display: flex;
         flex-direction: column;
         position: relative;
+
+        & .Tabs-menu {
+            --bs-nav-link-color: var(--h-tabs-menu-color);
+            --bs-nav-link-hover-color: var(--h-tabs-menu-hover-color);
+            --bs-nav-tabs-link-active-color: var(--h-tabs-menu-active-color);
+            --bs-nav-tabs-link-active-bg: var(--h-tabs-menu-active-bg);
+
+            --bs-nav-tabs-link-active-border-color: var(--h-tabs-menu-active-border-color) var(--h-tabs-menu-active-border-color) var(--bs-body-bg);
+            --bs-nav-tabs-border-color: var(--h-tabs-menu-active-border-color);
+            
+            li:first-child button {
+                border-top-left-radius: 0;
+            }
+            li:last-child button {
+                border-top-right-radius: 0;
+            }
+        }
 
         & .Tabs-content {
             

@@ -1,8 +1,22 @@
-
-
 import SAVED_BUS_PATHS from '@/scripts/localStorage/SavedBusPaths.js';
 
+
+const BUS_CARD_COLORS = [
+    { dark: '#11448F', light: '#84B0F0' },
+    { dark: '#D32F2F', light: '#D79D9D' },
+    { dark: '#388E3C', light: '#A0D68A' },
+    { dark: '#7B1FA2', light: '#C48BFF' },
+    { dark: '#00695C', light: '#48A999' },
+    { dark: '#C2185B', light: '#FF80AB' },
+];
+
+
+
 export class BusCard extends HTMLElement {
+
+    saved = false;
+
+    active = false;
 
     constructor() {
         super();
@@ -10,17 +24,11 @@ export class BusCard extends HTMLElement {
         this.id = this.getAttribute('data-bus-id');
 
         this.$ = (selector) => this.querySelector(selector);
+
+        //Main button
+        this.$('.Bus-content').addEventListener('click', () => this.addBusPath());
         
-        //Save Bus Path
-        this.initSaveBtn();
-
-        this.initMainButton();
-    }
-
-    saved = false;
-
-    initSaveBtn(){
-
+        //Save Button
         this.saved = SAVED_BUS_PATHS.has(this.id);
         this.saved && this.setAttribute('saved', '');
 
@@ -32,29 +40,35 @@ export class BusCard extends HTMLElement {
 
         this.$('.Save-btn').addEventListener('click', () => {
 
-            if(!this.saved){
-
-                SAVED_BUS_PATHS.add(this.id);
-                this.setAttribute('saved', ''); 
-            }
-            else {
-    
-                SAVED_BUS_PATHS.remove(this.id);
-                this.removeAttribute('saved'); 
-            }
-    
-            this.saved = SAVED_BUS_PATHS.has(this.id);
+            !this.saved ? SAVED_BUS_PATHS.add(this.id) : SAVED_BUS_PATHS.remove(this.id);
         });
     }
 
-    active = false;
+    addBusPath(){
 
-    initMainButton(){
+        this.active = !this.active;
 
-        this.$('.Bus-content').addEventListener('click', () => {
+        if(this.active){
 
-            this.active = !this.active;
-            this.active ? this.setAttribute('active', '') : this.removeAttribute('active');
-        });
+            const index = document.querySelectorAll(`.Bus-lines ${this.tagName}[data-color]`).length % BUS_CARD_COLORS.length;
+
+            const color = BUS_CARD_COLORS[index];
+
+            console.log(color);
+
+            document.querySelectorAll(`${this.tagName}[data-bus-id="${this.id}"]`)
+            .forEach((busCard) => {
+
+                busCard.setAttribute('data-color', index);
+            });
+        }
+        else {
+
+            document.querySelectorAll(`${this.tagName}[data-bus-id="${this.id}"]`)
+            .forEach((busCard) => {
+
+                busCard.removeAttribute('data-color', index);
+            });
+        }
     }
 }

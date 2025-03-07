@@ -77,10 +77,6 @@ export const DEFAULT_CONTROLS = [
         zoomOutLabel: parseIcon(zoomOut_icon), 
         zoomOutTipLabel: 'Alejar'
     }),
-    new FullScreen({
-        tipLabel: 'Pantalla completa',
-        label: parseIcon(fullscreen_icon)
-    }),
     new Rotate({
         label: parseIcon(rotation_icon)
     }),

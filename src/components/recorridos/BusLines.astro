@@ -67,10 +67,12 @@ const LINES = Object.entries(
 <style>
 
     .Bus-lines {
-        --bus-lines-background-hover: #f0f0f0;
+
+        --bus-lines-hover-bg: color-mix(in srgb, var(--bs-body-bg), black 25%);
     }
     :global([data-bs-theme="dark"]) .Bus-lines {
-        --bus-lines-background-hover: #444;
+
+        --bus-lines-hover-bg: color-mix(in srgb, var(--bs-body-bg), white 25%);
     }
 
 	.Bus-lines {
@@ -90,12 +92,13 @@ const LINES = Object.entries(
             summary {
                 position: relative;
                 list-style-type: none;
-                padding: 10px 5px;
+                padding: 10px;
                 cursor: pointer;
                 font-weight: bold;
-    
+                border-radius: 5px;
+
                 &:hover {
-                    background-color: var(--bus-lines-background-hover);
+                    background-color: var(--bus-lines-hover-bg);
                 }
     
                 &::after {
@@ -103,7 +106,7 @@ const LINES = Object.entries(
                     font-family: "bootstrap-icons";
                     font-size: 0.8em;
                     position: absolute;
-                    right: 5px;
+                    right: 10px;
                     transition: rotate 0.5s;
                 }
             }

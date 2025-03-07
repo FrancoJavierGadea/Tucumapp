@@ -1,4 +1,5 @@
 ---
+import Logo from "../Logo.astro";
 import ThemeToggle from "../ThemeToggle.astro";
 
 
@@ -23,7 +24,7 @@ const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
         <div class="Tabs-menu-header">
 
             <a class="nav-link Home-link" href="/" title="Home">
-                <i class="bi bi-bus-front" />
+                <Logo width="40px" height="40px" />
             </a>
         </div>
 
@@ -103,10 +104,18 @@ const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
     .Vertical-tabs-menu {
         --sb-track-color: #f2f2f2;
         --sb-thumb-color: #5e5e5e;
+
+        --v-tabs-menu-shadow: 0 1px 2px #3c40434d, 0 2px 6px 2px #3c404326;
+        --v-tabs-menu-color: #222;
+        --v-tabs-menu-hover-color: color-mix(in srgb, var(--v-tabs-menu-color), white 25%);
     }
     :global([data-bs-theme="dark"]) .Vertical-tabs-menu {
         --sb-track-color: #5e5e5e;
         --sb-thumb-color: #f2f2f2;
+
+        --v-tabs-menu-shadow: 0 1px 2px #7272724d, 0 2px 6px 2px #70707026;
+        --v-tabs-menu-color: #fff;
+        --v-tabs-menu-hover-color: color-mix(in srgb, var(--v-tabs-menu-color), black 25%);
     }
 
     .Vertical-tabs-menu {
@@ -128,6 +137,13 @@ const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
                 gap: 10px;
                 flex-grow: 1;
                 flex-shrink: 0;
+
+                --bs-nav-link-color: var(--v-tabs-menu-color);
+                --bs-nav-link-hover-color: var(--v-tabs-menu-hover-color);
+                --bs-nav-tabs-link-active-color: var(--v-tabs-menu-active-color);
+                --bs-nav-tabs-link-active-bg: var(--v-tabs-menu-active-bg);
+
+
             }
 
             & .Tabs-menu-header, & .Tabs-menu-footer {
@@ -142,7 +158,7 @@ const GITHUB_URL = import.meta.env.PUBLIC_GITHUB_URL;
                 border-bottom: 1px solid #adadad;
             }
 
-            box-shadow: 0 1px 2px #3c40434d, 0 2px 6px 2px #3c404326;
+            box-shadow: var(--v-tabs-menu-shadow);
 
             & button, & a {
                 flex-shrink: 0;

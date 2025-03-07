@@ -40,16 +40,23 @@ import URLParams from "./URLParams.js";
         }    
     });
 
+    window.THEME = {
+        toggleTheme: () => {
+    
+            const theme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
+        
+            localStorage.setItem('theme', theme);
+    
+            console.log(theme);
+        
+            document.documentElement.setAttribute('data-bs-theme', theme);
+        },
 
-    window.toggleTheme = () => {
-    
-        const theme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
-    
-        localStorage.setItem('theme', theme);
+        getTheme: () => localStorage.getItem('theme'),
 
-        console.log(theme);
-    
-        document.documentElement.setAttribute('data-bs-theme', theme);
+        isDark: () => localStorage.getItem('theme') === 'dark',
+
+        isLight: () => localStorage.getItem('theme') === 'light',
     }
 
 })();

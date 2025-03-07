@@ -9,7 +9,7 @@ const {title, direction, length, provider, id, image} = Astro.props;
 ---
 
 
-<custom-card-bus data-bus-id={id}>
+<custom-bus-card data-bus-id={id}>
 
     <div class="Bus-content" role="button">
 
@@ -38,10 +38,10 @@ const {title, direction, length, provider, id, image} = Astro.props;
             <div class="report-icon" set:html={report_icon} />
         </button>
     </div>
-</custom-card-bus>
+</custom-bus-card>
 
 <script>
     import {BusCard} from "./bus-card.js";
 
-    customElements.define('custom-card-bus', BusCard);
+    customElements.define('custom-bus-card', BusCard);
 </script>

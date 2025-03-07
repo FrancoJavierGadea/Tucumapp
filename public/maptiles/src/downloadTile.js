@@ -5,6 +5,8 @@ import fs from "node:fs";
 
 const OUT_FOLDER = path.join(import.meta.dirname, '../tiles');
 
+let downloaded = 0;
+
 export async function downloadTile({z, x, y} = {}) {
 
 
@@ -13,12 +15,20 @@ export async function downloadTile({z, x, y} = {}) {
     const folder = path.join(OUT_FOLDER, z.toString(), x.toString());
     const file = path.join(folder, `${y}.png`);
 
-    console.log(`Downloading tile: ${url}`);
+    downloaded++;
 
     if(!fs.existsSync(folder)){
-
+        
         fs.mkdirSync(folder, {recursive: true});
     }
+    
+    if(fs.existsSync(file)){
+        
+        console.log('✅ ' + downloaded + ' - File allready exist: ' + url);
+        return;
+    };
+
+    console.log(`⬇️  ${downloaded} - Downloading tile: ${url}`);
 
     const {promise, resolve, reject} = Promise.withResolvers();
 
